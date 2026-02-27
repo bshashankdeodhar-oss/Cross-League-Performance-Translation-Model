@@ -45,7 +45,7 @@ FEATURE_COLS = [
     "lsc_adj_tackles_won_p90", "lsc_adj_interceptions_p90",
     # Engineered features
     "team_strength_ratio", "poss_adj_touches_p90",
-    "age_curve_score", "league_lsc",
+    "age", "age_curve_score", "source_lsc", "target_lsc", "league_lsc",
     "play_style_progressive", "play_style_direct_carry", "play_style_defensive",
     # Position flags
     "pos_gk", "pos_df", "pos_mf", "pos_fw",
@@ -140,12 +140,40 @@ def train(cfg: dict | None = None) -> dict:
 
         log.info(f"\n--- Training for target: {target} ---")
 
+        # DROP LEAKAGE: We cannot train the model to predict goals by giving it adjusted goals,
+        # nor xG for that matter, as they are 1-to-1 in the same season dataset.
+        unsafe_keywords = []
+        if "goals" in target:
+            unsafe_keywords = ["goals", "xg"]
+        elif "assists" in target:
+            unsafe_keywords = ["assists", "xag"]
+        elif "xg" in target or "xag" in target:
+            unsafe_keywords = ["goals", "assists", "xg", "xag"]
+            
+        target_feat_cols = []
+        for c in feat_cols:
+            is_safe = True
+            for kw in unsafe_keywords:
+                if kw in c.lower():
+                    is_safe = False
+            if is_safe:
+                target_feat_cols.append(c)
+                
+        # Force keep at least LSC, team strength, and age if they got filtered
+        must_keep = ["source_lsc", "target_lsc", "team_strength_ratio", "age"]
+        for c in must_keep:
+            if c in df.columns and c not in target_feat_cols:
+                target_feat_cols.append(c)
+        
+        log.info(f"  Dropped {len(feat_cols) - len(target_feat_cols)} leaky features for this target.")
+
         # Drop rows where target is NaN
-        valid = df[feat_cols + [target]].dropna(subset=[target])
-        X = valid[feat_cols].values
+        valid = df[target_feat_cols + [target]].dropna(subset=[target])
+        X = valid[target_feat_cols].values
         y = valid[target].values
 
         log.info(f"  Samples after dropna: {len(X)}")
+        log.info(f"  Features used: {len(target_feat_cols)}")
 
         target_metrics = {}
 

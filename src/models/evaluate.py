@@ -96,8 +96,31 @@ def evaluate(cfg: dict | None = None) -> dict:
             continue
 
         log.info(f"\n--- Evaluating: {target} ---")
-        valid = df[feat_cols_available + [target, "player", "league"]].dropna(subset=[target])
-        X = valid[feat_cols_available].values
+        
+        unsafe_keywords = []
+        if "goals" in target:
+            unsafe_keywords = ["goals", "xg"]
+        elif "assists" in target:
+            unsafe_keywords = ["assists", "xag"]
+        elif "xg" in target or "xag" in target:
+            unsafe_keywords = ["goals", "assists", "xg", "xag"]
+            
+        target_feat_cols = []
+        for c in feat_cols_available:
+            is_safe = True
+            for kw in unsafe_keywords:
+                if kw in c.lower():
+                    is_safe = False
+            if is_safe:
+                target_feat_cols.append(c)
+                
+        must_keep = ["source_lsc", "target_lsc", "team_strength_ratio", "age"]
+        for c in must_keep:
+            if c in df.columns and c not in target_feat_cols:
+                target_feat_cols.append(c)
+                
+        valid = df[target_feat_cols + [target, "player", "league"]].dropna(subset=[target])
+        X = valid[target_feat_cols].values
         y = valid[target].values
 
         target_metrics = {}
@@ -122,7 +145,7 @@ def evaluate(cfg: dict | None = None) -> dict:
         if transfer_players:
             backtest_df = valid[valid["player"].isin(transfer_players)].copy()
             if len(backtest_df) > 0:
-                X_bt = backtest_df[feat_cols_available].values
+                X_bt = backtest_df[target_feat_cols].values
                 y_bt = backtest_df[target].values
 
                 best_model_name = min(

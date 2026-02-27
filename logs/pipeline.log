@@ -131,3 +131,350 @@
 ============================================================
 2026-02-28 02:26:07 | INFO     | pipeline |   PHASE: TRAIN
 2026-02-28 02:26:07 | INFO     | pipeline | ============================================================
+2026-02-28 02:27:29 | INFO     | pipeline |   ✓ Training complete. Targets trained: ['goals_p90', 'assists_p90', 'xg_p90', 'xag_p90']
+2026-02-28 02:27:29 | INFO     | pipeline | 
+============================================================
+2026-02-28 02:27:29 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 02:27:29 | INFO     | pipeline | ============================================================
+2026-02-28 02:27:30 | INFO     | pipeline |   ✓ Evaluation complete.
+2026-02-28 02:27:30 | INFO     | pipeline | 
+============================================================
+2026-02-28 02:27:30 | INFO     | pipeline |   PHASE: ADAPTATION
+2026-02-28 02:27:30 | INFO     | pipeline | ============================================================
+2026-02-28 02:27:30 | INFO     | pipeline |   ✓ Adaptation model complete.
+2026-02-28 02:27:30 | INFO     | pipeline | 
+============================================================
+2026-02-28 02:27:30 | INFO     | pipeline |   PHASE: SHAP
+2026-02-28 02:27:30 | INFO     | pipeline | ============================================================
+2026-02-28 02:27:48 | INFO     | pipeline |   ✓ SHAP plots generated.
+2026-02-28 02:27:48 | INFO     | pipeline | 
+✅ Pipeline complete in 134.2s
+2026-02-28 02:27:48 | INFO     | pipeline | Outputs:
+2026-02-28 02:27:48 | INFO     | pipeline |   data/interim/standardized.csv
+2026-02-28 02:27:48 | INFO     | pipeline |   data/interim/normalized.csv
+2026-02-28 02:27:48 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-02-28 02:27:48 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-02-28 02:27:48 | INFO     | pipeline |   models/*.pkl
+2026-02-28 02:27:48 | INFO     | pipeline |   evaluation/metrics.json
+2026-02-28 02:27:48 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-02-28 02:27:48 | INFO     | pipeline |   evaluation/shap_*.png
+2026-02-28 03:18:24 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:18:24 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:18:24 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:18:24 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:18:24 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:24 | INFO     | pipeline |   PHASE: INGEST
+2026-02-28 03:18:24 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   ✓ Ingested 2854 rows
+2026-02-28 03:18:25 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   PHASE: STANDARDIZE
+2026-02-28 03:18:25 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   ✓ Standardized shape: (699, 24)
+2026-02-28 03:18:25 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   PHASE: NORMALIZE
+2026-02-28 03:18:25 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   ✓ Normalized shape: (699, 57)
+2026-02-28 03:18:25 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   PHASE: LSC
+2026-02-28 03:18:25 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   ✓ LSC-adjusted shape: (699, 75)
+2026-02-28 03:18:25 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   PHASE: FEATURES
+2026-02-28 03:18:25 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   ✓ Feature dataset shape: (699, 104)
+2026-02-28 03:18:25 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:25 | INFO     | pipeline |   PHASE: TRAIN
+2026-02-28 03:18:25 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:45 | INFO     | pipeline |   ✓ Training complete. Targets trained: ['goals_p90', 'assists_p90', 'xg_p90', 'xag_p90']
+2026-02-28 03:18:45 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:18:45 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:18:45 | INFO     | pipeline | ============================================================
+2026-02-28 03:18:45 | ERROR    | pipeline | Phase 'evaluate' FAILED: X has 26 features, but LGBMRegressor is expecting 25 features as input.
+Traceback (most recent call last):
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 150, in main
+    run_phase(phase, cfg, log)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 100, in run_phase
+    result = evaluate(cfg)
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\models\evaluate.py", line 111, in evaluate
+    y_pred = model.predict(X)
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\lightgbm\sklearn.py", line 1108, in predict
+    X = _LGBMValidateData(
+        self,
+    ...<11 lines>...
+        ensure_min_samples=1,
+    )
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2923, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2787, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 26 features, but LGBMRegressor is expecting 25 features as input.
+2026-02-28 03:18:45 | ERROR    | pipeline | Pipeline halted. Fix the error above and re-run.
+2026-02-28 03:22:48 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:22:48 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:22:48 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:22:48 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:22:48 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:22:48 | INFO     | pipeline |   PHASE: INGEST
+2026-02-28 03:22:48 | INFO     | pipeline | ============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   ✓ Ingested 2854 rows
+2026-02-28 03:22:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   PHASE: STANDARDIZE
+2026-02-28 03:22:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   ✓ Standardized shape: (699, 24)
+2026-02-28 03:22:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   PHASE: NORMALIZE
+2026-02-28 03:22:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   ✓ Normalized shape: (699, 57)
+2026-02-28 03:22:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   PHASE: LSC
+2026-02-28 03:22:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   ✓ LSC-adjusted shape: (699, 75)
+2026-02-28 03:22:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   PHASE: FEATURES
+2026-02-28 03:22:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   ✓ Feature dataset shape: (699, 104)
+2026-02-28 03:22:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:22:49 | INFO     | pipeline |   PHASE: TRAIN
+2026-02-28 03:22:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:23:08 | INFO     | pipeline |   ✓ Training complete. Targets trained: ['goals_p90', 'assists_p90', 'xg_p90', 'xag_p90']
+2026-02-28 03:23:08 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:23:08 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:23:08 | INFO     | pipeline | ============================================================
+2026-02-28 03:23:08 | ERROR    | pipeline | Phase 'evaluate' FAILED: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+Traceback (most recent call last):
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 150, in main
+    run_phase(phase, cfg, log)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 100, in run_phase
+    result = evaluate(cfg)
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\models\evaluate.py", line 111, in evaluate
+    y_pred = model.predict(X)
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\lightgbm\sklearn.py", line 1108, in predict
+    X = _LGBMValidateData(
+        self,
+    ...<11 lines>...
+        ensure_min_samples=1,
+    )
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2923, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2787, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+2026-02-28 03:23:08 | ERROR    | pipeline | Pipeline halted. Fix the error above and re-run.
+2026-02-28 03:25:49 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:25:49 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:25:49 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:25:49 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:25:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:25:49 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:25:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:25:50 | ERROR    | pipeline | Phase 'evaluate' FAILED: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+Traceback (most recent call last):
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 150, in main
+    run_phase(phase, cfg, log)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 100, in run_phase
+    result = evaluate(cfg)
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\models\evaluate.py", line 111, in evaluate
+    y_pred = model.predict(X)
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\lightgbm\sklearn.py", line 1108, in predict
+    X = _LGBMValidateData(
+        self,
+    ...<11 lines>...
+        ensure_min_samples=1,
+    )
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2923, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2787, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+2026-02-28 03:25:50 | ERROR    | pipeline | Pipeline halted. Fix the error above and re-run.
+2026-02-28 03:26:23 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:26:23 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:26:23 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:26:23 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:26:23 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:26:23 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:26:23 | INFO     | pipeline | ============================================================
+2026-02-28 03:26:24 | ERROR    | pipeline | Phase 'evaluate' FAILED: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+Traceback (most recent call last):
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 150, in main
+    run_phase(phase, cfg, log)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 100, in run_phase
+    result = evaluate(cfg)
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\models\evaluate.py", line 111, in evaluate
+    y_pred = model.predict(X)
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\lightgbm\sklearn.py", line 1108, in predict
+    X = _LGBMValidateData(
+        self,
+    ...<11 lines>...
+        ensure_min_samples=1,
+    )
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2923, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2787, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+2026-02-28 03:26:24 | ERROR    | pipeline | Pipeline halted. Fix the error above and re-run.
+2026-02-28 03:26:32 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:26:32 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:26:32 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:26:32 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:26:32 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:26:32 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:26:32 | INFO     | pipeline | ============================================================
+2026-02-28 03:26:34 | ERROR    | pipeline | Phase 'evaluate' FAILED: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+Traceback (most recent call last):
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 150, in main
+    run_phase(phase, cfg, log)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\pipeline.py", line 100, in run_phase
+    result = evaluate(cfg)
+  File "C:\Shanki\VIT CHENNAI\Projs\TransferPred\src\models\evaluate.py", line 111, in evaluate
+    y_pred = model.predict(X)
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\lightgbm\sklearn.py", line 1108, in predict
+    X = _LGBMValidateData(
+        self,
+    ...<11 lines>...
+        ensure_min_samples=1,
+    )
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2923, in validate_data
+    _check_n_features(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bshas\AppData\Roaming\Python\Python314\site-packages\sklearn\utils\validation.py", line 2787, in _check_n_features
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: X has 26 features, but LGBMRegressor is expecting 24 features as input.
+2026-02-28 03:26:34 | ERROR    | pipeline | Pipeline halted. Fix the error above and re-run.
+2026-02-28 03:27:46 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:27:46 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:27:46 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:27:46 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:27:46 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:27:46 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:27:46 | INFO     | pipeline | ============================================================
+2026-02-28 03:27:48 | INFO     | pipeline |   ✓ Evaluation complete.
+2026-02-28 03:27:48 | INFO     | pipeline | 
+✅ Pipeline complete in 2.0s
+2026-02-28 03:27:48 | INFO     | pipeline | Outputs:
+2026-02-28 03:27:48 | INFO     | pipeline |   data/interim/standardized.csv
+2026-02-28 03:27:48 | INFO     | pipeline |   data/interim/normalized.csv
+2026-02-28 03:27:48 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-02-28 03:27:48 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-02-28 03:27:48 | INFO     | pipeline |   models/*.pkl
+2026-02-28 03:27:48 | INFO     | pipeline |   evaluation/metrics.json
+2026-02-28 03:27:48 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-02-28 03:27:48 | INFO     | pipeline |   evaluation/shap_*.png
+2026-02-28 03:27:49 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:27:49 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:27:49 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:27:49 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:27:49 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:27:49 | INFO     | pipeline |   PHASE: SHAP
+2026-02-28 03:27:49 | INFO     | pipeline | ============================================================
+2026-02-28 03:27:51 | INFO     | pipeline |   ✓ SHAP plots generated.
+2026-02-28 03:27:51 | INFO     | pipeline | 
+✅ Pipeline complete in 2.6s
+2026-02-28 03:27:51 | INFO     | pipeline | Outputs:
+2026-02-28 03:27:51 | INFO     | pipeline |   data/interim/standardized.csv
+2026-02-28 03:27:51 | INFO     | pipeline |   data/interim/normalized.csv
+2026-02-28 03:27:51 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-02-28 03:27:51 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-02-28 03:27:51 | INFO     | pipeline |   models/*.pkl
+2026-02-28 03:27:51 | INFO     | pipeline |   evaluation/metrics.json
+2026-02-28 03:27:51 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-02-28 03:27:51 | INFO     | pipeline |   evaluation/shap_*.png
+2026-02-28 03:30:40 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-02-28 03:30:40 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-02-28 03:30:40 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-02-28 03:30:40 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-02-28 03:30:40 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:30:40 | INFO     | pipeline |   PHASE: INGEST
+2026-02-28 03:30:40 | INFO     | pipeline | ============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   ✓ Ingested 2854 rows
+2026-02-28 03:30:41 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   PHASE: STANDARDIZE
+2026-02-28 03:30:41 | INFO     | pipeline | ============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   ✓ Standardized shape: (699, 24)
+2026-02-28 03:30:41 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   PHASE: NORMALIZE
+2026-02-28 03:30:41 | INFO     | pipeline | ============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   ✓ Normalized shape: (699, 57)
+2026-02-28 03:30:41 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   PHASE: LSC
+2026-02-28 03:30:41 | INFO     | pipeline | ============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   ✓ LSC-adjusted shape: (699, 75)
+2026-02-28 03:30:41 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   PHASE: FEATURES
+2026-02-28 03:30:41 | INFO     | pipeline | ============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   ✓ Feature dataset shape: (699, 104)
+2026-02-28 03:30:41 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:30:41 | INFO     | pipeline |   PHASE: TRAIN
+2026-02-28 03:30:41 | INFO     | pipeline | ============================================================
+2026-02-28 03:31:01 | INFO     | pipeline |   ✓ Training complete. Targets trained: ['goals_p90', 'assists_p90', 'xg_p90', 'xag_p90']
+2026-02-28 03:31:01 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:31:01 | INFO     | pipeline |   PHASE: EVALUATE
+2026-02-28 03:31:01 | INFO     | pipeline | ============================================================
+2026-02-28 03:31:02 | INFO     | pipeline |   ✓ Evaluation complete.
+2026-02-28 03:31:02 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:31:02 | INFO     | pipeline |   PHASE: ADAPTATION
+2026-02-28 03:31:02 | INFO     | pipeline | ============================================================
+2026-02-28 03:31:02 | INFO     | pipeline |   ✓ Adaptation model complete.
+2026-02-28 03:31:02 | INFO     | pipeline | 
+============================================================
+2026-02-28 03:31:02 | INFO     | pipeline |   PHASE: SHAP
+2026-02-28 03:31:02 | INFO     | pipeline | ============================================================
+2026-02-28 03:31:03 | INFO     | pipeline |   ✓ SHAP plots generated.
+2026-02-28 03:31:03 | INFO     | pipeline | 
+✅ Pipeline complete in 22.4s
+2026-02-28 03:31:03 | INFO     | pipeline | Outputs:
+2026-02-28 03:31:03 | INFO     | pipeline |   data/interim/standardized.csv
+2026-02-28 03:31:03 | INFO     | pipeline |   data/interim/normalized.csv
+2026-02-28 03:31:03 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-02-28 03:31:03 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-02-28 03:31:03 | INFO     | pipeline |   models/*.pkl
+2026-02-28 03:31:03 | INFO     | pipeline |   evaluation/metrics.json
+2026-02-28 03:31:03 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-02-28 03:31:03 | INFO     | pipeline |   evaluation/shap_*.png

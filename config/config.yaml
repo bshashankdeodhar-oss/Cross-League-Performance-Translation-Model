@@ -25,12 +25,13 @@ min_minutes: 600
 # --- League Strength Coefficients ---
 # Scale: Premier League = 1.0 (reference)
 # Source: UEFA club coefficient averages / xG difficulty adjustments
+# Updated to punish transitions to the PL more realistically.
 league_strength:
   Premier League: 1.00
-  Bundesliga: 0.92
-  La Liga: 0.95
-  Serie A: 0.90
-  Ligue 1: 0.85
+  Bundesliga: 0.88
+  La Liga: 0.93
+  Serie A: 0.88
+  Ligue 1: 0.82
 
 # --- Feature engineering ---
 features:

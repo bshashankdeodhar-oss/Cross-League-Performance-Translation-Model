@@ -115,18 +115,73 @@ def predict_player(
     ci_results = {}
 
     for target in TARGET_COLS:
+        # Build target-specific feature vector matching train.py
+        unsafe_keywords = []
+        if "goals" in target:
+            unsafe_keywords = ["goals", "xg"]
+        elif "assists" in target:
+            unsafe_keywords = ["assists", "xag"]
+        elif "xg" in target or "xag" in target:
+            unsafe_keywords = ["goals", "assists", "xg", "xag"]
+            
+        target_feat_cols = []
+        target_features = []
+        for i, c in enumerate(feat_cols):
+            is_safe = True
+            for kw in unsafe_keywords:
+                if kw in c.lower():
+                    is_safe = False
+            if is_safe:
+                target_feat_cols.append(c)
+                target_features.append(adjusted_features[i])
+                
+        must_keep = ["source_lsc", "target_lsc", "team_strength_ratio", "age"]
+        for c in must_keep:
+            if c in feat_cols and c not in target_feat_cols:
+                target_feat_cols.append(c)
+                idx = feat_cols.index(c)
+                target_features.append(adjusted_features[idx])
+                
+        target_features = np.array(target_features)
+
         # Primary: LightGBM
         lgbm = _load_model(models_dir, target, "lgbm")
         if lgbm:
-            projections[target] = round(float(lgbm.predict(adjusted_features.reshape(1, -1))[0]), 4)
+            raw_pred = float(lgbm.predict(target_features.reshape(1, -1))[0])
+            
+            # --- TRANSFER REALITY CHECK (TRC) ---
+            # If moving to a harder league, penalize the raw prediction slightly 
+            # unless team strength ratio is extremely high.
+            if target_lsc > source_lsc:
+                # E.g. Bundesliga 0.88 -> PL 1.00 => target is 12% harder
+                difficulty_delta = target_lsc - source_lsc
+                team_jump = float(player_row.get("team_strength_ratio", 1.0))
+                
+                # If they are moving to an average team, they take the full penalty.
+                # If they are moving to a much stronger team (1.5x avg), penalty is mitigated.
+                damping_factor = 1.0 - (difficulty_delta * 0.75) # Base 9% drop for Bundesliga->PL
+                if team_jump > 1.2:
+                    damping_factor += 0.05 # Reduced drop if moving to a top team
+                    
+                final_pred = raw_pred * damping_factor
+            else:
+                final_pred = raw_pred
+                
+            projections[target] = round(final_pred, 4)
 
         # CI: Bayesian Ridge
         bay_pipeline = _load_model(models_dir, target, "bayesian")
         if bay_pipeline:
             bay_model = bay_pipeline.named_steps["bay"]
             scaler = bay_pipeline.named_steps["scaler"]
-            X_scaled = scaler.transform(adjusted_features.reshape(1, -1))
+            X_scaled = scaler.transform(target_features.reshape(1, -1))
             mean_pred, std_pred = bay_model.predict(X_scaled, return_std=True)
+            
+            # Apply same TRC damping to CI
+            if target_lsc > source_lsc:
+                ci_damping = 1.0 - ((target_lsc - source_lsc) * 0.75)
+                mean_pred[0] *= ci_damping
+            
             ci_results[target] = {
                 "low": round(float(max(0, mean_pred[0] - 1.96 * std_pred[0])), 4),
                 "high": round(float(mean_pred[0] + 1.96 * std_pred[0]), 4),
@@ -169,8 +224,31 @@ def predict_player(
                 pass
 
     # ── SHAP top-5 factors ────────────────────────────────────────────────────
+    target_for_shap = "goals_p90"
+    unsafe_keywords = ["goals", "xg"]
+    
+    target_feat_cols = []
+    target_features_shap = []
+    for i, c in enumerate(feat_cols):
+        is_safe = True
+        for kw in unsafe_keywords:
+            if kw in c.lower():
+                is_safe = False
+        if is_safe:
+            target_feat_cols.append(c)
+            target_features_shap.append(adjusted_features[i])
+            
+    must_keep = ["source_lsc", "target_lsc", "team_strength_ratio", "age"]
+    for c in must_keep:
+        if c in feat_cols and c not in target_feat_cols:
+            target_feat_cols.append(c)
+            idx = feat_cols.index(c)
+            target_features_shap.append(adjusted_features[idx])
+    
+    target_features_shap = np.array([target_features_shap])
+    
     top_factors = explain_prediction(
-        adjusted_features, "goals_p90", feat_cols, models_dir, log
+        target_features_shap, target_for_shap, target_feat_cols, models_dir, log
     )
 
     # ── Build result ──────────────────────────────────────────────────────────

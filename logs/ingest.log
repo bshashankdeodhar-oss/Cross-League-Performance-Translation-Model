@@ -86,3 +86,123 @@
 2026-02-28 02:26:07 | INFO     | ingest | Seasons/rows after cleaning: 2854
 2026-02-28 02:26:07 | INFO     | ingest | Total NaNs in numeric cols: 27
 2026-02-28 02:26:07 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:18:25 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:18:25 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:18:25 | INFO     | ingest | All required columns present.
+2026-02-28 03:18:25 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:18:25 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:18:25 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:18:25 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:18:25 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:18:25 | INFO     | ingest | All required columns present.
+2026-02-28 03:18:25 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:18:25 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:18:25 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:18:25 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:18:25 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:18:25 | INFO     | ingest | All required columns present.
+2026-02-28 03:18:25 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:18:25 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:18:25 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:18:25 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:18:25 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:18:25 | INFO     | ingest | All required columns present.
+2026-02-28 03:18:25 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:18:25 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:18:25 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:18:25 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:18:25 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:18:25 | INFO     | ingest | All required columns present.
+2026-02-28 03:18:25 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:18:25 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:18:25 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:18:25 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:22:49 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:22:49 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:22:49 | INFO     | ingest | All required columns present.
+2026-02-28 03:22:49 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:22:49 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:22:49 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:22:49 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:22:49 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:22:49 | INFO     | ingest | All required columns present.
+2026-02-28 03:22:49 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:22:49 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:22:49 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:22:49 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:22:49 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:22:49 | INFO     | ingest | All required columns present.
+2026-02-28 03:22:49 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:22:49 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:22:49 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:22:49 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:22:49 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:22:49 | INFO     | ingest | All required columns present.
+2026-02-28 03:22:49 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:22:49 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:22:49 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:22:49 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:22:49 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:22:49 | INFO     | ingest | All required columns present.
+2026-02-28 03:22:49 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:22:49 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:22:49 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:22:49 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:30:41 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:30:41 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:30:41 | INFO     | ingest | All required columns present.
+2026-02-28 03:30:41 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:30:41 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:30:41 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:30:41 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:30:41 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:30:41 | INFO     | ingest | All required columns present.
+2026-02-28 03:30:41 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:30:41 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:30:41 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:30:41 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:30:41 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:30:41 | INFO     | ingest | All required columns present.
+2026-02-28 03:30:41 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:30:41 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:30:41 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:30:41 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:30:41 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:30:41 | INFO     | ingest | All required columns present.
+2026-02-28 03:30:41 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:30:41 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:30:41 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-02-28 03:30:41 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\raw\players_data-2024_2025.csv
+2026-02-28 03:30:41 | INFO     | ingest | Raw shape: (2854, 267)
+2026-02-28 03:30:41 | INFO     | ingest | All required columns present.
+2026-02-28 03:30:41 | INFO     | ingest | Leagues found: ['de Bundesliga', 'eng Premier League', 'es La Liga', 'fr Ligue 1', 'it Serie A']
+2026-02-28 03:30:41 | INFO     | ingest | Seasons/rows after cleaning: 2854
+2026-02-28 03:30:41 | INFO     | ingest | Total NaNs in numeric cols: 27
+2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
