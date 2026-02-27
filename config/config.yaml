@@ -1,0 +1,99 @@
+# ========================================================
+# Cross-League Performance Translation Model — Config
+# ========================================================
+
+# --- Paths (relative to project root) ---
+paths:
+  raw_data: data/raw
+  interim_data: data/interim
+  processed_data: data/processed
+  models: models
+  evaluation: evaluation
+  logs: logs
+
+# --- Primary data file ---
+raw_fbref_file: players_data-2024_2025.csv   # placed in data/raw/
+
+# --- League settings ---
+leagues:
+  - Premier League
+  - Bundesliga
+
+# Minimum minutes played to include a player
+min_minutes: 600
+
+# --- League Strength Coefficients ---
+# Scale: Premier League = 1.0 (reference)
+# Source: UEFA club coefficient averages / xG difficulty adjustments
+league_strength:
+  Premier League: 1.00
+  Bundesliga: 0.92
+  La Liga: 0.95
+  Serie A: 0.90
+  Ligue 1: 0.85
+
+# --- Feature engineering ---
+features:
+  stat_cols:
+    - Gls     # Goals
+    - Ast     # Assists
+    - xG      # Expected goals
+    - xAG     # Expected assisted goals
+    - npxG    # Non-penalty xG
+    - Sh      # Shots
+    - SoT     # Shots on target
+    - PrgC    # Progressive carries
+    - PrgP    # Progressive passes
+    - PrgR    # Progressive receptions
+    - KP      # Key passes
+    - xA      # Expected assists
+    - TklW    # Tackles won
+    - Int     # Interceptions
+    - Clr     # Clearances
+    - Carries
+    - Touches
+
+  per90_cols:
+    - Sh/90
+    - SoT/90
+    - Cmp%
+
+  id_cols:
+    - Player
+    - Squad
+    - Comp
+    - Pos
+    - Age
+    - Min
+
+# --- Model settings ---
+model:
+  random_state: 42
+  cv_folds: 5
+  test_size: 0.2
+  lgbm:
+    n_estimators: 500
+    learning_rate: 0.05
+    num_leaves: 31
+    min_child_samples: 5
+  mlp:
+    hidden_layer_sizes: [128, 64, 32]
+    max_iter: 500
+    early_stopping: true
+  bayesian:
+    n_iter: 300
+    tol: 0.001
+
+# --- Target variables ---
+targets:
+  - goals_p90
+  - assists_p90
+  - xg_p90
+  - xag_p90
+
+# --- Age curve ---
+age_curve:
+  peak_start: 24
+  peak_end: 28
+  min_age: 16
+  max_age: 40

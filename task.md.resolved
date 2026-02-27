@@ -1,0 +1,60 @@
+# CLPTM — Task Checklist
+
+## Phase 0 — Project Restructure & Cleanup
+- [/] Audit all existing files and scripts
+- [ ] Create new directory structure (/src, /data/raw, /data/processed, /data/interim, /models, /notebooks, /config, /logs, /evaluation)
+- [ ] Archive old scattered scripts into /src/legacy/
+- [ ] Move all raw CSVs to /data/raw/
+- [ ] Move all processed CSVs to /data/processed/
+- [ ] Create config.yaml (paths, league list, min-minutes threshold)
+- [ ] Create requirements.txt
+- [ ] Create README.md
+
+## Phase 1 — Data Standardization Pipeline
+- [ ] Build src/data/ingest.py — loads raw CSVs, validates schema, logs issues
+- [ ] Build src/data/standardize.py — aligns columns across leagues, renames to unified schema
+- [ ] Build src/data/normalize.py — computes per-90 metrics, league average baselines
+- [ ] Build src/data/league_strength.py — computes League Strength Coefficient (LSC)
+- [ ] Run pipeline → produce data/processed/unified_dataset.csv
+- [ ] Validate output dataset (shape, nulls, dtypes)
+
+## Phase 2 — Feature Engineering
+- [ ] Build src/features/engineer.py with:
+  - [ ] League-adjusted performance metrics
+  - [ ] Team strength ratio
+  - [ ] Possession-adjusted stats
+  - [ ] Position embeddings
+  - [ ] Age curve modeling
+  - [ ] Play style vector
+- [ ] Run feature engineering → produce data/processed/feature_dataset.csv
+- [ ] Log all transformations to logs/feature_engineering.log
+
+## Phase 3 — Modeling
+- [ ] Build src/models/train.py with:
+  - [ ] XGBoost/LightGBM Gradient Boosting
+  - [ ] Neural Network (MLP)
+  - [ ] Bayesian Ridge (for uncertainty)
+- [ ] Evaluate with MAE, RMSE, calibration curves
+- [ ] Build src/models/evaluate.py — backtesting on known transfer cases
+- [ ] Save model artifacts to /models/
+- [ ] Log evaluation results to /evaluation/
+
+## Phase 4 — Adaptation Modeling
+- [ ] Build src/models/adaptation.py — predict performance drop probability
+- [ ] Predict adjustment time (in matches)
+- [ ] Validate against historical transfer cases
+
+## Phase 5 — Explainability Layer
+- [ ] Build src/explainability/shap_analysis.py
+- [ ] Build src/explainability/scenario_sim.py
+- [ ] Output: top 5 factors driving each projection
+
+## Phase 6 — Inference & Output
+- [ ] Build src/predict.py — unified prediction entrypoint
+- [ ] Output: goals/90, assists/90, xG/90, minutes expectation, adaptation score, risk score, CI
+- [ ] Build src/report.py — human-readable report generation
+
+## Verification
+- [ ] Run full pipeline end-to-end
+- [ ] Validate known transfer cases (backtest)
+- [ ] Write walkthrough.md

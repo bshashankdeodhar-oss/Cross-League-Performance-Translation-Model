@@ -1,0 +1,138 @@
+2026-02-28 02:11:43 | INFO     | train | === Phase 3 — Training: START ===
+2026-02-28 02:11:43 | INFO     | train | Feature dataset shape: (699, 104)
+2026-02-28 02:11:43 | INFO     | train | Using 26 feature columns.
+2026-02-28 02:11:43 | INFO     | train | 
+--- Training for target: goals_p90 ---
+2026-02-28 02:11:43 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:11:47 | INFO     | train |   LightGBM CV MAE: 0.0041 ± 0.0017
+2026-02-28 02:11:47 | INFO     | train |   Saved: goals_p90_lgbm.pkl
+2026-02-28 02:11:48 | INFO     | train |   MLP CV MAE: 0.0473 ± 0.0055
+2026-02-28 02:11:48 | INFO     | train |   Saved: goals_p90_mlp.pkl
+2026-02-28 02:11:49 | INFO     | train |   Bayesian CV MAE: 0.0053 ± 0.0003
+2026-02-28 02:11:49 | INFO     | train |   Saved: goals_p90_bayesian.pkl
+2026-02-28 02:11:49 | INFO     | train |   Best model for goals_p90: lgbm (MAE=0.0041)
+2026-02-28 02:11:49 | INFO     | train | 
+--- Training for target: assists_p90 ---
+2026-02-28 02:11:49 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:11:52 | INFO     | train |   LightGBM CV MAE: 0.0024 ± 0.0004
+2026-02-28 02:11:52 | INFO     | train |   Saved: assists_p90_lgbm.pkl
+2026-02-28 02:11:54 | INFO     | train |   MLP CV MAE: 0.0414 ± 0.0026
+2026-02-28 02:11:54 | INFO     | train |   Saved: assists_p90_mlp.pkl
+2026-02-28 02:11:54 | INFO     | train |   Bayesian CV MAE: 0.0035 ± 0.0001
+2026-02-28 02:11:54 | INFO     | train |   Saved: assists_p90_bayesian.pkl
+2026-02-28 02:11:54 | INFO     | train |   Best model for assists_p90: lgbm (MAE=0.0024)
+2026-02-28 02:11:54 | INFO     | train | 
+--- Training for target: xg_p90 ---
+2026-02-28 02:11:54 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:11:58 | INFO     | train |   LightGBM CV MAE: 0.0028 ± 0.0004
+2026-02-28 02:11:58 | INFO     | train |   Saved: xg_p90_lgbm.pkl
+2026-02-28 02:11:59 | INFO     | train |   MLP CV MAE: 0.0434 ± 0.0044
+2026-02-28 02:11:59 | INFO     | train |   Saved: xg_p90_mlp.pkl
+2026-02-28 02:11:59 | INFO     | train |   Bayesian CV MAE: 0.0044 ± 0.0002
+2026-02-28 02:11:59 | INFO     | train |   Saved: xg_p90_bayesian.pkl
+2026-02-28 02:11:59 | INFO     | train |   Best model for xg_p90: lgbm (MAE=0.0028)
+2026-02-28 02:11:59 | INFO     | train | 
+--- Training for target: xag_p90 ---
+2026-02-28 02:11:59 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:12:02 | INFO     | train |   LightGBM CV MAE: 0.0019 ± 0.0005
+2026-02-28 02:12:02 | INFO     | train |   Saved: xag_p90_lgbm.pkl
+2026-02-28 02:12:04 | INFO     | train |   MLP CV MAE: 0.0406 ± 0.0031
+2026-02-28 02:12:04 | INFO     | train |   Saved: xag_p90_mlp.pkl
+2026-02-28 02:12:04 | INFO     | train |   Bayesian CV MAE: 0.0028 ± 0.0001
+2026-02-28 02:12:04 | INFO     | train |   Saved: xag_p90_bayesian.pkl
+2026-02-28 02:12:04 | INFO     | train |   Best model for xag_p90: lgbm (MAE=0.0019)
+2026-02-28 02:12:04 | INFO     | train | 
+All metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\training_metrics.json
+2026-02-28 02:12:04 | INFO     | train | === Phase 3 — Training: DONE ===
+2026-02-28 02:14:05 | INFO     | train | === Phase 3 — Training: START ===
+2026-02-28 02:14:05 | INFO     | train | Feature dataset shape: (699, 104)
+2026-02-28 02:14:05 | INFO     | train | Using 26 feature columns.
+2026-02-28 02:14:05 | INFO     | train | 
+--- Training for target: goals_p90 ---
+2026-02-28 02:14:05 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:14:09 | INFO     | train |   LightGBM CV MAE: 0.0041 ± 0.0017
+2026-02-28 02:14:09 | INFO     | train |   Saved: goals_p90_lgbm.pkl
+2026-02-28 02:14:10 | INFO     | train |   MLP CV MAE: 0.0473 ± 0.0055
+2026-02-28 02:14:10 | INFO     | train |   Saved: goals_p90_mlp.pkl
+2026-02-28 02:14:11 | INFO     | train |   Bayesian CV MAE: 0.0053 ± 0.0003
+2026-02-28 02:14:11 | INFO     | train |   Saved: goals_p90_bayesian.pkl
+2026-02-28 02:14:11 | INFO     | train |   Best model for goals_p90: lgbm (MAE=0.0041)
+2026-02-28 02:14:11 | INFO     | train | 
+--- Training for target: assists_p90 ---
+2026-02-28 02:14:11 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:14:14 | INFO     | train |   LightGBM CV MAE: 0.0024 ± 0.0004
+2026-02-28 02:14:14 | INFO     | train |   Saved: assists_p90_lgbm.pkl
+2026-02-28 02:14:15 | INFO     | train |   MLP CV MAE: 0.0414 ± 0.0026
+2026-02-28 02:14:15 | INFO     | train |   Saved: assists_p90_mlp.pkl
+2026-02-28 02:14:16 | INFO     | train |   Bayesian CV MAE: 0.0035 ± 0.0001
+2026-02-28 02:14:16 | INFO     | train |   Saved: assists_p90_bayesian.pkl
+2026-02-28 02:14:16 | INFO     | train |   Best model for assists_p90: lgbm (MAE=0.0024)
+2026-02-28 02:14:16 | INFO     | train | 
+--- Training for target: xg_p90 ---
+2026-02-28 02:14:16 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:14:19 | INFO     | train |   LightGBM CV MAE: 0.0028 ± 0.0004
+2026-02-28 02:14:19 | INFO     | train |   Saved: xg_p90_lgbm.pkl
+2026-02-28 02:14:20 | INFO     | train |   MLP CV MAE: 0.0434 ± 0.0044
+2026-02-28 02:14:20 | INFO     | train |   Saved: xg_p90_mlp.pkl
+2026-02-28 02:14:20 | INFO     | train |   Bayesian CV MAE: 0.0044 ± 0.0002
+2026-02-28 02:14:20 | INFO     | train |   Saved: xg_p90_bayesian.pkl
+2026-02-28 02:14:20 | INFO     | train |   Best model for xg_p90: lgbm (MAE=0.0028)
+2026-02-28 02:14:20 | INFO     | train | 
+--- Training for target: xag_p90 ---
+2026-02-28 02:14:20 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:14:23 | INFO     | train |   LightGBM CV MAE: 0.0019 ± 0.0005
+2026-02-28 02:14:23 | INFO     | train |   Saved: xag_p90_lgbm.pkl
+2026-02-28 02:14:25 | INFO     | train |   MLP CV MAE: 0.0406 ± 0.0031
+2026-02-28 02:14:25 | INFO     | train |   Saved: xag_p90_mlp.pkl
+2026-02-28 02:14:25 | INFO     | train |   Bayesian CV MAE: 0.0028 ± 0.0001
+2026-02-28 02:14:25 | INFO     | train |   Saved: xag_p90_bayesian.pkl
+2026-02-28 02:14:25 | INFO     | train |   Best model for xag_p90: lgbm (MAE=0.0019)
+2026-02-28 02:14:25 | INFO     | train | 
+All metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\training_metrics.json
+2026-02-28 02:14:25 | INFO     | train | === Phase 3 — Training: DONE ===
+2026-02-28 02:22:40 | INFO     | train | === Phase 3 — Training: START ===
+2026-02-28 02:22:40 | INFO     | train | Feature dataset shape: (699, 104)
+2026-02-28 02:22:40 | INFO     | train | Using 26 feature columns.
+2026-02-28 02:22:40 | INFO     | train | 
+--- Training for target: goals_p90 ---
+2026-02-28 02:22:40 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:22:44 | INFO     | train |   LightGBM CV MAE: 0.0041 ± 0.0017
+2026-02-28 02:22:44 | INFO     | train |   Saved: goals_p90_lgbm.pkl
+2026-02-28 02:22:45 | INFO     | train |   MLP CV MAE: 0.0473 ± 0.0055
+2026-02-28 02:22:45 | INFO     | train |   Saved: goals_p90_mlp.pkl
+2026-02-28 02:22:46 | INFO     | train |   Bayesian CV MAE: 0.0053 ± 0.0003
+2026-02-28 02:22:46 | INFO     | train |   Saved: goals_p90_bayesian.pkl
+2026-02-28 02:22:46 | INFO     | train |   Best model for goals_p90: lgbm (MAE=0.0041)
+2026-02-28 02:22:46 | INFO     | train | 
+--- Training for target: assists_p90 ---
+2026-02-28 02:22:46 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:22:49 | INFO     | train |   LightGBM CV MAE: 0.0024 ± 0.0004
+2026-02-28 02:22:49 | INFO     | train |   Saved: assists_p90_lgbm.pkl
+2026-02-28 02:22:51 | INFO     | train |   MLP CV MAE: 0.0414 ± 0.0026
+2026-02-28 02:22:51 | INFO     | train |   Saved: assists_p90_mlp.pkl
+2026-02-28 02:22:52 | INFO     | train |   Bayesian CV MAE: 0.0035 ± 0.0001
+2026-02-28 02:22:52 | INFO     | train |   Saved: assists_p90_bayesian.pkl
+2026-02-28 02:22:52 | INFO     | train |   Best model for assists_p90: lgbm (MAE=0.0024)
+2026-02-28 02:22:52 | INFO     | train | 
+--- Training for target: xg_p90 ---
+2026-02-28 02:22:52 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:22:55 | INFO     | train |   LightGBM CV MAE: 0.0028 ± 0.0004
+2026-02-28 02:22:55 | INFO     | train |   Saved: xg_p90_lgbm.pkl
+2026-02-28 02:22:56 | INFO     | train |   MLP CV MAE: 0.0434 ± 0.0044
+2026-02-28 02:22:56 | INFO     | train |   Saved: xg_p90_mlp.pkl
+2026-02-28 02:22:56 | INFO     | train |   Bayesian CV MAE: 0.0044 ± 0.0002
+2026-02-28 02:22:56 | INFO     | train |   Saved: xg_p90_bayesian.pkl
+2026-02-28 02:22:56 | INFO     | train |   Best model for xg_p90: lgbm (MAE=0.0028)
+2026-02-28 02:22:56 | INFO     | train | 
+--- Training for target: xag_p90 ---
+2026-02-28 02:22:56 | INFO     | train |   Samples after dropna: 699
+2026-02-28 02:22:59 | INFO     | train |   LightGBM CV MAE: 0.0019 ± 0.0005
+2026-02-28 02:22:59 | INFO     | train |   Saved: xag_p90_lgbm.pkl
+2026-02-28 02:23:01 | INFO     | train |   MLP CV MAE: 0.0406 ± 0.0031
+2026-02-28 02:23:01 | INFO     | train |   Saved: xag_p90_mlp.pkl
+2026-02-28 02:23:01 | INFO     | train |   Bayesian CV MAE: 0.0028 ± 0.0001
+2026-02-28 02:23:01 | INFO     | train |   Saved: xag_p90_bayesian.pkl
+2026-02-28 02:23:01 | INFO     | train |   Best model for xag_p90: lgbm (MAE=0.0019)
+2026-02-28 02:23:01 | INFO     | train | 
+All metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\training_metrics.json
+2026-02-28 02:23:01 | INFO     | train | === Phase 3 — Training: DONE ===

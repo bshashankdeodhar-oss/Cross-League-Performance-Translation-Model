@@ -1,0 +1,64 @@
+Rank,Player,Team,Penalties Won,Fouls Won per 90,Minutes,Matches,Country
+1,Felix Agu,SV Werder Bremen,3.0,2.4,1621,24,GER
+2,Noah Weisshaupt,SC Freiburg,2.0,3.7,744,24,GER
+3,Omar Marmoush,Eintracht Frankfurt,2.0,2.9,2310,29,EGY
+4,Xavi Simons,RB Leipzig,2.0,2.4,2673,32,NED
+5,Serhou Guirassy,VfB Stuttgart,2.0,2.2,2212,28,GUI
+6,Jamie Bynoe-Gittens,Borussia Dortmund,2.0,2.1,1059,25,ENG
+7,Nathan Tella,Bayer 04 Leverkusen,2.0,2.0,812,24,NGA
+8,Lucas Höler,SC Freiburg,2.0,1.9,2309,33,GER
+9,Keven Schlotterbeck,VfL Bochum,2.0,1.3,2184,27,GER
+10,Deniz Undav,VfB Stuttgart,2.0,1.2,2096,30,GER
+10,Maximilian Beier,TSG Hoffenheim,2.0,1.2,2431,33,GER
+12,Jae-Sung Lee,1. FSV Mainz 05,2.0,1.1,2124,29,KOR
+13,Arne Engels,FC Augsburg,2.0,1.0,1398,32,BEL
+14,Jonas Hofmann,Bayer 04 Leverkusen,2.0,0.8,2214,32,GER
+15,Yvandro Borges Sanches,Borussia Mönchengladbach,1.0,11.3,16,3,LUX
+16,Kevin Paredes,VfL Wolfsburg,1.0,3.3,1429,28,USA
+17,Brajan Gruda,1. FSV Mainz 05,1.0,2.6,1651,28,GER
+18,Yussuf Poulsen,RB Leipzig,1.0,2.2,1209,28,DEN
+19,Christoph Baumgartner,RB Leipzig,1.0,2.1,1149,32,AUT
+19,Ikoma Lois Openda,RB Leipzig,1.0,2.1,2716,34,BEL
+21,Kouadio Koné,Borussia Mönchengladbach,1.0,2.0,1565,22,FRA
+21,Roland Sallai,SC Freiburg,1.0,2.0,1850,27,HUN
+23,Jordan Pefok,Borussia Mönchengladbach,1.0,1.9,1450,26,USA
+24,Jan-Niklas Beste,1. FC Heidenheim 1846,1.0,1.8,2618,31,GER
+25,Mattias Svanberg,VfL Wolfsburg,1.0,1.7,1725,25,SWE
+26,Anton Stach,TSG Hoffenheim,1.0,1.6,2497,33,GER
+26,Faride Alidou,FC Köln,1.0,1.6,1284,26,GER
+26,Lovro Majer,VfL Wolfsburg,1.0,1.6,2116,32,CRO
+26,Silas Katompa Mvumpa,VfB Stuttgart,1.0,1.6,890,27,COD
+30,Eric Martel,FC Köln,1.0,1.5,2464,30,GER
+30,Jens Stage,SV Werder Bremen,1.0,1.5,2334,30,DEN
+30,Sargis Adamyan,FC Köln,1.0,1.5,797,20,ARM
+33,Alassane Plea,Borussia Mönchengladbach,1.0,1.4,1925,27,FRA
+33,Andrej Kramaric,TSG Hoffenheim,1.0,1.4,2206,30,CRO
+33,Enzo Millot,VfB Stuttgart,1.0,1.4,2254,31,FRA
+33,Jeremie Frimpong,Bayer 04 Leverkusen,1.0,1.4,2263,31,NED
+33,Ritsu Doan,SC Freiburg,1.0,1.4,2253,30,JPN
+38,Ruben Vargas,FC Augsburg,1.0,1.3,1978,31,SUI
+39,Donyell Malen,Borussia Dortmund,1.0,1.2,1783,27,NED
+39,Gian-Luca Waldschmidt,FC Köln,1.0,1.2,1151,22,GER
+39,Ihlas Bebou,TSG Hoffenheim,1.0,1.2,1628,32,TOG
+42,Ermedin Demirovic,FC Augsburg,1.0,1.1,2879,33,BIH
+42,Matus Bero,VfL Bochum,1.0,1.1,1665,24,SVK
+42,Mohamed Simakan,RB Leipzig,1.0,1.1,2139,32,FRA
+42,Patrik Schick,Bayer 04 Leverkusen,1.0,1.1,1064,20,CZE
+42,Thomas Müller,Bayern München,1.0,1.1,1659,31,GER
+47,Ivan Ordets,VfL Bochum,1.0,1.0,1879,24,UKR
+47,Nico Schlotterbeck,Borussia Dortmund,1.0,1.0,2861,33,GER
+49,Amadou Haidara,RB Leipzig,1.0,0.9,1537,21,MLI
+49,Fabian Nürnberger,SV Darmstadt,1.0,0.9,1519,21,GER
+49,Jadon Sancho,Borussia Dortmund,1.0,0.9,954,14,ENG
+52,Alejandro Grimaldo,Bayer 04 Leverkusen,1.0,0.8,2785,33,ESP
+52,Danilho Doekhi,1. FC Union Berlin,1.0,0.8,2160,24,NED
+52,Timo Hübers,FC Köln,1.0,0.8,2779,31,GER
+52,Waldemar Anton,VfB Stuttgart,1.0,0.8,2888,33,GER
+56,Felix Uduokhai,FC Augsburg,1.0,0.7,2922,33,GER
+56,Sheraldo Becker,1. FC Union Berlin,1.0,0.7,649,11,SUR
+56,Tobias Kempe,SV Darmstadt,1.0,0.7,1351,24,GER
+59,Marvin Ducksch,SV Werder Bremen,1.0,0.6,2710,33,GER
+59,Philipp Mwene,1. FSV Mainz 05,1.0,0.6,2003,23,AUT
+59,Serge Gnabry,Bayern München,1.0,0.6,433,10,GER
+59,Vincenzo Grifo,SC Freiburg,1.0,0.6,2344,32,ITA
+63,Christopher Trimmel,1. FC Union Berlin,1.0,0.2,1653,26,AUT

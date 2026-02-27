@@ -1,0 +1,81 @@
+Rank,Player,Team,Penalties Conceded,Total Matches,Minutes,Matches,Country
+1,Ivan Ordets,VfL Bochum,4.0,24.0,1879,24,UKR
+2,Ansgar Knauff,Eintracht Frankfurt,3.0,31.0,2117,31,GER
+3,Tim Siersleben,1. FC Heidenheim 1846,2.0,14.0,909,14,GER
+4,Jordy Makengo,SC Freiburg,2.0,20.0,1022,20,FRA
+5,Niklas Dorsch,FC Augsburg,2.0,21.0,1387,21,GER
+6,Iago,FC Augsburg,2.0,23.0,1622,23,BRA
+7,Benedikt Gimber,1. FC Heidenheim 1846,2.0,24.0,2026,24,GER
+8,Mats Hummels,Borussia Dortmund,2.0,25.0,1581,25,GER
+9,Gregor Kobel,Borussia Dortmund,2.0,27.0,2366,27,SUI
+9,Keven Schlotterbeck,VfL Bochum,2.0,27.0,2184,27,GER
+11,Lennard Maloney,1. FC Heidenheim 1846,2.0,29.0,2292,29,USA
+12,Luca Netz,Borussia Mönchengladbach,2.0,30.0,2231,30,GER
+13,Finn Dahmen,FC Augsburg,2.0,31.0,2790,31,GER
+13,Robin Koch,Eintracht Frankfurt,2.0,31.0,2740,31,GER
+15,Diogo Leite,1. FC Union Berlin,2.0,32.0,2708,32,POR
+16,Benjamin Henrichs,RB Leipzig,2.0,33.0,2531,33,GER
+16,Bernardo,VfL Bochum,2.0,33.0,2924,33,BRA
+16,Manuel Riemann,VfL Bochum,2.0,33.0,2970,33,GER
+19,Fabio Chiarodia,Borussia Mönchengladbach,1.0,7.0,149,7,ITA
+19,Leonardo Bonucci,1. FC Union Berlin,1.0,7.0,463,7,ITA
+21,Makoto Hasebe,Eintracht Frankfurt,1.0,8.0,217,8,JPN
+22,Julian Malatini,SV Werder Bremen,1.0,11.0,602,11,ARG
+22,Patric Pfeiffer,FC Augsburg,1.0,11.0,509,11,GER
+22,Stanley N'Soki,TSG Hoffenheim,1.0,11.0,632,11,FRA
+25,Sebastien Haller,Borussia Dortmund,1.0,14.0,389,14,CIV
+26,Andreas Hanche-Olsen,1. FSV Mainz 05,1.0,15.0,995,15,NOR
+26,Philipp Lienhart,SC Freiburg,1.0,15.0,1265,15,AUT
+28,Kevin Akpoguma,TSG Hoffenheim,1.0,17.0,1095,17,NGA
+28,Niklas Stark,SV Werder Bremen,1.0,17.0,1086,17,GER
+30,Danny da Costa,1. FSV Mainz 05,1.0,19.0,826,19,GER
+31,Christian Gross,SV Werder Bremen,1.0,20.0,792,20,GER
+31,Rani Khedira,1. FC Union Berlin,1.0,20.0,1350,20,GER
+33,Anthony Rouault,VfB Stuttgart,1.0,22.0,1008,22,FRA
+33,Arne Maier,FC Augsburg,1.0,22.0,998,22,GER
+33,Cristian Gamboa,VfL Bochum,1.0,22.0,1187,22,CRC
+33,Fredrik Jensen,FC Augsburg,1.0,22.0,1350,22,FIN
+33,Klaus Gjasula,SV Darmstadt,1.0,22.0,1366,22,ALB
+33,Kouadio Koné,Borussia Mönchengladbach,1.0,22.0,1565,22,FRA
+33,Marius Wolf,Borussia Dortmund,1.0,22.0,1161,22,GER
+40,Cedric Zesiger,VfL Wolfsburg,1.0,23.0,1634,23,SUI
+40,Manuel Neuer,Bayern München,1.0,23.0,2054,23,GER
+40,Philipp Max,Eintracht Frankfurt,1.0,23.0,1357,23,GER
+40,Rasmus Carstensen,FC Köln,1.0,23.0,1658,23,DEN
+44,Robin Knoche,1. FC Union Berlin,1.0,24.0,1916,24,GER
+45,Dayot Upamecano,Bayern München,1.0,25.0,1763,25,FRA
+45,Koen Casteels,VfL Wolfsburg,1.0,25.0,2250,25,BEL
+45,Marco Friedl,SV Werder Bremen,1.0,25.0,2198,25,AUT
+45,Norman Theuerkauf,1. FC Heidenheim 1846,1.0,25.0,1257,25,GER
+49,Christopher Trimmel,1. FC Union Berlin,1.0,26.0,1653,26,AUT
+49,Faride Alidou,FC Köln,1.0,26.0,1284,26,GER
+49,Kevin Kampl,RB Leipzig,1.0,26.0,1360,26,SVN
+49,Matej Maglica,SV Darmstadt,1.0,26.0,1701,26,CRO
+53,Moritz Nicolas,Borussia Mönchengladbach,1.0,27.0,2430,27,GER
+54,Ozan Kabak,TSG Hoffenheim,1.0,28.0,2290,28,TUR
+55,Alphonso Davies,Bayern München,1.0,29.0,2067,29,CAN
+55,Niels Nkounkou,Eintracht Frankfurt,1.0,29.0,1301,29,FRA
+55,Olivier Deman,SV Werder Bremen,1.0,29.0,1359,29,BEL
+55,Omar Marmoush,Eintracht Frankfurt,1.0,29.0,2310,29,EGY
+59,Eric Martel,FC Köln,1.0,30.0,2464,30,GER
+59,Joakim Mæhle,VfL Wolfsburg,1.0,30.0,2454,30,DEN
+59,Mario Götze,Eintracht Frankfurt,1.0,30.0,2075,30,GER
+59,Marius Bülter,TSG Hoffenheim,1.0,30.0,1346,30,GER
+59,Robin Gosens,1. FC Union Berlin,1.0,30.0,2297,30,GER
+59,Robin Zentner,1. FSV Mainz 05,1.0,30.0,2700,30,GER
+65,Anthony Caci,1. FSV Mainz 05,1.0,31.0,2493,31,FRA
+65,Anthony Jung,SV Werder Bremen,1.0,31.0,2583,31,GER
+65,Omar Traoré,1. FC Heidenheim 1846,1.0,31.0,2474,31,GER
+65,Ruben Vargas,FC Augsburg,1.0,31.0,1978,31,SUI
+65,Thomas Müller,Bayern München,1.0,31.0,1659,31,GER
+70,Mohamed Simakan,RB Leipzig,1.0,32.0,2139,32,FRA
+70,Nathan N'Goumou,Borussia Mönchengladbach,1.0,32.0,1381,32,FRA
+70,Vincenzo Grifo,SC Freiburg,1.0,32.0,2344,32,ITA
+73,Maximilian Eggestein,SC Freiburg,1.0,33.0,2918,33,GER
+73,Waldemar Anton,VfB Stuttgart,1.0,33.0,2888,33,GER
+73,Willian Pacho,Eintracht Frankfurt,1.0,33.0,2970,33,ECU
+76,Ikoma Lois Openda,RB Leipzig,1.0,34.0,2716,34,BEL
+76,Jamie Leweling,VfB Stuttgart,1.0,34.0,1519,34,GER
+76,Kevin Müller,1. FC Heidenheim 1846,1.0,34.0,3060,34,GER
+76,Oliver Baumann,TSG Hoffenheim,1.0,34.0,3060,34,GER
+76,Patrick Mainka,1. FC Heidenheim 1846,1.0,34.0,3060,34,GER

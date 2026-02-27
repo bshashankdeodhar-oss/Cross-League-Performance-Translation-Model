@@ -1,0 +1,251 @@
+# Cross-League Performance Translation Model (CLPTM) — Implementation Plan
+
+## Background
+
+The project already has exploratory scripts and raw data for Premier League and Bundesliga (23/24 and 24/25). The work is currently flat — all scripts and CSVs live in the root directory, multiple overlapping scripts exist ([Percentiling.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/Percentiling.py), [Percentiling2.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/Percentiling2.py), [addpercentiles.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/addpercentiles.py)), and the only "model" is a basic RandomForest on percentile columns.
+
+This plan restructures everything into a **production-grade, config-driven, modular ML system** that a professional club could use.
+
+---
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Two data sources are currently in use:**
+> 1. **FBRef [players_data-2024_2025.csv](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/players_data-2024_2025.csv)** — rich stats (xG, xA, progressive carries, etc.), covers 24/25 season only.
+> 2. **Sofascore CSVs** in `Bundesliga_PlayerStats/` and `Prem_PlayerStats/` — goals/90, xG/90, tackles, etc., covers 23/24.
+>
+> For the transfer model to work (train on Season N, predict Season N+1), both sources must align or we use FBRef alone.
+> **Recommendation:** Use FBRef as the primary source (richer features) and archive the Sofascore CSVs. Please confirm this direction.
+
+> [!WARNING]
+> **[transfertable.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/transfertable.py) has a syntax error** (indented block missing under `if col.endswith("_percentile"):`). This script is non-functional. It will be fixed and folded into the new pipeline.
+
+> [!NOTE]
+> **League Strength Coefficient** will be computed from UEFA coefficients / FBRef xG averages. We will start with a static config value that can be updated each season.
+
+---
+
+## Proposed Changes
+
+### Phase 0 — Cleanup & Restructure
+
+All old scripts will be **moved** (not deleted) to `src/legacy/`. All raw CSVs go to `data/raw/`.
+
+**New directory structure:**
+```
+TransferPred/
+├── config/
+│   └── config.yaml          # All paths, league params, thresholds
+├── data/
+│   ├── raw/                 # Original CSVs (untouched)
+│   ├── interim/             # Mid-pipeline artifacts
+│   └── processed/           # Final clean datasets
+├── logs/                    # Transformation logs
+├── models/                  # Saved model artifacts (.pkl / .joblib)
+├── evaluation/              # Metrics, plots, backtest results
+├── notebooks/               # EDA notebooks
+├── src/
+│   ├── legacy/              # Old scripts archived here
+│   ├── data/
+│   │   ├── ingest.py        # Load & validate raw data
+│   │   ├── standardize.py   # Column alignment, unified schema
+│   │   ├── normalize.py     # Per-90 normalization, baseline adjustment
+│   │   └── league_strength.py  # LSC computation
+│   ├── features/
+│   │   └── engineer.py      # All feature engineering
+│   ├── models/
+│   │   ├── train.py         # Train XGBoost, LightGBM, MLP, Bayesian
+│   │   ├── evaluate.py      # MAE, RMSE, calibration, backtest
+│   │   └── adaptation.py    # Adaptation/drop model
+│   ├── explainability/
+│   │   ├── shap_analysis.py
+│   │   └── scenario_sim.py
+│   ├── predict.py           # Unified inference endpoint
+│   ├── report.py            # Human-readable output report
+│   └── pipeline.py          # Orchestrates all phases end-to-end
+├── requirements.txt
+└── README.md
+```
+
+---
+
+### Phase 1 — Data Standardization
+
+#### [NEW] [config.yaml](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/config/config.yaml)
+- `raw_data_dir`, `processed_data_dir`, `log_dir`, `model_dir`
+- `leagues`: `[Premier League, Bundesliga]`
+- `min_minutes`: 600
+- `league_strength_coefficients`: `{Premier League: 1.0, Bundesliga: 0.92}`
+
+#### [NEW] [ingest.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/data/ingest.py)
+- Loads FBRef [players_data-2024_2025.csv](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/players_data-2024_2025.csv)
+- Validates required columns exist
+- Logs missing players/rows
+- Returns typed DataFrame
+
+#### [NEW] [standardize.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/data/standardize.py)
+- Renames FBRef columns to unified internal schema (`goals_p90`, `xg_p90`, `assists_p90`, `xag_p90`, `npxg_p90`, etc.)
+- Filters to configured leagues and min-minutes
+- Tags each row with `season` and [league](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/Merger.py#4-46)
+
+#### [NEW] [normalize.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/data/normalize.py)
+- Computes per-90 for any raw totals not already per-90
+- Computes league-average baseline for each stat
+- Outputs normalized values relative to league average
+
+#### [NEW] [league_strength.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/data/league_strength.py)
+- Reads LSC from config
+- Computes LSC-adjusted metrics (multiply raw metric by source_LSC / target_LSC)
+- Adds `lsc_adjusted_*` columns
+
+---
+
+### Phase 2 — Feature Engineering
+
+#### [NEW] [engineer.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/features/engineer.py)
+Features created:
+- **League-adjusted performance** — raw stat × (source_LSC / target_LSC)
+- **Team strength ratio** — player's team xG avg / league xG avg (from FBRef squad data)
+- **Possession-adjusted stats** — touches / team possession%
+- **Position encoding** — one-hot encode Pos column (GK, DF, MF, FW, and combos)
+- **Age curve** — peak performance years 24–28, polynomial decay before/after
+- **Play style vector** — progressive passes %, dribble success %, aerial ratio
+
+All transformations logged to `logs/feature_engineering.log`.
+
+Output: `data/processed/feature_dataset.csv`
+
+---
+
+### Phase 3 — Modeling
+
+#### [NEW] [train.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/models/train.py)
+
+**Three models trained:**
+
+| Model | Library | Purpose |
+|---|---|---|
+| LightGBM | `lightgbm` | Primary predictor (fast, robust to missing) |
+| MLP | `sklearn.neural_network` | Captures nonlinear interactions |
+| Bayesian Ridge | `sklearn.linear_model` | Uncertainty quantification |
+
+**Target variables:** `goals_p90`, `assists_p90`, `xg_p90` in the target league.
+
+**Train/test split:** train on Bundesliga 23/24 → predict PL 24/25 for known transfers (backtest). Also do 5-fold CV within each league.
+
+Models saved to `models/lgbm_goals.pkl`, `models/mlp_goals.pkl`, `models/bayesian_goals.pkl`.
+
+#### [NEW] [evaluate.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/models/evaluate.py)
+- MAE, RMSE per target variable
+- Calibration curve (predicted vs actual)
+- Transfer backtest: for known Bundesliga→PL transfers, compare prediction to actual
+- Results saved to `evaluation/metrics.json` and `evaluation/backtest_report.csv`
+
+---
+
+### Phase 4 — Adaptation Modeling
+
+#### [NEW] [adaptation.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/models/adaptation.py)
+- Binary classifier: will player be in top 50th percentile within first 10 games?
+- Regression: expected number of games to reach baseline performance
+- Features: age, position, minutes in source league, league difficulty delta, team strength ratio
+
+---
+
+### Phase 5 — Explainability
+
+#### [NEW] [shap_analysis.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/explainability/shap_analysis.py)
+- SHAP TreeExplainer for LightGBM models
+- Output: top-5 features driving each prediction
+- Saved plots to `evaluation/shap_*.png`
+
+#### [NEW] [scenario_sim.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/explainability/scenario_sim.py)
+- "What-if" simulator: change one feature (e.g. team strength) and re-predict
+- Output: sensitivity table
+
+---
+
+### Phase 6 — Inference Endpoint
+
+#### [NEW] [predict.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/predict.py)
+```
+Given: Player name, source_league, target_league, season
+
+Output:
+  goals_p90_projected: float
+  assists_p90_projected: float
+  xg_p90_projected: float
+  minutes_expectation: float
+  adaptation_score: %
+  risk_score: %
+  confidence_interval: [low, high]
+  top_5_factors: list[str]
+```
+
+#### [NEW] [report.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/report.py)
+- Renders a human-readable text/markdown report for a given player prediction
+
+#### [NEW] [pipeline.py](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/src/pipeline.py)
+- Single entrypoint: `python src/pipeline.py` runs all phases in order
+- Accepts `--phase` flag to run individual phases
+
+---
+
+### Supporting Files
+
+#### [NEW] [requirements.txt](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/requirements.txt)
+```
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+lightgbm>=4.0
+xgboost>=2.0
+shap>=0.44
+pyyaml>=6.0
+joblib>=1.3
+matplotlib>=3.7
+seaborn>=0.13
+```
+
+#### [NEW] [README.md](file:///c:/Shanki/VIT%20CHENNAI/Projs/TransferPred/README.md)
+Full documentation of the system.
+
+---
+
+## Verification Plan
+
+### Automated Tests
+
+**1. Pipeline smoke test** (run after building each phase):
+```powershell
+cd "c:\Shanki\VIT CHENNAI\Projs\TransferPred"
+python src/pipeline.py --phase ingest
+python src/pipeline.py --phase standardize
+python src/pipeline.py --phase features
+python src/pipeline.py --phase train
+python src/pipeline.py --phase evaluate
+```
+Each phase logs its output. Check `logs/` for errors.
+
+**2. Data validation** (after Phase 1):
+```powershell
+python -c "import pandas as pd; df=pd.read_csv('data/processed/unified_dataset.csv'); print(df.shape, df.isnull().sum().sum())"
+```
+Expected: no nulls in critical columns, shape > (200, 20).
+
+**3. Backtest on known transfers** (after Phase 3):
+```powershell
+python src/models/evaluate.py
+```
+Expected: MAE on goals_p90 < 0.15 for the transfer backtest set.
+
+**4. Single-player inference test**:
+```powershell
+python src/predict.py --player "Leroy Sane" --source "Bundesliga" --target "Premier League"
+```
+Expected: all 7 output fields populated.
+
+### Manual Verification
+- Open `evaluation/backtest_report.csv` and verify the predictions are directionally correct for known transfers (e.g., Florian Wirtz, Jamal Musiala if applicable).
+- Check `evaluation/shap_goals.png` for a valid SHAP waterfall plot.

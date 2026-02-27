@@ -1,0 +1,700 @@
+Player,Squad,Comp,Pos,Min,Gls,xG,npxG,Ast,xAG,Sh/90,SoT/90,PrgC,PrgP,PrgR,Cmp%,KP,xA,TklW,Int,Tkl+Int,Clr,Succ%,Carries,Touches
+Tyler Adams,Bournemouth,eng Premier League,MF,1965,0,1.6,1.6,3,1.0,0.41,0.09,14,76,10,84.4,18,0.8,50,32,115,42,22.2,663,1337
+Junior Adamu,Freiburg,de Bundesliga,FW,1545,2,5.5,5.5,2,2.4,2.1,0.64,8,14,84,63.5,17,1.9,3,12,21,20,34.5,275,534
+Tosin Adarabioyo,Chelsea,eng Premier League,DF,1409,1,0.9,0.9,1,0.2,0.83,0.13,5,42,1,91.1,1,0.2,13,11,28,80,66.7,777,1330
+Karim Adeyemi,Dortmund,de Bundesliga,"FW,MF",1433,7,5.5,5.5,6,6.0,2.89,1.13,68,28,153,74.3,28,4.1,14,7,27,5,42.6,417,636
+Simon Adingra,Brighton,eng Premier League,"FW,MF",1097,2,2.5,2.5,2,2.5,2.71,0.66,50,18,136,75.9,16,2.8,14,8,31,6,42.0,366,548
+Amine Adli,Leverkusen,de Bundesliga,"MF,FW",766,2,2.7,2.7,0,0.7,2.35,0.82,37,24,100,74.2,11,1.9,9,0,15,4,46.9,248,468
+Oladapo Afolayan,St. Pauli,de Bundesliga,"FW,MF",1639,3,3.1,3.1,1,3.8,2.09,0.71,53,32,108,69.4,21,3.6,8,8,25,20,49.0,495,741
+Emmanuel Agbadou,Wolves,eng Premier League,DF,1410,1,0.8,0.8,0,0.2,0.45,0.13,6,31,2,85.4,4,0.3,19,12,42,90,76.9,758,1172
+Felix Agu,Werder Bremen,de Bundesliga,DF,1751,3,1.4,1.4,0,1.8,0.46,0.21,33,43,105,79.7,20,2.5,14,21,51,48,25.7,545,1045
+Ola Aina,Nott'ham Forest,eng Premier League,DF,2995,2,0.6,0.6,1,1.4,0.33,0.06,67,107,67,73.5,16,2.2,42,33,88,115,45.8,749,1708
+Rayan Aït-Nouri,Wolves,eng Premier League,DF,3109,4,2.7,2.7,7,5.5,1.04,0.29,89,108,176,84.2,46,4.0,57,26,115,75,46.0,1129,2148
+Kristoffer Ajer,Brentford,eng Premier League,DF,1438,0,1.0,1.0,0,1.2,0.56,0.19,27,56,44,78.3,8,0.5,18,12,38,50,43.8,387,795
+Manuel Akanji,Manchester City,eng Premier League,DF,2014,0,1.6,1.6,0,0.4,0.67,0.09,46,158,7,93.6,9,1.3,12,9,28,64,100.0,1254,1881
+Nathan Aké,Manchester City,eng Premier League,DF,678,0,0.2,0.2,0,0.0,0.4,0.0,12,50,2,93.9,1,0.2,7,3,12,22,100.0,403,596
+Kevin Akpoguma,Hoffenheim,de Bundesliga,DF,2220,0,0.1,0.1,0,0.3,0.2,0.04,14,98,16,87.1,7,0.6,27,29,83,115,53.3,892,1692
+Carlos Alcaraz,Everton,eng Premier League,"FW,MF",764,2,1.7,1.7,3,1.6,3.06,1.3,19,42,21,80.6,13,0.7,5,5,16,10,50.0,211,378
+Trent Alexander-Arnold,Liverpool,eng Premier League,DF,2365,3,1.9,1.9,6,7.3,1.71,0.3,51,232,94,73.5,52,7.4,50,31,103,55,45.9,1183,2252
+Alisson,Liverpool,eng Premier League,GK,2508,0,0.0,0.0,0,0.6,0.0,0.0,0,1,0,82.8,1,0.2,0,0,1,13,100.0,658,1011
+Edson Álvarez,West Ham,eng Premier League,MF,1772,0,0.4,0.4,1,0.8,0.61,0.05,24,85,18,85.8,12,0.9,27,18,68,46,42.4,687,1239
+Nadiem Amiri,Mainz 05,de Bundesliga,MF,2473,7,5.5,3.9,5,6.6,2.18,0.87,50,204,64,77.0,63,9.2,23,16,66,30,47.8,1134,2093
+Mohamed Amoura,Wolfsburg,de Bundesliga,FW,2467,10,8.7,7.2,9,4.0,2.66,0.91,81,61,244,70.3,35,3.7,22,9,38,24,40.7,628,1106
+Joachim Andersen,Fulham,eng Premier League,DF,2583,0,1.0,1.0,0,0.5,0.66,0.14,16,112,2,82.7,4,0.5,18,34,61,188,66.7,1350,2336
+Elliot Anderson,Nott'ham Forest,eng Premier League,MF,2728,2,2.1,2.1,6,3.3,1.32,0.23,52,143,94,78.3,37,3.6,56,31,123,76,48.0,932,1831
+André,Wolves,eng Premier League,MF,2472,0,0.4,0.4,0,0.8,0.36,0.04,10,109,11,92.9,18,0.7,55,37,128,30,50.0,912,1623
+Robert Andrich,Leverkusen,de Bundesliga,"MF,DF",1598,2,1.3,1.3,2,0.3,1.18,0.28,8,65,17,88.4,9,1.0,12,29,53,23,40.0,526,1114
+Waldemar Anton,Dortmund,de Bundesliga,DF,1949,2,1.7,1.7,2,0.8,0.88,0.14,32,117,28,90.4,6,1.8,21,30,64,112,83.3,1386,2126
+Michail Antonio,West Ham,eng Premier League,FW,836,1,2.2,2.2,1,1.6,2.05,0.43,29,18,59,60.6,9,0.9,2,0,2,2,33.3,173,296
+Cameron Archer,Southampton,eng Premier League,FW,1441,2,5.7,4.9,0,0.5,1.75,0.62,22,14,66,81.7,5,0.7,8,2,15,11,40.5,226,398
+Alphonse Areola,West Ham,eng Premier League,GK,2260,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,69.6,0,0.0,2,0,2,15,,601,1049
+Joe Aribo,Southampton,eng Premier League,"MF,DF",2013,3,2.7,2.7,0,1.6,0.76,0.31,36,75,65,88.8,16,1.3,33,20,67,32,42.9,745,1271
+Adam Armstrong,Southampton,eng Premier League,"FW,MF",1248,2,3.3,2.3,2,1.2,1.8,0.5,25,21,79,80.2,9,0.6,3,3,15,8,42.9,235,377
+Maximilian Arnold,Wolfsburg,de Bundesliga,MF,2356,3,0.9,0.9,5,3.5,1.03,0.46,9,128,16,77.2,45,4.4,20,24,58,70,16.7,787,1576
+Jann-Fiete Arp,Holstein Kiel,de Bundesliga,"FW,MF",713,2,3.8,2.2,0,1.0,2.52,1.14,14,21,66,58.6,11,1.7,10,3,16,8,43.8,158,303
+Kepa Arrizabalaga,Bournemouth,eng Premier League,GK,2790,0,0.1,0.1,0,0.0,0.03,0.0,0,2,0,73.2,1,0.0,0,0,1,15,100.0,621,1087
+Arthur,Leverkusen,de Bundesliga,DF,752,0,0.1,0.1,1,0.4,0.12,0.0,15,25,53,78.9,2,1.0,11,9,23,29,20.8,242,508
+Marco Asensio,Aston Villa,eng Premier League,MF,743,3,4.4,2.9,1,1.0,2.66,1.09,22,45,38,77.3,16,1.2,5,2,9,3,63.2,242,386
+Noah Atubolu,Freiburg,de Bundesliga,GK,2307,0,0.0,0.0,0,0.0,0.0,0.0,0,2,0,74.5,0,0.1,0,0,0,13,,680,1198
+Yasin Ayari,Brighton,eng Premier League,MF,1965,2,2.4,2.4,1,2.3,1.28,0.37,30,75,61,81.5,30,2.6,32,20,79,26,40.0,655,1233
+Jordan Ayew,Leicester City,eng Premier League,"FW,MF",1638,5,3.2,2.4,0,1.1,1.7,0.44,49,46,86,74.3,16,1.5,15,12,39,19,40.6,479,798
+Leon Bailey,Aston Villa,eng Premier League,"FW,MF",1139,1,1.7,1.7,2,1.5,2.21,0.47,58,35,121,71.0,16,3.0,5,3,10,12,38.6,348,545
+Ridle Baku,Wolfsburg,de Bundesliga,"FW,MF",1170,2,1.5,1.5,1,1.3,1.38,0.46,16,44,78,74.1,13,1.6,15,15,38,15,45.0,352,646
+Ridle Baku,RB Leipzig,de Bundesliga,"DF,MF",1275,2,1.4,1.4,3,1.5,1.2,0.35,21,41,97,75.2,14,1.7,19,9,33,45,66.7,383,796
+Carlos Baleba,Brighton,eng Premier League,MF,2661,3,3.1,3.1,1,1.3,1.49,0.37,43,118,29,87.4,21,1.2,46,46,125,44,57.9,971,1697
+Harvey Barnes,Newcastle Utd,eng Premier League,FW,1755,9,7.2,7.2,4,4.0,3.23,1.03,93,83,192,78.1,26,4.6,9,6,22,15,37.5,561,810
+Calvin Bassey,Fulham,eng Premier League,DF,3074,1,1.0,1.0,0,0.1,0.41,0.12,39,116,15,89.7,3,0.4,34,20,74,118,45.5,1571,2463
+Maximilian Bauer,Augsburg,de Bundesliga,DF,658,0,0.2,0.2,0,0.1,0.14,0.14,4,30,7,80.9,2,0.1,8,6,20,35,,216,422
+Oliver Baumann,Hoffenheim,de Bundesliga,GK,2520,0,0.0,0.0,0,1.0,0.0,0.0,0,1,0,69.1,3,0.7,2,0,2,15,100.0,678,1147
+Christoph Baumgartner,RB Leipzig,de Bundesliga,MF,1610,2,4.5,4.5,1,1.3,2.18,0.84,37,53,95,68.2,20,1.7,28,12,56,24,40.5,438,910
+Adrian Beck,Heidenheim,de Bundesliga,"MF,FW",1598,4,3.3,3.3,1,1.2,2.2,0.73,37,69,83,80.1,21,1.9,17,9,45,17,53.3,553,962
+Timo Becker,Holstein Kiel,de Bundesliga,DF,2445,0,1.4,1.4,2,0.8,0.63,0.15,28,57,38,77.4,6,1.0,33,17,70,110,46.2,588,1325
+Jan Bednarek,Southampton,eng Premier League,DF,2531,2,0.7,0.7,0,0.5,0.18,0.07,5,60,2,92.7,5,0.9,19,56,92,190,100.0,1046,2049
+Maximilian Beier,Dortmund,de Bundesliga,"FW,MF",1591,8,7.7,7.7,5,3.3,2.38,0.74,24,33,124,70.5,24,2.5,16,7,32,14,43.1,338,618
+Stefan Bell,Mainz 05,de Bundesliga,DF,1436,0,0.8,0.8,1,1.0,0.75,0.19,8,38,5,78.6,5,0.7,12,28,50,107,33.3,415,952
+Jean-Ricner Bellegarde,Wolves,eng Premier League,"MF,FW",1677,2,1.5,1.5,7,3.8,1.18,0.27,52,43,89,79.3,27,2.8,24,10,49,18,23.0,528,843
+Ramy Bensebaini,Dortmund,de Bundesliga,DF,2022,1,1.3,1.3,6,3.2,0.89,0.09,26,128,58,86.1,15,2.3,25,33,84,86,27.8,941,1766
+Rodrigo Bentancur,Tottenham,eng Premier League,MF,1645,2,1.3,1.3,0,0.4,1.2,0.27,28,100,34,87.9,10,1.0,22,40,80,38,47.4,764,1302
+Sander Berge,Fulham,eng Premier League,MF,2224,0,0.4,0.4,0,0.6,0.12,0.04,29,124,9,91.5,18,0.6,30,21,71,38,55.0,804,1384
+Lucas Bergvall,Tottenham,eng Premier League,MF,1212,0,0.7,0.7,1,0.6,0.89,0.15,33,49,31,87.4,11,0.8,19,24,63,22,46.7,531,885
+Bernardo,Bochum,de Bundesliga,DF,1782,0,0.7,0.7,0,0.7,0.4,0.1,14,100,14,73.7,4,1.7,28,26,72,103,60.0,630,1249
+Alexander Bernhardsson,Holstein Kiel,de Bundesliga,"FW,MF",1263,7,4.1,4.1,2,1.3,1.92,1.0,25,33,72,60.5,17,1.2,15,5,34,25,41.5,264,520
+Victor Bernth Kristiansen,Leicester City,eng Premier League,DF,2482,0,0.3,0.3,1,1.4,0.11,0.0,40,70,78,77.4,18,1.7,51,42,129,75,44.4,816,1614
+Matúš Bero,Bochum,de Bundesliga,MF,2565,5,4.0,3.0,2,3.7,1.09,0.42,29,143,111,67.9,54,3.8,35,17,82,35,34.5,736,1619
+Beto,Everton,eng Premier League,FW,1534,8,8.2,8.2,0,1.2,2.87,1.35,15,16,77,58.2,12,0.5,6,4,18,24,50.0,267,520
+Tom Bischof,Hoffenheim,de Bundesliga,"MF,FW",2559,5,2.2,2.2,2,3.6,1.79,0.63,47,138,102,78.7,50,4.8,53,30,125,53,45.3,962,1951
+Yves Bissouma,Tottenham,eng Premier League,MF,1408,2,0.6,0.6,0,0.3,0.7,0.26,15,75,3,88.6,6,0.6,31,18,67,40,31.8,610,1039
+Leonardo Bittencourt,Werder Bremen,de Bundesliga,MF,982,2,1.6,1.6,1,1.6,2.47,0.82,19,64,38,84.0,14,1.9,9,15,40,11,20.0,530,801
+Myron Boadu,Bochum,de Bundesliga,FW,1042,9,7.7,6.9,1,1.1,2.33,1.12,12,18,70,71.3,11,1.6,1,1,3,4,47.8,179,287
+Victor Boniface,Leverkusen,de Bundesliga,FW,1008,8,7.8,7.1,1,1.1,4.46,1.52,26,23,61,70.2,10,1.0,4,0,5,5,42.9,207,400
+Sebastiaan Bornauw,Wolfsburg,de Bundesliga,DF,788,2,1.2,1.2,1,0.5,0.91,0.34,3,21,1,81.8,1,0.1,6,12,21,36,0.0,206,428
+Carlo Boukhalfa,St. Pauli,de Bundesliga,MF,1646,2,1.5,1.5,0,1.1,1.15,0.22,10,41,44,71.3,11,1.1,11,12,38,25,42.9,290,651
+Jarrod Bowen,West Ham,eng Premier League,"FW,MF",2973,13,8.6,7.8,8,6.8,2.6,1.09,109,91,212,71.7,51,6.5,26,16,57,25,33.8,741,1252
+Conor Bradley,Liverpool,eng Premier League,DF,754,0,0.7,0.7,2,1.4,1.19,0.36,35,33,39,83.8,7,1.4,10,4,18,31,40.0,369,663
+Julian Brandt,Dortmund,de Bundesliga,MF,2303,5,4.8,4.8,10,8.5,1.76,0.59,61,149,199,78.8,61,6.6,11,14,40,13,35.2,869,1455
+Jarrad Branthwaite,Everton,eng Premier League,DF,2511,0,1.2,1.2,1,0.7,0.36,0.11,10,66,2,82.1,3,0.6,20,27,63,191,50.0,747,1520
+James Bree,Southampton,eng Premier League,DF,1075,0,0.1,0.1,1,0.9,0.33,0.08,13,34,43,83.5,10,0.7,14,9,28,29,50.0,363,694
+Nathan Broadhead,Ipswich Town,eng Premier League,"MF,FW",702,2,1.7,1.7,0,0.7,1.67,1.03,20,14,33,78.1,7,1.1,4,4,13,5,50.0,174,317
+David Brooks,Bournemouth,eng Premier League,"FW,MF",960,2,2.5,2.5,0,1.9,2.34,1.13,35,35,83,75.4,20,2.0,6,5,19,9,32.4,342,545
+Moritz Broschinski,Bochum,de Bundesliga,"FW,MF",1390,1,4.2,4.2,3,1.8,2.46,0.71,37,20,130,63.4,13,1.5,14,1,20,18,26.4,322,552
+Nathaniel Brown,Eint Frankfurt,de Bundesliga,"DF,MF",1947,3,2.2,2.2,6,5.1,0.6,0.23,45,63,119,80.7,39,4.6,42,15,86,55,33.3,600,1174
+Santiago Bueno,Wolves,eng Premier League,DF,1687,0,0.4,0.4,0,0.0,0.32,0.16,1,28,1,88.0,0,0.1,21,15,56,70,0.0,555,1025
+Marius Bülter,Hoffenheim,de Bundesliga,"FW,DF",1729,7,3.7,3.7,2,3.1,1.93,0.78,57,35,155,67.2,22,3.4,10,4,17,14,51.1,511,774
+Facundo Buonanotte,Leicester City,eng Premier League,"FW,MF",1523,5,3.9,3.9,2,3.1,2.13,0.71,39,54,74,76.4,24,2.3,32,12,65,14,33.7,479,874
+Cameron Burgess,Ipswich Town,eng Premier League,DF,1541,0,1.1,1.1,2,0.5,0.58,0.12,2,42,4,80.9,7,0.4,12,14,31,128,,430,982
+Jonathan Burkardt,Mainz 05,de Bundesliga,FW,2109,18,14.8,13.2,2,3.1,2.99,1.19,32,42,157,72.5,20,2.7,8,1,16,14,41.0,447,788
+Oliver Burke,Werder Bremen,de Bundesliga,FW,908,5,4.1,4.1,0,1.7,3.47,1.19,22,15,88,59.9,14,1.1,4,2,13,6,58.3,246,440
+Dan Burn,Newcastle Utd,eng Premier League,DF,3330,1,2.0,2.0,1,0.9,0.62,0.19,12,75,14,88.4,9,1.1,24,27,66,197,75.0,1346,2386
+Wes Burns,Ipswich Town,eng Premier League,"FW,DF",926,0,0.5,0.5,1,1.6,0.68,0.1,38,8,65,60.5,10,1.2,11,10,23,13,37.5,216,350
+Marnon Busch,Heidenheim,de Bundesliga,"DF,MF",1396,0,0.4,0.4,1,1.1,0.84,0.19,22,63,43,72.7,12,1.8,17,13,39,65,37.5,495,1030
+Anthony Caci,Mainz 05,de Bundesliga,DF,2684,1,3.1,3.1,7,6.6,1.07,0.4,45,133,152,71.8,50,7.9,40,27,87,47,45.3,960,1973
+Moisés Caicedo,Chelsea,eng Premier League,"MF,DF",3351,1,0.8,0.8,2,3.0,0.54,0.08,43,215,37,89.7,30,2.8,73,49,163,60,45.3,1409,2579
+Tom Cairney,Fulham,eng Premier League,MF,628,2,0.8,0.8,0,1.1,1.58,0.57,18,53,33,90.7,11,1.2,5,4,17,3,38.5,456,683
+Jens Cajuste,Ipswich Town,eng Premier League,MF,1959,1,0.7,0.7,1,0.8,0.55,0.05,26,59,20,82.6,13,0.7,22,28,72,33,52.8,481,1017
+Riccardo Calafiori,Arsenal,eng Premier League,DF,983,2,0.9,0.9,1,0.3,0.92,0.55,22,54,29,85.6,6,0.7,19,9,36,25,69.2,308,653
+Dominic Calvert-Lewin,Everton,eng Premier League,FW,1609,3,6.7,6.7,1,0.6,2.8,1.06,23,20,112,62.6,7,0.7,7,7,16,23,40.0,280,520
+Emre Can,Dortmund,de Bundesliga,"DF,MF",2105,3,2.0,0.4,0,0.7,0.3,0.04,20,116,12,89.5,8,1.4,28,20,70,89,57.7,1405,2156
+Diego Carlos,Aston Villa,eng Premier League,DF,830,0,0.6,0.6,0,0.0,0.43,0.11,3,34,0,88.6,0,0.1,3,5,13,36,100.0,419,674
+Casemiro,Manchester Utd,eng Premier League,MF,1494,1,1.9,1.9,0,2.3,1.93,0.6,4,84,28,78.8,22,2.0,50,14,97,51,50.0,660,1250
+Matty Cash,Aston Villa,eng Premier League,DF,2070,1,0.5,0.5,1,1.1,0.57,0.26,48,42,90,77.5,10,1.3,32,23,79,70,47.5,595,1186
+Timothy Castagne,Fulham,eng Premier League,DF,1649,0,0.4,0.4,1,1.2,0.44,0.16,17,62,67,81.8,9,0.6,29,22,68,83,41.7,547,1164
+Julian Chabot,Stuttgart,de Bundesliga,DF,2269,3,2.0,1.8,1,0.5,0.75,0.12,7,108,5,89.9,6,0.8,24,38,75,135,60.0,1354,2239
+El Chadaille Bitshiabu,RB Leipzig,de Bundesliga,DF,1130,0,0.3,0.3,0,0.4,0.4,0.24,4,69,2,84.4,5,0.6,18,13,40,97,66.7,516,1058
+Fares Chaïbi,Eint Frankfurt,de Bundesliga,"MF,FW",1013,1,2.6,2.6,3,2.9,2.22,0.53,20,52,73,65.8,24,2.9,9,10,23,32,58.3,288,588
+Trevoh Chalobah,Crystal Palace,eng Premier League,DF,1060,3,1.2,1.2,0,0.4,0.93,0.34,11,34,6,79.0,4,0.3,16,19,39,57,60.0,278,594
+Trevoh Chalobah,Chelsea,eng Premier League,DF,910,0,0.8,0.8,1,1.2,0.69,0.2,4,37,2,90.0,3,0.3,7,10,21,48,40.0,426,774
+Conor Chaplin,Ipswich Town,eng Premier League,"MF,FW",857,1,1.5,1.5,1,0.7,1.68,0.32,13,29,23,73.7,8,0.6,5,4,19,3,50.0,179,390
+Anrie Chase,Stuttgart,de Bundesliga,DF,734,0,0.1,0.1,0,0.0,0.61,0.0,6,28,2,91.9,0,0.5,4,9,19,35,40.0,334,622
+Arthur Chaves,Hoffenheim,de Bundesliga,DF,2185,1,0.8,0.8,0,0.1,0.41,0.08,10,57,13,82.1,5,0.4,36,37,88,136,30.0,740,1513
+Ryan Christie,Bournemouth,eng Premier League,MF,2117,2,1.8,1.8,3,3.5,1.4,0.51,34,137,44,79.3,41,3.0,33,30,84,51,47.9,726,1376
+Jack Clarke,Ipswich Town,eng Premier League,"FW,MF",1181,0,1.2,1.2,4,2.3,1.3,0.15,39,44,57,76.8,28,1.2,20,7,39,29,50.0,311,553
+Alexis Claude-Maurice,Augsburg,de Bundesliga,"MF,FW",2109,9,4.7,4.7,2,1.2,2.52,0.94,59,61,102,82.9,21,1.9,26,15,56,8,46.7,619,994
+Conor Coady,Leicester City,eng Premier League,DF,1714,1,0.4,0.4,0,0.1,0.11,0.11,3,32,0,91.1,1,0.5,9,13,26,71,50.0,789,1210
+Nathan Collins,Brentford,eng Premier League,DF,3420,2,2.5,2.5,3,1.8,0.45,0.16,32,127,18,85.9,10,1.6,24,34,74,226,50.0,1289,2435
+Nnamdi Collins,Eint Frankfurt,de Bundesliga,DF,1489,1,0.8,0.8,1,1.0,0.3,0.12,30,63,42,86.3,2,1.2,24,16,49,74,35.3,623,1107
+Levi Colwill,Chelsea,eng Premier League,DF,3149,2,1.9,1.9,1,1.1,0.49,0.11,14,131,12,89.3,14,1.2,34,33,80,118,50.0,1621,2904
+Kingsley Coman,Bayern Munich,de Bundesliga,FW,1282,5,4.3,4.3,4,3.3,3.09,1.19,66,45,215,84.3,32,4.2,12,8,25,15,52.7,606,934
+Sirlord Conteh,Heidenheim,de Bundesliga,"FW,MF",892,1,2.1,2.1,1,2.6,1.31,0.5,29,19,75,70.5,14,1.4,5,1,10,8,46.2,195,301
+Lewis Cook,Bournemouth,eng Premier League,"MF,DF",2978,1,0.9,0.9,3,4.1,0.42,0.12,33,158,52,77.2,48,3.8,42,41,122,70,65.0,825,1900
+Danny da Costa,Mainz 05,de Bundesliga,DF,2006,0,0.1,0.1,1,0.6,0.22,0.04,21,109,22,78.4,10,1.3,23,27,69,95,47.1,813,1451
+Vladimír Coufal,West Ham,eng Premier League,DF,1067,0,0.3,0.3,0,0.7,0.59,0.17,26,39,33,78.6,8,1.0,15,8,30,39,33.3,298,736
+Yan Couto,Dortmund,de Bundesliga,"DF,FW",895,0,0.3,0.3,0,0.9,0.6,0.2,46,68,83,81.1,12,2.3,16,10,34,32,39.4,483,849
+Aaron Cresswell,West Ham,eng Premier League,DF,824,0,0.2,0.2,0,1.3,0.55,0.0,6,36,4,82.6,9,1.9,7,8,19,37,50.0,291,687
+Marc Cucurella,Chelsea,eng Premier League,DF,2988,5,2.8,2.8,1,2.1,0.72,0.33,35,118,117,87.7,19,2.4,45,28,95,95,26.7,944,2244
+Matheus Cunha,Wolves,eng Premier League,"MF,FW",2597,15,8.6,8.6,6,7.7,3.81,1.52,112,144,161,71.6,56,5.3,22,17,55,23,44.5,904,1561
+Tomáš Čvančara,Gladbach,de Bundesliga,FW,831,2,3.8,3.8,0,0.9,2.6,0.97,15,23,50,71.5,6,0.5,1,5,9,17,35.3,185,336
+Finn Dahmen,Augsburg,de Bundesliga,GK,1710,0,0.0,0.0,0,0.0,0.0,0.0,0,3,0,69.4,0,0.1,0,0,1,9,,479,811
+Thomas Dähne,Holstein Kiel,de Bundesliga,GK,810,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,77.0,0,0.0,0,0,0,7,,234,432
+Patson Daka,Leicester City,eng Premier League,"FW,MF",736,1,1.3,1.3,0,0.1,1.83,0.49,11,8,36,72.1,1,0.1,10,1,20,12,13.3,141,252
+Diogo Dalot,Manchester Utd,eng Premier League,DF,2814,0,2.0,2.0,3,2.0,0.8,0.16,62,103,168,80.5,26,2.5,40,37,105,72,50.9,1126,1983
+Mikkel Damsgaard,Brentford,eng Premier League,"MF,FW",2911,2,2.8,2.8,10,8.4,1.08,0.22,73,234,137,72.4,63,7.0,44,27,110,31,51.5,1076,1883
+Kevin Danso,Tottenham,eng Premier League,DF,842,0,0.4,0.4,0,0.1,0.75,0.32,11,19,1,86.5,2,0.1,5,6,13,71,66.7,448,676
+Bence Dárdai,Wolfsburg,de Bundesliga,MF,1304,1,1.0,1.0,1,1.0,0.76,0.07,5,39,24,80.2,11,1.0,14,12,36,28,25.0,287,595
+Alphonso Davies,Bayern Munich,de Bundesliga,DF,1560,1,1.2,1.2,2,1.6,0.98,0.17,81,120,140,89.7,27,2.2,17,13,43,22,45.6,895,1463
+Ben Davies,Tottenham,eng Premier League,DF,1331,0,0.3,0.3,0,0.2,0.34,0.07,14,52,6,87.6,2,0.5,11,12,29,81,100.0,664,1186
+Leif Davis,Ipswich Town,eng Premier League,DF,2743,1,1.0,1.0,2,4.9,0.52,0.07,52,59,137,71.6,61,4.7,27,25,71,77,34.2,708,1562
+Craig Dawson,Wolves,eng Premier League,DF,971,0,0.5,0.5,0,0.0,0.46,0.09,6,20,5,86.6,2,0.1,3,9,24,52,20.0,390,671
+Kevin De Bruyne,Manchester City,eng Premier League,"MF,FW",1702,4,5.1,5.1,7,8.0,3.01,0.79,51,157,150,75.9,57,6.7,9,7,24,10,38.2,812,1368
+Bobby De Cordova-Reid,Leicester City,eng Premier League,FW,744,1,0.8,0.8,2,1.2,0.85,0.36,14,15,48,70.4,6,0.2,4,0,9,10,0.0,174,272
+Liam Delap,Ipswich Town,eng Premier League,FW,2593,12,9.3,7.8,2,1.9,2.29,1.01,61,30,110,61.3,21,1.4,8,2,13,28,46.5,445,682
+Ermedin Demirović,Stuttgart,de Bundesliga,FW,1855,15,14.1,12.4,1,1.9,3.11,1.31,20,31,115,70.3,18,1.7,7,3,15,12,20.0,305,582
+Sepp van den Berg,Brentford,eng Premier League,DF,2586,0,2.0,2.0,0,0.8,0.7,0.21,12,79,28,85.4,6,0.5,24,21,60,134,57.1,737,1605
+Amad Diallo,Manchester Utd,eng Premier League,"MF,FW",1901,8,4.7,4.7,6,4.9,2.23,0.8,109,60,200,83.8,49,4.2,31,11,49,19,46.6,782,1207
+Rúben Dias,Manchester City,eng Premier League,DF,2271,0,1.5,1.5,0,0.3,0.83,0.28,43,160,8,93.5,5,1.2,11,20,37,71,66.7,1775,2499
+Luis Díaz,Liverpool,eng Premier League,FW,2399,13,12.0,12.0,5,5.0,2.66,1.13,108,110,293,84.2,56,4.5,26,7,46,7,45.7,780,1184
+Tyler Dibling,Southampton,eng Premier League,"FW,MF",1874,2,2.5,2.5,0,1.5,1.34,0.43,69,64,96,81.3,20,1.5,20,8,42,16,40.9,558,868
+Eric Dier,Bayern Munich,de Bundesliga,DF,1463,2,1.1,1.1,1,0.1,0.55,0.31,12,73,1,93.8,3,1.2,11,20,39,77,66.7,944,1591
+Lucas Digne,Aston Villa,eng Premier League,DF,2351,0,0.8,0.8,4,4.7,0.5,0.11,23,57,142,74.9,36,4.0,38,25,90,89,47.4,683,1527
+Eren Dinkçi,Freiburg,de Bundesliga,"MF,FW",1196,0,1.1,1.1,3,2.2,1.05,0.23,33,35,71,75.4,23,1.2,13,7,28,7,41.0,269,552
+Issa Diop,Fulham,eng Premier League,DF,1339,0,0.5,0.5,0,0.1,0.34,0.13,6,25,3,87.5,3,0.1,12,9,35,72,50.0,533,903
+Ritsu Doan,Freiburg,de Bundesliga,"FW,MF",2862,10,6.6,6.6,7,3.7,1.92,0.66,64,130,178,71.8,27,5.9,42,14,80,47,44.1,827,1537
+Danilho Doekhi,Union Berlin,de Bundesliga,DF,3060,1,2.6,2.6,1,1.4,0.94,0.12,13,96,14,78.3,13,0.9,24,44,81,169,60.0,883,1654
+Matt Doherty,Wolves,eng Premier League,DF,2109,2,1.0,1.0,1,1.5,0.43,0.13,29,79,41,82.8,12,1.2,21,22,60,102,52.4,825,1534
+Jeremy Doku,Manchester City,eng Premier League,"FW,MF",1516,3,1.3,1.3,6,4.8,1.72,0.53,213,69,286,79.1,32,3.8,22,4,35,2,53.2,796,1027
+Nicolás Domínguez,Nott'ham Forest,eng Premier League,"MF,FW",1963,0,1.5,1.5,1,1.3,0.96,0.41,16,83,33,86.7,13,1.6,45,29,115,54,33.3,471,1218
+Patrick Dorgu,Manchester Utd,eng Premier League,DF,842,0,0.4,0.4,0,0.7,1.07,0.21,41,34,83,81.0,12,1.3,24,4,35,23,23.1,354,602
+Niklas Dorsch,Heidenheim,de Bundesliga,MF,1335,2,1.0,1.0,2,1.1,0.61,0.2,13,57,21,83.4,13,2.0,16,17,44,17,50.0,459,798
+Abdoulaye Doucouré,Everton,eng Premier League,MF,2564,3,4.1,4.1,2,2.4,1.09,0.32,42,82,96,80.3,28,1.4,28,10,58,20,53.3,604,1161
+Flynn Downes,Southampton,eng Premier League,MF,2151,1,0.6,0.6,0,1.1,0.42,0.13,29,66,29,90.4,15,1.4,25,32,81,51,40.0,641,1339
+Radu Drăgușin,Tottenham,eng Premier League,DF,1252,0,0.1,0.1,0,0.4,0.36,0.07,7,37,2,85.2,4,0.2,6,15,25,49,0.0,623,961
+Patrick Drewes,Bochum,de Bundesliga,GK,1890,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,65.7,0,0.0,0,0,0,11,,479,913
+Martin Dúbravka,Newcastle Utd,eng Premier League,GK,900,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,79.6,0,0.0,0,0,0,3,,202,350
+Marvin Ducksch,Werder Bremen,de Bundesliga,FW,2418,8,10.1,8.5,8,8.5,2.61,1.0,26,86,166,61.7,61,9.1,7,8,18,26,36.8,538,1105
+Lewis Dunk,Brighton,eng Premier League,DF,2083,0,0.8,0.8,0,0.5,0.52,0.13,20,142,3,91.0,6,1.0,10,13,30,79,0.0,1341,2127
+Jáder Durán,Aston Villa,eng Premier League,FW,638,7,4.9,4.9,0,0.2,4.37,2.12,7,13,44,70.6,4,0.3,7,0,8,13,21.4,133,263
+Ederson,Manchester City,eng Premier League,GK,2320,0,0.0,0.0,4,1.5,0.0,0.0,0,2,0,87.9,4,0.2,0,1,1,11,,654,975
+Johannes Eggestein,St. Pauli,de Bundesliga,FW,1853,3,4.7,3.1,4,2.1,1.65,0.49,25,43,138,73.9,24,1.3,3,0,5,8,41.2,384,713
+Maximilian Eggestein,Freiburg,de Bundesliga,MF,2845,2,2.0,2.0,0,1.5,1.14,0.32,34,141,41,83.5,19,2.5,32,39,96,54,45.8,813,1757
+Hugo Ekitike,Eint Frankfurt,de Bundesliga,FW,2563,15,21.6,19.3,8,6.8,4.0,1.55,93,53,215,75.5,44,5.4,12,7,23,24,43.7,633,1054
+Anthony Elanga,Nott'ham Forest,eng Premier League,"FW,MF",2501,6,4.5,4.5,11,5.7,1.58,0.86,102,63,229,65.3,50,5.1,14,6,25,25,30.1,600,1115
+Nico Elvedi,Gladbach,de Bundesliga,DF,2135,1,2.0,2.0,1,0.4,0.51,0.13,20,55,5,92.0,5,0.3,23,30,68,163,,953,1827
+Julio Enciso,Ipswich Town,eng Premier League,"MF,FW",869,2,1.7,1.7,3,1.4,3.31,1.14,23,28,44,69.0,13,1.1,9,1,13,6,45.5,205,406
+Christian Eriksen,Manchester Utd,eng Premier League,MF,1061,1,1.4,0.6,2,3.2,1.19,0.08,13,55,29,78.8,31,2.6,9,7,26,8,0.0,473,850
+Patrick Erras,Holstein Kiel,de Bundesliga,DF,832,1,0.9,0.9,0,0.1,0.87,0.11,3,25,1,92.0,3,0.2,5,9,17,64,,282,622
+Samuel Essende,Augsburg,de Bundesliga,FW,1636,7,4.2,4.2,2,1.3,2.42,0.72,33,21,118,64.8,11,1.4,6,0,7,11,26.9,347,564
+Pervis Estupiñán,Brighton,eng Premier League,DF,2402,1,1.2,1.2,1,2.1,1.05,0.34,59,132,112,83.1,26,2.5,43,37,102,65,55.9,1023,1915
+Evanilson,Bournemouth,eng Premier League,FW,2319,10,12.5,11.7,1,1.9,2.79,1.2,29,28,99,71.3,26,1.8,10,1,17,21,33.3,333,558
+Eberechi Eze,Crystal Palace,eng Premier League,"MF,FW",2588,8,10.5,8.9,8,6.2,3.48,0.94,69,97,153,74.2,58,4.7,22,11,50,10,48.6,840,1414
+Łukasz Fabiański,West Ham,eng Premier League,GK,1160,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,67.1,0,0.0,0,0,0,5,100.0,285,530
+Wout Faes,Leicester City,eng Premier League,DF,2815,1,1.5,1.5,0,0.1,0.38,0.03,12,86,1,88.0,4,0.4,26,26,68,185,83.3,1107,1906
+Bruno Fernandes,Manchester Utd,eng Premier League,MF,3018,8,9.9,7.6,10,8.5,2.77,0.78,77,325,129,76.1,91,8.0,50,26,110,35,41.8,1542,2649
+Mateus Fernandes,Southampton,eng Premier League,MF,2909,2,4.0,4.0,4,3.0,1.3,0.43,76,145,108,79.9,34,3.6,48,28,117,35,45.0,897,1760
+Enzo Fernández,Chelsea,eng Premier League,MF,2947,6,6.1,6.1,7,6.8,1.62,0.61,60,212,126,79.9,77,6.2,33,13,78,23,47.3,1211,2210
+Kilian Fischer,Wolfsburg,de Bundesliga,DF,2297,1,0.3,0.3,0,0.5,0.24,0.04,51,110,89,78.6,12,1.0,44,19,83,98,43.5,704,1529
+Mark Flekken,Brentford,eng Premier League,GK,3275,0,0.0,0.0,2,0.5,0.0,0.0,0,0,0,73.0,3,0.1,4,0,4,26,100.0,1122,1824
+Phil Foden,Manchester City,eng Premier League,"MF,FW",1777,7,5.2,5.2,2,4.8,2.73,0.81,50,103,128,84.1,43,5.3,5,9,22,7,32.6,722,1139
+Wesley Fofana,Chelsea,eng Premier League,DF,1172,0,0.4,0.4,0,0.4,0.23,0.0,19,32,4,90.2,6,0.2,12,14,27,55,53.3,557,933
+Jonas Föhrenbach,Heidenheim,de Bundesliga,DF,1832,0,0.3,0.3,1,1.3,0.39,0.05,36,59,50,72.5,14,2.1,24,16,61,57,41.2,521,1112
+Fraser Forster,Tottenham,eng Premier League,GK,630,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,84.8,0,0.0,0,0,0,7,100.0,113,228
+Marco Friedl,Werder Bremen,de Bundesliga,DF,2161,0,0.5,0.5,0,0.2,0.17,0.12,4,69,1,90.2,3,0.4,42,34,96,130,75.0,1069,1769
+Marvin Friedrich,Gladbach,de Bundesliga,DF,989,0,0.4,0.4,1,0.6,0.64,0.18,11,36,3,88.4,3,0.5,9,5,20,57,100.0,502,822
+Jeremie Frimpong,Leverkusen,de Bundesliga,"DF,MF",2314,5,4.1,4.1,5,4.2,1.32,0.62,100,55,272,76.1,30,4.7,25,8,41,22,32.1,673,1205
+Chris Führich,Stuttgart,de Bundesliga,"MF,FW",1981,2,2.9,2.9,3,3.7,1.64,0.55,114,95,202,80.5,32,6.0,10,6,21,19,47.1,782,1220
+Niclas Füllkrug,West Ham,eng Premier League,FW,790,3,2.2,2.2,2,1.9,1.82,0.8,7,14,31,67.2,14,0.4,3,1,5,16,12.5,123,277
+Cody Gakpo,Liverpool,eng Premier League,FW,1935,10,7.1,7.1,4,4.4,2.65,1.02,59,52,278,75.7,38,3.8,16,12,40,19,50.8,605,888
+Idrissa Gana Gueye,Everton,eng Premier League,MF,3063,0,1.1,1.1,3,1.7,0.79,0.15,27,145,27,86.5,19,2.0,80,48,181,36,46.2,861,1801
+Aleix García,Leverkusen,de Bundesliga,MF,1455,3,1.0,1.0,4,4.9,0.93,0.31,27,120,47,87.2,32,3.8,7,11,24,24,80.0,787,1503
+Alejandro Garnacho,Manchester Utd,eng Premier League,"MF,FW",2199,6,7.3,7.3,2,4.5,3.44,1.19,141,56,290,78.9,37,2.8,18,13,43,11,29.2,840,1159
+James Garner,Everton,eng Premier League,"MF,DF",1594,0,0.7,0.7,1,1.4,0.68,0.23,15,50,30,76.1,13,1.4,31,23,70,37,36.8,478,977
+Lutsharel Geertruida,RB Leipzig,de Bundesliga,DF,1557,1,1.1,1.1,0,1.0,0.46,0.06,21,93,34,86.7,10,1.6,24,16,51,59,50.0,642,1266
+Dennis Geiger,Hoffenheim,de Bundesliga,"MF,FW",734,0,0.2,0.2,0,0.5,0.61,0.12,12,37,21,87.3,11,0.7,11,7,31,6,50.0,259,441
+Valentin Gendrey,Hoffenheim,de Bundesliga,DF,1414,1,1.1,1.1,1,1.8,0.64,0.32,24,49,86,69.9,16,2.7,12,15,45,53,27.3,363,874
+Yannick Gerhardt,Wolfsburg,de Bundesliga,"MF,DF",1518,1,1.2,1.2,1,0.2,0.89,0.24,27,57,63,76.9,4,1.1,16,17,45,47,12.5,438,854
+Max Geschwill,Holstein Kiel,de Bundesliga,DF,1282,1,0.9,0.9,2,0.8,0.63,0.14,6,58,16,74.3,10,0.9,21,30,56,53,40.0,379,827
+Dimitris Giannoulis,Augsburg,de Bundesliga,DF,2650,1,1.1,1.1,4,4.2,0.44,0.14,60,104,164,74.7,42,5.4,32,47,94,75,35.4,845,1802
+Morgan Gibbs-White,Nott'ham Forest,eng Premier League,MF,2803,7,6.3,6.3,8,5.0,1.96,0.67,69,164,137,78.3,51,4.7,22,23,66,29,40.3,923,1627
+Armin Gigovic,Holstein Kiel,de Bundesliga,MF,1895,5,1.9,1.9,1,2.1,1.23,0.47,37,50,45,77.7,16,1.7,13,21,46,33,36.4,476,935
+Benedikt Gimber,Heidenheim,de Bundesliga,DF,2671,0,0.7,0.7,0,0.3,0.47,0.03,7,46,8,82.5,3,0.5,46,31,103,131,50.0,865,1643
+Matthias Ginter,Freiburg,de Bundesliga,DF,2561,2,2.8,2.8,1,0.7,0.84,0.14,11,113,16,82.6,9,1.5,17,19,49,146,66.7,991,1816
+Jamie Gittens,Dortmund,de Bundesliga,"FW,MF",1776,8,3.6,3.6,3,2.5,2.64,1.22,113,42,180,76.5,21,4.1,19,10,41,4,45.0,627,873
+Serge Gnabry,Bayern Munich,de Bundesliga,"FW,MF",1242,7,7.5,6.8,5,5.1,3.48,1.23,44,48,149,83.4,24,4.3,11,6,26,9,45.0,468,758
+João Gomes,Wolves,eng Premier League,MF,2974,3,2.9,2.9,1,1.2,1.06,0.21,59,165,76,85.0,23,1.9,71,25,141,33,46.2,1059,1998
+Rodrigo Gomes,Wolves,eng Premier League,"DF,FW",810,2,0.7,0.7,0,0.9,0.78,0.33,23,27,81,68.6,12,0.7,15,7,30,20,33.3,217,417
+Toti Gomes,Wolves,eng Premier League,DF,2614,0,0.7,0.7,1,0.9,0.24,0.07,27,86,18,85.9,9,0.6,43,25,86,152,62.5,1205,2027
+Nicolás González,Manchester City,eng Premier League,MF,760,1,0.5,0.5,0,0.1,1.07,0.24,9,50,11,92.0,1,0.5,6,8,24,21,16.7,425,713
+Anthony Gordon,Newcastle Utd,eng Premier League,"FW,MF",2434,6,8.0,6.5,5,5.0,2.11,0.59,121,98,214,73.3,51,5.1,18,7,39,9,36.9,818,1267
+Leon Goretzka,Bayern Munich,de Bundesliga,"MF,DF",1325,4,2.8,2.8,1,1.7,2.17,0.75,35,127,28,89.9,12,2.4,11,20,41,25,87.5,794,1373
+Mario Götze,Eint Frankfurt,de Bundesliga,"MF,FW",1542,3,2.9,2.9,2,3.1,0.47,0.29,29,88,96,77.5,34,1.9,28,7,48,8,39.1,617,986
+Jeffrey Gouweleeuw,Augsburg,de Bundesliga,DF,2944,1,1.7,0.9,4,2.2,0.52,0.12,24,142,19,82.6,14,3.0,28,35,85,183,58.3,1169,2061
+Kamil Grabara,Wolfsburg,de Bundesliga,GK,2585,0,0.0,0.0,0,0.0,0.0,0.0,0,2,0,69.4,2,0.1,0,0,0,16,100.0,708,1224
+Ryan Gravenberch,Liverpool,eng Premier League,MF,3160,0,1.1,1.1,4,3.1,0.57,0.14,70,181,55,89.2,26,3.5,35,60,129,59,45.7,1396,2343
+Archie Gray,Tottenham,eng Premier League,"DF,MF",1751,0,0.0,0.0,0,0.1,0.05,0.05,7,40,17,87.4,3,0.2,8,19,35,50,53.8,878,1286
+Jack Grealish,Manchester City,eng Premier League,"FW,MF",721,1,1.1,1.1,1,1.8,1.87,0.62,69,52,118,87.6,24,1.7,5,2,11,6,44.8,376,521
+Jacob Greaves,Ipswich Town,eng Premier League,DF,2205,1,1.3,1.3,0,0.3,0.41,0.16,11,69,11,85.8,5,0.2,21,21,61,148,66.7,619,1404
+Michael Gregoritsch,Freiburg,de Bundesliga,FW,639,2,1.8,1.8,1,0.4,2.25,0.85,6,19,36,63.3,5,0.7,2,1,5,10,57.1,94,220
+Vincenzo Grifo,Freiburg,de Bundesliga,"FW,MF",2432,8,7.9,5.6,11,6.9,2.33,0.96,58,128,147,76.7,66,8.0,22,9,39,23,55.6,939,1768
+Florian Grillitsch,Hoffenheim,de Bundesliga,MF,601,0,0.2,0.2,0,0.2,0.9,0.15,4,44,4,86.6,5,0.8,9,8,23,18,41.7,270,488
+Álex Grimaldo,Leverkusen,de Bundesliga,DF,2636,2,2.5,2.5,7,8.1,1.5,0.44,86,160,252,81.2,73,8.6,14,16,40,43,40.0,1310,2365
+Pascal Groß,Dortmund,de Bundesliga,"MF,DF",2327,0,2.4,2.4,9,5.1,1.04,0.27,41,178,122,80.7,57,6.4,28,9,53,30,33.3,1149,2178
+Brajan Gruda,Brighton,eng Premier League,"MF,FW",687,1,1.2,1.2,4,2.1,1.44,0.66,22,26,57,74.5,23,1.9,8,2,18,5,43.3,202,344
+Marco Grüll,Werder Bremen,de Bundesliga,"FW,MF",1181,6,4.0,4.0,1,1.8,1.91,0.76,24,38,93,76.8,11,1.5,9,3,15,10,33.3,317,495
+Gonçalo Guedes,Wolves,eng Premier League,"MF,FW",995,2,3.2,3.2,4,1.3,2.44,0.72,41,40,79,74.2,14,0.9,5,5,21,4,32.1,304,484
+Marc Guéhi,Crystal Palace,eng Premier League,DF,3059,3,2.0,2.0,2,1.8,0.44,0.21,22,134,10,83.5,16,2.0,34,28,89,163,80.0,1142,2131
+Raphaël Guerreiro,Bayern Munich,de Bundesliga,"DF,MF",1572,4,2.9,2.9,4,2.9,1.2,0.63,39,85,126,88.7,27,4.7,12,10,29,19,50.0,820,1487
+Morgan Guilavogui,St. Pauli,de Bundesliga,"FW,MF",1807,6,7.1,7.1,2,1.9,2.04,0.75,42,41,135,65.9,27,2.4,17,13,45,33,43.8,384,832
+Bruno Guimarães,Newcastle Utd,eng Premier League,MF,3271,5,4.3,4.3,6,6.1,1.24,0.36,64,271,96,82.4,52,5.4,47,29,112,44,43.6,1400,2213
+Serhou Guirassy,Dortmund,de Bundesliga,FW,2598,21,22.7,19.6,4,3.9,2.98,1.14,25,43,128,72.7,25,3.1,6,4,11,38,28.2,528,965
+Péter Gulácsi,RB Leipzig,de Bundesliga,GK,2631,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,82.1,0,0.0,1,0,1,16,,518,994
+İlkay Gündoğan,Manchester City,eng Premier League,MF,2223,1,3.2,3.2,6,3.5,1.09,0.28,64,127,96,89.5,44,4.4,13,13,38,23,41.5,1118,1892
+Christian Günter,Freiburg,de Bundesliga,DF,2314,2,0.8,0.6,2,2.5,0.82,0.23,19,52,109,74.5,28,4.2,21,8,31,50,33.3,559,1304
+Malo Gusto,Chelsea,eng Premier League,DF,1862,0,1.7,1.7,1,1.4,1.06,0.19,50,119,85,86.5,22,1.9,29,24,69,49,25.0,882,1595
+Joško Gvardiol,Manchester City,eng Premier League,DF,3277,5,4.6,4.3,0,2.1,1.1,0.33,91,264,121,90.2,26,2.9,39,44,102,122,58.1,1997,3103
+Erling Haaland,Manchester City,eng Premier League,FW,2736,22,22.0,18.8,3,3.0,3.42,1.81,24,20,124,66.9,29,2.0,6,5,16,23,36.1,310,639
+Janik Haberer,Union Berlin,de Bundesliga,"MF,DF",1696,0,0.7,0.7,0,0.8,0.8,0.16,13,59,22,77.0,7,1.9,29,17,56,37,33.3,444,911
+Robin Hack,Gladbach,de Bundesliga,"FW,MF",2172,4,5.4,5.4,7,3.6,2.44,0.99,51,95,141,76.2,32,3.8,17,9,31,28,39.7,684,1186
+Amadou Haidara,RB Leipzig,de Bundesliga,MF,1320,0,1.4,1.4,1,0.9,1.23,0.07,7,65,24,80.2,5,1.2,17,18,48,56,58.3,505,1100
+Lewis Hall,Newcastle Utd,eng Premier League,DF,2189,0,0.4,0.4,4,4.3,0.45,0.04,41,123,80,81.7,34,3.7,41,18,76,75,52.4,950,1820
+Andreas Hanche-Olsen,Mainz 05,de Bundesliga,DF,1284,1,0.8,0.8,1,0.3,0.84,0.14,2,34,5,82.6,3,0.6,13,12,33,85,100.0,394,812
+Phil Harres,Holstein Kiel,de Bundesliga,FW,1544,8,5.9,5.9,1,1.3,2.16,0.99,12,16,71,56.6,10,1.1,10,5,15,20,20.8,240,481
+Jack Harrison,Everton,eng Premier League,FW,2076,1,3.5,3.5,0,3.7,1.26,0.3,73,51,127,62.8,33,3.1,22,10,42,35,32.0,524,948
+Taylor Harwood-Bellis,Southampton,eng Premier League,DF,2825,1,1.8,1.8,0,1.0,0.64,0.25,29,125,9,87.4,14,0.7,20,30,58,141,100.0,1433,2475
+Kai Havertz,Arsenal,eng Premier League,"FW,MF",1875,9,9.5,9.5,3,2.4,2.54,1.01,35,61,113,78.4,17,1.7,9,6,22,33,23.7,418,785
+Jan Paul van Hecke,Brighton,eng Premier League,DF,2958,1,1.3,1.3,1,1.5,0.52,0.15,55,228,5,88.2,15,1.4,29,24,69,142,45.5,1715,2589
+Hwang Hee-chan,Wolves,eng Premier League,"MF,FW",661,2,0.8,0.8,0,0.1,0.68,0.41,15,12,42,81.4,3,0.3,4,2,8,11,14.3,159,271
+Dean Henderson,Crystal Palace,eng Premier League,GK,3420,0,0.0,0.0,0,0.2,0.03,0.0,0,0,0,61.3,3,0.1,1,0,2,22,,751,1308
+Ramon Hendriks,Stuttgart,de Bundesliga,DF,1154,0,0.6,0.6,1,1.0,0.39,0.08,8,36,22,83.7,6,1.5,9,19,39,63,55.6,418,839
+Benjamin Henrichs,RB Leipzig,de Bundesliga,DF,935,0,0.5,0.4,2,1.4,1.06,0.1,9,29,55,75.6,11,2.0,16,15,47,33,69.2,290,606
+Mads Hermansen,Leicester City,eng Premier League,GK,2385,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,61.0,0,0.0,1,0,1,13,100.0,734,1147
+Son Heung-min,Tottenham,eng Premier League,FW,2110,7,7.2,5.7,9,8.2,2.35,1.02,96,111,265,78.9,50,5.1,9,5,22,17,34.9,761,1134
+Piero Hincapié,Leverkusen,de Bundesliga,DF,2670,2,2.9,2.9,2,3.2,0.74,0.1,52,152,72,87.9,16,3.5,40,32,84,114,29.4,1366,2456
+Jack Hinshelwood,Brighton,eng Premier League,"MF,DF",1842,5,2.7,2.7,2,1.5,0.88,0.49,19,68,54,83.2,17,1.5,19,16,43,37,18.2,590,1199
+George Hirst,Ipswich Town,eng Premier League,FW,661,3,2.1,2.1,1,0.3,1.91,0.95,9,13,31,56.6,4,0.3,3,2,5,10,33.3,101,188
+Adam Hložek,Hoffenheim,de Bundesliga,"FW,MF",1871,8,5.6,5.6,4,3.5,2.84,1.15,54,68,102,68.5,20,3.2,10,4,26,20,51.6,429,761
+Nicolas Höfler,Freiburg,de Bundesliga,MF,794,0,0.2,0.2,0,0.1,0.45,0.0,1,30,3,86.4,3,0.4,23,14,47,28,100.0,199,482
+Philipp Hofmann,Bochum,de Bundesliga,FW,2277,3,5.5,5.5,3,3.3,2.13,0.75,8,53,112,63.5,26,2.6,12,4,21,33,50.0,486,938
+Lucas Höler,Freiburg,de Bundesliga,"FW,MF",1867,6,7.7,6.9,4,2.9,1.64,0.82,21,47,122,65.5,22,1.7,24,7,44,36,52.9,395,854
+Benedict Hollerbach,Union Berlin,de Bundesliga,"FW,MF",2540,9,7.0,7.0,1,1.6,2.69,0.85,103,68,214,65.4,26,2.3,22,2,45,13,36.5,710,1112
+Lewis Holtby,Holstein Kiel,de Bundesliga,MF,1238,0,0.5,0.5,1,1.5,0.51,0.0,14,47,34,76.5,21,1.8,20,21,55,26,46.7,372,847
+Gerrit Holtmann,Bochum,de Bundesliga,"DF,FW",1136,2,2.0,2.0,1,2.9,2.46,0.63,50,33,97,65.7,20,2.8,19,16,40,15,30.0,336,571
+Franck Honorat,Gladbach,de Bundesliga,FW,1439,4,4.5,4.5,7,5.3,1.94,0.56,63,45,124,67.5,50,4.9,7,5,22,28,37.5,373,762
+Mathias Honsak,Heidenheim,de Bundesliga,"FW,DF",1181,5,3.3,3.3,1,1.6,2.21,0.76,37,29,58,70.1,14,1.9,8,10,25,31,39.1,338,646
+Timo Horn,Bochum,de Bundesliga,GK,1170,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,56.9,1,0.1,0,0,0,9,,285,535
+Lukáš Hrádecký,Leverkusen,de Bundesliga,GK,2610,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,75.3,0,0.0,0,0,0,8,,538,962
+Callum Hudson-Odoi,Nott'ham Forest,eng Premier League,"FW,MF",2194,5,2.5,2.5,2,2.7,1.52,0.7,130,71,189,82.0,44,2.6,14,13,35,12,58.7,641,1035
+Will Hughes,Crystal Palace,eng Premier League,MF,2108,0,1.1,1.1,3,3.1,0.94,0.04,20,87,27,76.0,33,2.6,36,22,88,28,31.3,532,1203
+Dean Huijsen,Bournemouth,eng Premier League,DF,2427,3,1.9,1.9,2,2.0,0.67,0.11,41,132,10,83.4,15,1.6,26,51,87,198,40.0,1118,2021
+Omari Hutchinson,Ipswich Town,eng Premier League,"MF,FW",2583,3,2.9,2.9,2,3.5,1.57,0.63,97,75,159,78.0,31,2.5,13,11,43,15,37.2,779,1259
+Oscar Højlund,Eint Frankfurt,de Bundesliga,MF,722,1,1.0,1.0,0,1.1,0.75,0.25,17,49,9,88.0,6,0.3,12,5,26,11,72.7,291,497
+Rasmus Højlund,Manchester Utd,eng Premier League,FW,2004,4,5.3,5.3,0,1.8,1.44,0.58,28,18,101,74.7,16,1.1,1,2,5,6,27.3,308,515
+Igor,Brighton,eng Premier League,DF,961,0,0.0,0.0,0,0.2,0.09,0.0,9,49,1,91.9,2,0.3,5,4,9,39,83.3,530,816
+Andrej Ilic,Union Berlin,de Bundesliga,FW,937,7,4.9,4.1,0,0.3,2.59,1.06,5,13,59,57.6,6,0.2,2,5,7,6,14.3,151,302
+Jackson Irvine,St. Pauli,de Bundesliga,MF,2610,0,3.2,3.0,6,3.9,1.41,0.41,19,117,58,70.6,32,2.5,28,36,92,63,39.1,464,1286
+Alexander Isak,Newcastle Utd,eng Premier League,FW,2756,23,20.3,17.2,6,4.3,3.1,1.34,83,88,217,75.3,41,3.6,5,3,15,17,46.2,615,1025
+Ko Itakura,Gladbach,de Bundesliga,DF,2790,3,1.6,1.6,0,0.8,0.68,0.23,23,69,5,89.0,7,1.5,29,28,68,171,52.2,1326,2170
+Marko Ivezić,Holstein Kiel,de Bundesliga,DF,1657,0,0.6,0.6,0,0.2,0.38,0.0,3,40,9,86.0,4,0.3,19,27,56,103,57.1,596,1176
+Alex Iwobi,Fulham,eng Premier League,"FW,MF",2981,9,4.7,4.7,6,7.0,2.05,0.88,144,213,246,75.1,59,7.0,25,14,58,29,49.5,1312,1861
+Nicolas Jackson,Chelsea,eng Premier League,FW,2220,10,12.3,12.3,5,4.3,3.08,1.38,47,38,129,75.9,28,1.9,13,3,25,15,29.5,417,687
+Lee Jae-sung,Mainz 05,de Bundesliga,MF,2650,7,5.3,5.3,6,5.0,1.36,0.51,28,105,165,77.5,34,4.7,21,35,77,38,36.7,699,1385
+Kristijan Jakić,Augsburg,de Bundesliga,MF,2306,0,0.8,0.8,1,1.2,0.7,0.16,24,106,49,82.9,16,1.8,23,28,74,50,48.3,703,1361
+Reece James,Chelsea,eng Premier League,"DF,MF",1063,1,0.4,0.4,1,0.7,0.93,0.25,7,64,12,84.0,11,1.2,9,13,23,23,41.2,486,952
+Vitaly Janelt,Brentford,eng Premier League,MF,2254,1,0.8,0.8,3,2.2,0.56,0.16,17,80,38,82.5,14,2.4,22,27,65,53,25.0,651,1289
+Finn Jeltsch,Stuttgart,de Bundesliga,DF,780,0,0.1,0.1,0,0.1,0.23,0.0,8,31,5,91.1,2,0.3,13,13,31,27,66.7,476,727
+Fredrik Jensen,Augsburg,de Bundesliga,MF,763,0,0.7,0.7,0,0.7,1.3,0.0,16,20,58,69.5,11,0.6,7,4,11,17,53.8,190,318
+Mathias Jensen,Brentford,eng Premier League,MF,862,0,0.2,0.2,2,1.7,0.63,0.1,6,61,27,74.7,16,1.7,10,8,22,13,52.9,300,573
+Moritz Jenz,Mainz 05,de Bundesliga,DF,1600,0,1.6,1.6,0,0.3,0.56,0.23,1,47,3,84.3,3,0.4,20,30,66,128,40.0,510,1098
+Gabriel Jesus,Arsenal,eng Premier League,FW,608,3,3.0,3.0,0,0.7,2.96,1.04,15,19,57,76.8,8,0.5,6,4,14,8,40.9,179,299
+Raúl Jiménez,Fulham,eng Premier League,FW,2494,12,12.0,9.6,3,3.3,3.36,1.08,35,62,125,71.2,24,2.1,24,10,45,23,42.0,549,999
+João Pedro,Brighton,eng Premier League,"FW,MF",1948,10,8.9,5.0,6,5.0,1.94,0.69,66,78,128,72.9,30,3.1,12,9,25,12,33.7,616,940
+Joelinton,Newcastle Utd,eng Premier League,"MF,FW",2393,4,3.9,3.9,3,2.5,1.69,0.49,40,116,110,82.7,23,2.3,35,23,80,47,32.6,729,1360
+Ben Johnson,Ipswich Town,eng Premier League,"DF,FW",1354,1,1.1,1.1,2,1.3,0.47,0.2,16,27,33,71.6,12,0.9,22,13,51,54,33.3,259,626
+Brennan Johnson,Tottenham,eng Premier League,FW,2177,11,10.4,10.4,3,2.3,2.23,0.83,60,71,197,70.4,19,2.0,26,4,43,14,43.2,544,853
+Sam Johnstone,Wolves,eng Premier League,GK,630,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,66.2,1,0.0,0,0,0,7,,196,306
+Curtis Jones,Liverpool,eng Premier League,"MF,DF",1712,3,4.3,4.3,3,1.1,1.79,0.68,30,117,79,93.1,22,1.6,22,7,46,10,54.5,789,1288
+Jorginho,Arsenal,eng Premier League,MF,704,0,0.1,0.1,0,0.4,0.26,0.0,12,48,6,86.7,3,0.6,4,7,19,2,25.0,302,522
+Diogo Jota,Liverpool,eng Premier League,FW,1196,6,7.9,7.9,3,1.8,3.84,0.98,37,34,88,69.7,11,1.1,8,8,22,6,33.3,263,485
+Anthony Jung,Werder Bremen,de Bundesliga,DF,1898,0,0.0,0.0,0,0.1,0.05,0.0,20,121,6,89.6,2,0.5,22,25,59,77,77.8,1044,1695
+Josip Juranović,Union Berlin,de Bundesliga,"DF,MF",1159,0,0.3,0.3,1,1.8,0.47,0.16,19,52,45,64.5,27,2.7,13,7,28,42,45.8,307,709
+David Jurásek,Hoffenheim,de Bundesliga,DF,619,0,0.1,0.1,1,0.9,0.73,0.29,17,22,42,69.9,7,0.9,3,6,12,17,25.0,238,499
+James Justin,Leicester City,eng Premier League,DF,2912,2,1.5,1.5,2,0.8,0.77,0.19,39,91,96,78.2,14,0.8,37,46,104,141,30.0,866,1948
+Pavel Kadeřábek,Hoffenheim,de Bundesliga,DF,1576,2,0.8,0.8,0,2.0,0.8,0.17,15,47,86,70.1,21,1.7,14,20,45,54,62.5,456,1016
+Daichi Kamada,Crystal Palace,eng Premier League,MF,1564,0,1.1,1.1,0,1.9,1.15,0.23,25,89,56,80.2,20,1.6,29,18,65,14,36.8,485,937
+Boubacar Kamara,Aston Villa,eng Premier League,MF,1726,1,0.8,0.8,0,0.9,0.52,0.16,19,85,7,88.6,11,0.8,21,19,69,51,33.3,591,1113
+Jakub Kamiński,Wolfsburg,de Bundesliga,"DF,MF",1130,0,0.9,0.9,2,3.3,1.19,0.24,41,40,69,70.4,24,3.6,8,13,30,23,36.4,301,603
+Kevin Kampl,RB Leipzig,de Bundesliga,MF,1593,1,0.8,0.8,0,1.4,0.4,0.11,21,106,32,89.0,16,2.7,18,24,51,25,68.4,793,1316
+Harry Kane,Bayern Munich,de Bundesliga,FW,2381,26,20.3,13.3,9,5.3,3.97,1.7,29,97,143,78.9,35,5.6,11,2,15,16,43.4,513,917
+Atakan Karazor,Stuttgart,de Bundesliga,MF,2618,2,2.3,2.0,4,2.6,0.48,0.24,19,140,33,86.6,15,2.5,29,32,91,51,57.1,1112,2124
+Michael Keane,Everton,eng Premier League,DF,1049,3,0.6,0.6,0,0.1,0.86,0.34,1,14,3,82.8,2,0.0,9,16,28,65,0.0,229,513
+Caoimhín Kelleher,Liverpool,eng Premier League,GK,900,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,75.7,0,0.0,0,0,0,1,100.0,290,398
+Aljoscha Kemlein,Union Berlin,de Bundesliga,MF,922,1,0.9,0.9,0,0.6,1.07,0.29,5,42,19,75.5,10,0.7,4,6,16,15,66.7,260,549
+Luca Kerber,Heidenheim,de Bundesliga,"MF,DF",783,2,0.6,0.6,0,0.7,0.8,0.57,1,16,12,73.7,6,0.4,16,5,31,25,20.0,175,364
+Milos Kerkez,Bournemouth,eng Premier League,DF,3336,2,0.6,0.5,5,3.9,0.51,0.13,106,159,197,75.8,35,2.6,26,45,97,106,45.8,1094,2158
+Bilal El Khannouss,Leicester City,eng Premier League,"MF,FW",2182,2,1.3,1.3,3,4.6,1.24,0.29,73,128,89,75.1,42,3.1,30,6,56,10,56.7,732,1268
+Rani Khedira,Union Berlin,de Bundesliga,MF,2723,1,1.4,1.4,1,0.6,0.46,0.03,12,80,34,73.7,12,1.0,40,44,112,55,45.5,506,1246
+Max Kilman,West Ham,eng Premier League,DF,3348,0,1.6,1.6,1,1.2,0.35,0.05,31,113,6,86.7,16,1.2,24,38,77,212,72.7,1270,2374
+Joshua Kimmich,Bayern Munich,de Bundesliga,MF,2847,3,1.8,1.8,7,7.4,1.07,0.32,51,362,77,89.5,83,10.5,29,25,72,34,54.5,2399,3867
+Jakub Kiwior,Arsenal,eng Premier League,DF,1122,1,0.2,0.2,0,0.3,0.24,0.08,5,48,1,91.4,5,0.3,8,6,28,58,60.0,492,846
+Tim Kleindienst,Gladbach,de Bundesliga,FW,2737,16,13.6,11.9,7,6.2,2.4,1.18,45,63,145,60.9,29,4.0,15,12,42,66,37.8,545,1149
+Lukas Klostermann,RB Leipzig,de Bundesliga,DF,1838,1,0.3,0.3,0,0.1,0.2,0.1,16,83,26,88.4,2,0.7,14,24,51,143,80.0,752,1472
+Justin Kluivert,Bournemouth,eng Premier League,MF,2340,12,10.3,5.6,6,4.8,2.19,0.88,81,105,173,74.4,45,3.7,11,14,37,24,41.4,646,1086
+Ansgar Knauff,Eint Frankfurt,de Bundesliga,"MF,DF",1597,4,4.9,4.9,5,5.2,1.69,0.51,53,58,146,66.7,27,4.5,22,12,53,24,46.4,435,775
+Magnus Knudsen,Holstein Kiel,de Bundesliga,MF,1850,0,0.7,0.7,1,1.3,0.58,0.19,16,54,25,84.0,8,2.0,29,12,60,44,56.3,488,987
+Gregor Kobel,Dortmund,de Bundesliga,GK,2880,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,80.0,1,0.0,0,1,1,23,100.0,831,1312
+Robin Koch,Eint Frankfurt,de Bundesliga,DF,2586,3,1.7,1.7,0,0.2,0.52,0.21,9,93,4,90.7,7,0.5,11,25,49,197,33.3,1244,2148
+Derrick Köhn,Werder Bremen,de Bundesliga,"DF,FW",1343,2,0.7,0.7,2,1.6,0.87,0.27,36,39,122,79.3,16,2.0,10,10,30,26,36.6,549,908
+Dominik Kohr,Mainz 05,de Bundesliga,"DF,MF",2295,2,1.6,1.6,0,0.6,0.51,0.2,26,101,31,81.1,11,1.7,46,42,104,127,55.6,835,1693
+Marco Komenda,Holstein Kiel,de Bundesliga,DF,1307,0,0.1,0.1,0,0.8,0.21,0.0,13,53,16,78.8,9,0.8,17,6,32,68,100.0,440,905
+Mert Kömür,Augsburg,de Bundesliga,MF,654,2,1.1,1.1,1,1.5,1.79,0.96,18,11,46,71.9,13,1.3,2,3,6,7,54.5,185,313
+Ibrahima Konaté,Liverpool,eng Premier League,DF,2560,1,1.7,1.7,2,1.0,0.67,0.11,25,115,3,90.2,10,0.9,26,17,57,133,50.0,1290,2185
+Ezri Konsa,Aston Villa,eng Premier League,DF,2936,2,1.3,1.3,0,0.4,0.34,0.15,24,90,11,92.9,6,0.6,18,24,58,114,44.4,1132,1915
+Henri Koudossou,Augsburg,de Bundesliga,DF,748,0,0.1,0.1,0,0.8,0.24,0.0,19,23,48,78.8,10,0.8,10,15,33,37,47.1,220,469
+Konstantinos Koulierakis,Wolfsburg,de Bundesliga,DF,2468,0,1.0,1.0,2,1.0,0.8,0.11,20,104,8,83.0,10,0.8,20,33,73,147,58.3,1049,1886
+Mateo Kovačić,Manchester City,eng Premier League,MF,2198,6,1.9,1.9,2,3.6,1.84,0.49,56,164,16,92.6,33,3.2,38,24,93,21,53.7,1445,2123
+Andrej Kramarić,Hoffenheim,de Bundesliga,"MF,FW",2767,11,11.8,9.5,8,4.3,2.15,0.75,75,143,202,77.7,49,5.7,8,7,22,11,42.6,938,1554
+Frans Krätzig,Heidenheim,de Bundesliga,"DF,MF",1217,1,0.6,0.6,2,1.8,0.67,0.22,25,37,57,75.9,28,1.8,18,17,49,15,45.0,372,676
+Tom Krauß,Bochum,de Bundesliga,MF,1077,0,0.4,0.4,0,0.7,0.92,0.17,16,84,20,80.0,12,1.0,18,11,46,19,52.2,430,768
+Rasmus Kristensen,Eint Frankfurt,de Bundesliga,DF,2513,5,2.5,2.5,3,3.1,0.86,0.29,51,172,162,77.7,20,4.8,33,20,79,97,44.9,1084,1955
+Lukas Kübler,Freiburg,de Bundesliga,DF,1842,5,2.7,2.7,1,0.8,0.88,0.49,24,78,49,77.1,11,1.1,21,53,93,61,0.0,519,1268
+Mohammed Kudus,West Ham,eng Premier League,"FW,MF",2590,5,6.9,6.9,3,3.1,2.61,0.73,98,79,216,83.6,31,2.7,23,4,42,8,44.2,842,1274
+Dejan Kulusevski,Tottenham,eng Premier League,"MF,FW",2389,7,4.2,4.2,4,6.2,1.77,0.64,120,124,210,73.7,65,3.9,23,13,58,10,32.5,823,1276
+Nediljko Labrović,Augsburg,de Bundesliga,GK,1350,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,70.2,0,0.1,0,0,0,12,,306,546
+Maxence Lacroix,Crystal Palace,eng Premier League,DF,3116,1,3.4,3.4,1,1.0,0.87,0.14,8,65,7,81.7,8,1.0,41,54,122,207,57.1,1030,1934
+Konrad Laimer,Bayern Munich,de Bundesliga,DF,1699,2,2.1,2.1,2,2.7,0.95,0.32,87,141,113,87.8,20,3.2,27,8,57,24,56.7,816,1421
+Stefan Lainer,Gladbach,de Bundesliga,DF,757,1,0.3,0.3,0,1.0,0.48,0.12,25,25,32,77.4,9,0.4,13,12,34,30,50.0,288,565
+Tariq Lamptey,Brighton,eng Premier League,DF,860,2,0.4,0.4,2,0.8,0.63,0.21,32,14,45,81.1,5,0.8,11,7,24,23,32.3,292,535
+Hugo Larsson,Eint Frankfurt,de Bundesliga,MF,2393,3,3.1,3.1,1,2.1,0.79,0.38,16,121,33,86.9,21,1.9,27,30,77,35,63.2,803,1478
+Roméo Lavia,Chelsea,eng Premier League,MF,797,0,0.3,0.3,1,0.7,0.23,0.0,3,31,7,91.7,7,0.4,13,16,38,10,62.5,295,493
+Diogo Leite,Union Berlin,de Bundesliga,DF,2546,1,1.4,1.4,2,1.0,0.64,0.28,20,116,16,78.6,13,2.4,32,57,121,162,66.7,853,1803
+Maxim Leitsch,Mainz 05,de Bundesliga,DF,674,1,1.2,1.2,0,0.2,0.8,0.13,4,25,5,78.1,2,0.2,4,10,22,42,0.0,173,473
+Mario Lemina,Wolves,eng Premier League,"MF,DF",1364,1,1.4,1.4,3,1.1,1.19,0.33,8,48,21,80.4,10,1.2,31,27,78,50,62.5,382,809
+Bernd Leno,Fulham,eng Premier League,GK,3420,0,0.0,0.0,1,0.1,0.0,0.0,0,0,0,81.8,2,0.1,2,0,2,11,,955,1479
+Jefferson Lerma,Crystal Palace,eng Premier League,"MF,DF",2274,0,1.1,1.1,1,1.6,1.03,0.32,13,97,26,75.3,10,1.7,17,42,77,80,53.8,649,1406
+Jamie Leweling,Stuttgart,de Bundesliga,"MF,FW",1663,2,1.6,1.6,2,3.8,1.57,0.87,55,51,164,70.5,25,3.3,6,11,27,17,50.0,540,801
+Rico Lewis,Manchester City,eng Premier League,"DF,MF",1893,1,1.4,1.4,2,0.3,0.48,0.1,39,107,78,91.5,7,1.0,19,13,43,45,42.9,865,1477
+Keane Lewis-Potter,Brentford,eng Premier League,"DF,FW",3093,1,3.1,3.1,3,3.2,0.81,0.41,98,98,156,77.1,26,4.9,27,21,70,76,40.6,868,1613
+Myles Lewis-Skelly,Arsenal,eng Premier League,DF,1369,1,0.2,0.2,0,0.4,0.2,0.07,37,71,37,91.2,8,0.5,14,7,29,27,42.9,526,905
+Philipp Lienhart,Freiburg,de Bundesliga,DF,2770,1,0.5,0.5,0,0.8,0.26,0.03,44,138,9,86.2,6,1.0,13,36,58,124,40.0,1444,2520
+Matthijs de Ligt,Manchester Utd,eng Premier League,DF,2123,2,2.5,2.5,0,0.3,0.76,0.38,7,55,6,89.9,6,0.3,22,33,63,96,50.0,1078,1608
+Victor Lindelöf,Manchester Utd,eng Premier League,DF,704,0,0.0,0.0,0,0.1,0.0,0.0,5,26,4,93.8,3,0.1,2,8,15,36,,263,452
+Jesper Lindstrøm,Everton,eng Premier League,FW,1239,0,2.1,2.1,1,2.0,2.03,0.73,30,25,81,69.4,19,2.0,25,12,57,17,18.6,302,625
+Valentino Livramento,Newcastle Utd,eng Premier League,DF,2840,0,0.3,0.3,1,2.6,0.19,0.06,83,158,119,85.4,25,2.7,36,23,77,108,44.6,1023,1964
+Sean Longstaff,Newcastle Utd,eng Premier League,MF,798,0,0.6,0.6,0,0.2,0.68,0.11,4,40,22,84.5,4,0.2,16,7,34,8,28.6,248,434
+Anthony Losilla,Bochum,de Bundesliga,MF,1137,0,0.1,0.1,0,0.4,0.4,0.0,3,45,11,76.6,7,0.7,16,18,48,27,20.0,223,547
+Castello Lukeba,RB Leipzig,de Bundesliga,DF,1577,0,0.4,0.4,0,0.2,0.23,0.06,18,80,23,85.1,4,0.5,17,17,48,74,62.5,806,1445
+Saša Lukić,Fulham,eng Premier League,MF,2344,0,1.2,1.2,2,2.7,0.69,0.08,39,98,33,87.3,26,1.4,39,28,96,35,47.1,825,1493
+Senne Lynen,Werder Bremen,de Bundesliga,MF,2733,0,1.1,1.1,1,0.6,0.79,0.1,9,91,28,82.9,8,1.1,39,65,137,75,42.9,849,1717
+Ian Maatsen,Aston Villa,eng Premier League,DF,1139,1,0.9,0.9,2,2.7,1.5,0.4,31,50,104,81.5,19,2.4,17,15,44,39,44.8,505,917
+Alexis Mac Allister,Liverpool,eng Premier League,MF,2599,5,2.8,2.8,5,4.7,1.32,0.45,36,177,80,83.5,45,5.6,58,22,117,29,38.1,914,1860
+Shuto Machino,Holstein Kiel,de Bundesliga,"FW,MF",1953,11,6.5,4.9,2,3.0,2.26,0.97,30,59,108,64.2,27,2.6,5,7,15,28,55.6,449,899
+James Maddison,Tottenham,eng Premier League,MF,1809,9,5.8,5.8,7,4.2,1.94,0.85,45,164,95,81.3,41,5.9,19,12,43,19,42.9,1026,1464
+Noni Madueke,Chelsea,eng Premier League,FW,2033,7,9.6,9.6,3,4.2,3.54,1.33,154,69,226,77.4,32,3.2,18,10,35,11,44.1,641,980
+Gabriel Magalhães,Arsenal,eng Premier League,DF,2363,3,2.6,2.6,1,0.9,0.84,0.19,10,126,11,90.2,13,1.2,15,16,41,93,80.0,1116,1873
+Harry Maguire,Manchester Utd,eng Premier League,DF,1758,1,1.8,1.8,0,0.6,0.77,0.31,7,51,7,85.5,9,0.3,15,40,70,78,40.0,782,1328
+Arne Maier,Augsburg,de Bundesliga,MF,938,0,1.5,1.5,0,1.5,1.73,0.58,19,44,56,76.5,25,2.6,7,6,19,14,43.8,390,699
+Patrick Mainka,Heidenheim,de Bundesliga,DF,3060,1,1.9,1.9,1,0.3,0.74,0.24,21,102,12,85.4,7,0.7,30,68,126,206,54.5,1171,2136
+Kobbie Mainoo,Manchester Utd,eng Premier League,MF,1651,0,0.7,0.7,0,1.6,0.82,0.11,22,65,47,86.5,14,1.8,29,19,65,14,46.0,652,1061
+Jordy Makengo,Freiburg,de Bundesliga,DF,745,0,0.0,0.0,0,0.2,0.0,0.0,9,15,35,79.1,2,0.5,9,7,23,29,33.3,203,393
+Donyell Malen,Dortmund,de Bundesliga,"FW,MF",614,3,2.9,2.9,0,0.2,2.79,0.88,23,17,75,71.6,1,0.5,0,3,3,6,34.4,187,278
+Lennard Maloney,Heidenheim,de Bundesliga,MF,760,0,0.3,0.3,0,0.0,0.36,0.0,1,14,0,71.6,1,0.1,11,14,34,38,25.0,147,378
+Orel Mangala,Everton,eng Premier League,MF,1261,1,1.1,1.1,0,0.6,1.14,0.43,6,34,19,89.2,8,0.6,8,21,37,24,58.3,298,621
+Ryan Manning,Southampton,eng Premier League,"DF,MF",1462,0,0.3,0.3,1,3.2,0.49,0.06,14,35,74,77.1,34,2.8,17,17,45,47,30.6,483,968
+Omar Marmoush,Manchester City,eng Premier League,"FW,MF",1175,7,5.5,5.5,0,2.8,3.75,1.3,29,37,78,79.2,15,2.1,8,6,19,3,43.5,320,504
+Omar Marmoush,Eint Frankfurt,de Bundesliga,FW,1448,15,8.8,7.3,9,6.2,4.66,2.11,73,50,125,69.8,34,4.1,8,2,14,2,45.5,442,671
+Gabriel Martinelli,Arsenal,eng Premier League,"FW,MF",2290,8,7.4,7.4,4,5.0,2.16,0.94,124,52,289,71.4,40,4.7,15,5,28,19,30.3,670,994
+Emiliano Martínez,Aston Villa,eng Premier League,GK,3194,0,0.0,0.0,0,0.5,0.0,0.0,0,4,0,78.7,2,0.1,3,0,3,17,100.0,889,1449
+Lisandro Martínez,Manchester Utd,eng Premier League,DF,1751,2,1.3,1.3,1,1.1,0.87,0.31,23,117,7,89.4,9,1.3,24,32,72,57,85.7,1017,1524
+Giorgos Masouras,Bochum,de Bundesliga,"FW,MF",1055,2,3.9,3.9,1,1.1,2.56,1.28,26,19,82,70.4,10,1.1,10,4,22,3,35.7,220,403
+Erhan Mašović,Bochum,de Bundesliga,DF,910,1,0.6,0.6,1,0.9,0.69,0.4,1,35,4,82.7,3,0.5,10,12,26,55,0.0,290,539
+Pape Matar Sarr,Tottenham,eng Premier League,MF,1913,3,3.7,3.7,2,1.6,1.6,0.61,33,88,53,86.4,15,0.8,36,30,79,25,36.7,772,1253
+Jean-Philippe Mateta,Crystal Palace,eng Premier League,FW,2648,14,13.5,11.9,2,3.2,2.31,0.99,45,52,122,65.1,29,2.3,12,2,20,23,43.5,400,739
+Chrislain Matsima,Augsburg,de Bundesliga,DF,2551,1,1.8,1.8,1,0.3,0.49,0.07,14,84,13,86.0,5,0.7,20,52,83,163,58.3,910,1669
+Jean Mattéo Bahoya,Eint Frankfurt,de Bundesliga,"MF,FW",921,2,1.9,1.9,3,1.7,0.98,0.29,24,28,93,74.3,18,2.3,18,4,33,10,56.7,267,475
+Stephy Mavididi,Leicester City,eng Premier League,FW,1615,4,1.8,1.8,1,2.6,1.45,0.39,91,57,138,75.0,22,3.3,19,11,45,15,36.8,583,863
+Konstantinos Mavropanos,West Ham,eng Premier League,DF,2045,0,1.5,1.5,0,0.5,0.79,0.22,17,61,2,86.3,5,0.4,24,40,75,126,52.9,864,1532
+Noussair Mazraoui,Manchester Utd,eng Premier League,DF,2838,0,0.7,0.7,1,1.5,0.41,0.1,42,115,58,85.7,20,1.9,68,34,149,95,54.2,1172,2139
+Bryan Mbeumo,Brentford,eng Premier League,FW,3414,20,12.3,7.5,7,8.3,2.08,0.9,130,141,351,66.1,70,9.3,31,14,63,55,46.8,1077,1781
+Kasey McAteer,Leicester City,eng Premier League,FW,852,1,1.0,1.0,1,0.7,1.37,0.74,19,14,71,72.6,9,0.6,16,5,28,15,24.0,224,379
+John McGinn,Aston Villa,eng Premier League,"MF,FW",2223,1,3.1,2.8,4,3.5,1.26,0.2,32,103,87,81.9,31,2.7,24,14,47,18,42.6,581,1072
+Dwight McNeil,Everton,eng Premier League,"MF,FW",1371,4,1.1,1.1,6,5.2,1.64,0.66,38,69,80,74.5,37,4.3,8,6,19,2,53.3,443,748
+Jakov Medić,Bochum,de Bundesliga,DF,1603,1,0.9,0.9,0,0.2,0.79,0.17,2,27,3,87.4,3,0.5,11,22,35,111,66.7,498,975
+Mikel Merino,Arsenal,eng Premier League,"MF,FW",1586,7,5.9,5.9,2,2.0,2.16,0.74,11,69,94,78.2,17,1.2,28,15,61,26,39.1,388,783
+Karol Mets,St. Pauli,de Bundesliga,DF,900,0,0.1,0.1,0,0.2,0.3,0.0,5,54,2,83.4,3,0.4,8,12,25,60,0.0,343,736
+Nikola Milenković,Nott'ham Forest,eng Premier League,DF,3330,5,4.0,4.0,2,1.1,0.78,0.22,3,51,6,82.3,9,0.5,29,27,78,209,100.0,547,1412
+Enzo Millot,Stuttgart,de Bundesliga,"MF,FW",1843,6,7.6,6.7,5,3.1,2.1,0.83,44,118,123,84.8,23,3.5,13,13,43,6,46.3,848,1397
+Kim Min-jae,Bayern Munich,de Bundesliga,DF,2283,2,1.6,1.6,0,0.3,0.28,0.2,16,181,5,92.5,6,0.9,20,37,72,91,60.0,1644,2764
+Tyrone Mings,Aston Villa,eng Premier League,DF,1120,0,0.8,0.8,0,0.2,0.72,0.08,7,40,1,88.2,3,0.2,6,7,14,61,66.7,484,794
+Yankuba Minteh,Brighton,eng Premier League,"FW,MF",1838,6,4.1,4.1,4,5.0,1.66,0.78,90,48,201,62.5,29,5.0,35,11,59,31,46.9,481,836
+Tyrick Mitchell,Crystal Palace,eng Premier League,DF,3092,0,1.3,1.3,5,6.4,0.35,0.09,63,70,171,72.0,41,3.7,55,19,110,108,42.1,820,1754
+Kaoru Mitoma,Brighton,eng Premier League,"FW,MF",2603,10,9.2,9.2,4,4.6,1.97,0.93,146,89,291,75.8,37,4.0,27,14,59,10,39.7,830,1375
+Maximilian Mittelstädt,Stuttgart,de Bundesliga,DF,2469,1,0.9,0.9,7,4.7,0.77,0.15,62,182,155,83.4,47,7.0,54,47,126,96,55.3,1251,2385
+Morato,Nott'ham Forest,eng Premier League,DF,907,0,0.2,0.2,0,0.0,0.2,0.1,1,19,1,77.0,0,0.0,14,10,32,78,100.0,164,457
+Álex Moreno,Nott'ham Forest,eng Premier League,"DF,MF",955,0,0.2,0.2,1,1.3,0.57,0.0,26,34,34,72.0,8,1.1,18,15,40,43,38.1,229,559
+Sam Morsy,Ipswich Town,eng Premier League,MF,2751,1,0.4,0.4,1,1.2,0.43,0.1,22,120,13,86.4,24,1.5,41,29,97,47,58.6,852,1683
+Mason Mount,Manchester Utd,eng Premier League,MF,622,1,3.2,3.2,0,0.6,2.89,1.3,15,33,41,81.8,8,0.6,5,4,19,4,10.0,215,339
+Nordi Mukiele,Leverkusen,de Bundesliga,DF,899,1,1.4,1.4,0,1.0,0.7,0.3,20,36,28,80.4,9,0.9,16,16,36,37,52.9,363,725
+Florian Müller,Freiburg,de Bundesliga,GK,753,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,63.2,0,0.0,0,0,0,3,,190,337
+Kevin Müller,Heidenheim,de Bundesliga,GK,2939,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,75.6,0,0.1,2,0,3,13,,779,1393
+Thomas Müller,Bayern Munich,de Bundesliga,"MF,FW",1225,1,3.8,3.8,4,2.9,2.2,0.81,24,50,143,75.0,35,4.1,5,2,10,14,47.1,386,763
+Marshall Munetsi,Wolves,eng Premier League,"MF,FW",1078,2,3.3,3.3,1,1.8,1.84,0.58,9,10,35,71.7,9,1.1,10,6,30,18,27.3,148,364
+Rodrigo Muniz,Fulham,eng Premier League,FW,964,8,5.8,5.8,1,0.7,3.64,1.77,6,27,31,64.8,7,0.2,5,5,15,14,33.3,157,311
+Daniel Muñoz,Crystal Palace,eng Premier League,DF,3228,4,4.9,4.9,5,5.5,1.03,0.39,62,97,206,75.7,46,3.6,80,44,167,108,37.5,806,2010
+Arijanet Muric,Ipswich Town,eng Premier League,GK,1620,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,71.7,0,0.0,0,0,0,10,,405,689
+Murillo,Nott'ham Forest,eng Premier League,DF,3188,2,1.4,1.4,0,1.2,0.71,0.17,22,115,5,78.5,13,1.1,36,36,89,249,73.0,821,1918
+Jacob Murphy,Newcastle Utd,eng Premier League,FW,2360,8,5.7,5.7,12,8.9,1.64,0.57,79,83,231,68.5,42,6.2,19,13,41,35,50.7,733,1271
+Jamal Musiala,Bayern Munich,de Bundesliga,MF,1798,12,9.3,9.3,2,4.5,3.4,1.55,71,107,156,82.6,41,5.9,21,8,44,5,51.1,792,1278
+Phillipp Mwene,Mainz 05,de Bundesliga,DF,2607,1,1.5,1.5,4,1.9,0.72,0.14,62,106,144,75.0,22,3.8,29,24,75,51,44.0,775,1555
+Vitaliy Mykolenko,Everton,eng Premier League,DF,3082,1,0.5,0.5,2,2.6,0.41,0.03,33,110,99,74.6,24,2.2,38,44,107,145,40.0,697,1678
+Joakim Mæhle,Wolfsburg,de Bundesliga,DF,2188,3,2.0,2.0,4,2.2,0.74,0.29,59,88,117,80.9,20,3.1,15,25,59,57,31.7,791,1464
+Nathan N'Goumou,Gladbach,de Bundesliga,FW,828,2,1.9,1.9,1,1.3,2.61,1.41,30,16,85,73.6,6,1.3,11,4,21,16,33.3,215,386
+Stanley N'Soki,Hoffenheim,de Bundesliga,DF,1308,0,0.1,0.1,0,0.4,0.21,0.07,10,52,6,85.8,7,0.4,16,26,48,58,68.8,529,1005
+Iliman Ndiaye,Everton,eng Premier League,FW,2430,9,6.2,4.7,0,1.9,1.3,0.56,86,59,122,81.8,18,1.4,28,20,73,24,47.6,621,1084
+Wilfred Ndidi,Leicester City,eng Premier League,MF,2324,0,2.0,2.0,5,1.9,0.85,0.31,18,70,75,80.3,17,1.5,51,31,116,80,39.4,670,1400
+Paul Nebel,Mainz 05,de Bundesliga,MF,2345,10,5.8,5.8,4,4.1,1.69,0.69,67,91,219,73.1,35,5.6,24,13,51,30,39.1,894,1516
+David Nemeth,St. Pauli,de Bundesliga,DF,2137,0,0.2,0.2,1,0.1,0.21,0.04,14,65,5,86.4,3,0.3,29,18,61,94,44.4,697,1338
+Pedro Neto,Chelsea,eng Premier League,FW,2269,4,3.5,3.5,6,6.7,2.34,0.67,126,60,253,78.4,46,4.8,9,9,32,6,32.7,746,1153
+Luca Netz,Gladbach,de Bundesliga,DF,969,0,0.2,0.2,2,1.9,0.28,0.0,16,28,55,81.1,16,1.0,14,10,34,36,28.6,288,666
+Manuel Neuer,Bayern Munich,de Bundesliga,GK,1980,0,0.0,0.0,0,0.5,0.0,0.0,0,10,0,86.0,1,0.1,0,0,1,9,100.0,638,956
+Moritz Nicolas,Gladbach,de Bundesliga,GK,1639,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,84.3,0,0.0,0,1,1,8,,575,838
+Justin Njinmah,Werder Bremen,de Bundesliga,"FW,MF",952,3,3.7,3.7,2,1.6,2.93,0.76,33,23,103,61.7,12,1.5,2,3,9,1,40.7,230,349
+Eddie Nketiah,Crystal Palace,eng Premier League,"FW,MF",1034,3,5.8,5.8,1,1.7,3.74,1.39,41,19,79,74.3,13,0.9,8,3,18,12,35.5,246,412
+Christopher Nkunku,Chelsea,eng Premier League,FW,921,3,4.8,4.8,2,2.1,2.44,1.07,17,25,68,89.5,14,1.0,8,7,19,10,37.0,280,448
+Felix Nmecha,Dortmund,de Bundesliga,MF,1509,4,1.3,1.3,1,1.1,1.07,0.36,21,85,27,87.9,14,1.1,22,23,57,30,65.4,632,1083
+Alexander Nübel,Stuttgart,de Bundesliga,GK,3060,0,0.0,0.0,1,0.3,0.0,0.0,0,0,0,77.0,3,0.2,0,0,0,18,100.0,823,1377
+Matheus Nunes,Manchester City,eng Premier League,"DF,MF",1674,1,1.2,1.2,6,4.4,0.48,0.22,63,79,175,86.3,23,3.3,22,15,50,38,46.3,866,1416
+Darwin Núñez,Liverpool,eng Premier League,FW,1133,5,5.8,5.8,2,1.3,2.7,1.03,23,27,78,70.9,11,0.5,18,4,25,12,34.8,201,366
+Antonio Nusa,RB Leipzig,de Bundesliga,"MF,DF",1558,3,1.6,1.6,3,2.8,1.39,0.4,57,52,123,74.2,20,2.6,17,8,38,11,45.3,480,802
+Ethan Nwaneri,Arsenal,eng Premier League,"FW,MF",895,4,1.2,1.2,2,1.2,2.41,0.91,46,33,113,80.5,16,1.8,7,2,13,4,59.7,365,544
+Christian Nørgaard,Brentford,eng Premier League,MF,2819,5,4.3,4.3,4,1.3,1.25,0.48,14,154,42,81.6,18,1.4,49,49,128,70,50.0,826,1802
+Jake O'Brien,Everton,eng Premier League,DF,1571,2,0.8,0.8,0,0.6,0.34,0.17,7,50,25,79.6,6,0.3,17,4,30,93,40.0,391,900
+Matt O'Riley,Brighton,eng Premier League,MF,938,2,2.8,2.0,2,2.4,2.01,0.58,22,38,52,76.5,21,2.0,9,13,29,9,61.5,275,525
+Dara O'Shea,Ipswich Town,eng Premier League,DF,3122,0,1.3,1.3,2,0.5,0.63,0.06,3,80,8,78.2,3,0.7,31,33,82,225,50.0,897,2022
+Wilson Odobert,Tottenham,eng Premier League,"FW,MF",850,1,1.6,1.6,0,1.0,1.38,0.42,45,27,66,77.4,6,0.8,5,4,18,5,37.5,265,381
+Tim Oermann,Bochum,de Bundesliga,DF,2213,0,0.2,0.2,2,0.6,0.37,0.0,15,61,16,82.4,7,0.7,31,22,72,64,42.9,605,1172
+Caleb Okoli,Leicester City,eng Premier League,DF,1125,1,0.6,0.6,0,0.0,0.32,0.16,3,32,2,86.3,0,0.2,14,15,40,79,,468,806
+Finn Ole Becker,Hoffenheim,de Bundesliga,MF,670,0,0.1,0.1,1,0.3,0.54,0.27,3,45,7,82.5,8,0.4,5,10,21,20,42.9,256,461
+Michael Olise,Bayern Munich,de Bundesliga,"FW,MF",2334,12,9.7,9.7,15,12.0,3.32,1.39,119,184,381,81.4,90,12.5,23,8,44,16,47.7,1305,1957
+Jonas Omlin,Gladbach,de Bundesliga,GK,978,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,73.1,0,0.0,0,0,0,5,100.0,353,544
+Amadou Onana,Aston Villa,eng Premier League,MF,1617,3,2.1,2.1,0,0.7,0.95,0.33,29,75,16,87.7,10,0.8,30,26,81,41,70.0,553,998
+André Onana,Manchester Utd,eng Premier League,GK,3060,0,0.0,0.0,0,0.2,0.0,0.0,0,1,0,72.6,1,0.2,2,0,2,11,100.0,961,1371
+Paul Onuachu,Southampton,eng Premier League,FW,1050,4,3.6,3.6,1,0.5,2.91,1.29,7,13,40,60.8,8,0.3,2,1,8,16,30.8,214,440
+Frank Onyeka,Augsburg,de Bundesliga,MF,2586,0,1.4,1.4,1,1.3,0.84,0.21,46,106,71,83.6,17,2.0,45,36,94,36,33.3,754,1339
+Loïs Openda,RB Leipzig,de Bundesliga,"FW,MF",2453,9,9.0,8.2,5,3.4,2.83,1.14,58,47,229,63.8,28,2.3,4,5,14,12,29.7,521,904
+Gift Orban,Hoffenheim,de Bundesliga,FW,687,4,3.4,3.4,0,0.2,1.44,0.52,8,7,35,70.8,2,0.9,1,0,3,3,36.4,108,208
+Willi Orban,RB Leipzig,de Bundesliga,DF,2222,5,4.0,4.0,0,1.0,0.89,0.28,15,106,8,87.4,8,0.7,21,21,59,169,75.0,1083,2101
+Ivan Ordets,Bochum,de Bundesliga,DF,1861,0,0.7,0.7,0,0.7,0.53,0.0,2,48,4,80.0,7,1.8,8,41,59,139,100.0,510,1156
+Stefan Ortega,Manchester City,eng Premier League,GK,1100,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,81.3,0,0.0,0,0,0,11,,323,492
+Patrick Osterhage,Freiburg,de Bundesliga,MF,2267,1,1.7,1.7,0,1.4,0.83,0.12,26,73,50,83.7,16,2.1,29,18,63,37,40.7,636,1259
+Dango Ouattara,Bournemouth,eng Premier League,FW,2005,7,8.4,8.4,4,5.5,2.78,0.9,79,43,191,60.0,35,3.3,26,11,46,51,47.6,492,959
+Exequiel Palacios,Leverkusen,de Bundesliga,MF,1155,1,1.5,1.5,6,2.3,1.01,0.62,15,97,40,90.1,28,2.4,15,13,35,15,66.7,660,1144
+João Palhinha,Bayern Munich,de Bundesliga,MF,673,0,0.7,0.7,0,0.2,1.34,0.4,3,32,7,92.4,4,0.5,14,4,24,9,50.0,330,631
+Alex Palmer,Ipswich Town,eng Premier League,GK,1170,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,70.7,1,0.0,0,0,0,12,,210,470
+Cole Palmer,Chelsea,eng Premier League,"MF,FW",3191,15,17.3,13.3,8,10.9,3.41,1.24,120,214,187,77.0,87,9.1,20,11,45,20,45.1,1173,1851
+Emerson Palmieri,West Ham,eng Premier League,DF,2113,2,2.0,2.0,1,1.5,0.68,0.3,47,66,83,79.9,16,2.2,31,21,81,59,33.3,555,1325
+Lucas Paquetá,West Ham,eng Premier League,"MF,FW",2380,4,5.3,3.7,0,3.1,1.47,0.11,26,155,85,77.3,36,3.3,37,18,84,37,44.7,921,1796
+Thomas Partey,Arsenal,eng Premier League,"MF,DF",2797,4,2.3,2.3,2,2.1,0.84,0.29,36,185,48,87.4,20,2.6,53,35,124,49,68.6,1256,2193
+Felix Passlack,Bochum,de Bundesliga,"DF,MF",2334,1,1.3,1.3,6,3.9,1.0,0.23,43,65,118,66.2,25,3.7,23,18,71,63,38.7,588,1290
+Aleksandar Pavlovic,Bayern Munich,de Bundesliga,MF,1451,1,0.6,0.6,0,0.2,0.56,0.25,15,128,33,93.3,7,1.9,21,5,43,14,100.0,1035,1648
+Jordan Pefok,Union Berlin,de Bundesliga,FW,908,0,3.2,3.2,1,0.9,2.28,0.69,3,12,40,69.1,14,0.4,6,4,15,18,53.8,158,326
+Andreas Pereira,Fulham,eng Premier League,MF,2013,2,3.8,3.0,4,4.6,1.7,0.36,29,104,81,69.1,57,4.6,13,8,32,17,46.7,578,1148
+Kalvin Phillips,Ipswich Town,eng Premier League,MF,1237,0,0.4,0.4,0,0.2,0.8,0.15,4,51,4,79.1,5,0.5,19,19,54,37,41.7,310,739
+Benedikt Pichler,Holstein Kiel,de Bundesliga,FW,785,1,2.3,2.3,2,1.1,2.29,1.03,18,19,58,63.2,12,1.2,2,2,7,11,44.4,152,310
+Jordan Pickford,Everton,eng Premier League,GK,3420,0,0.0,0.0,1,0.4,0.0,0.0,0,0,0,66.3,2,0.2,0,1,2,30,,989,1708
+Amos Pieper,Werder Bremen,de Bundesliga,DF,1498,0,0.4,0.4,0,0.6,0.42,0.06,11,62,3,84.8,4,0.6,17,24,56,98,66.7,570,1136
+Marvin Pieringer,Heidenheim,de Bundesliga,"FW,MF",2206,7,8.9,6.6,4,4.0,2.33,0.69,23,59,115,65.8,30,2.3,13,8,31,32,45.7,467,849
+Ethan Pinnock,Brentford,eng Premier League,DF,1913,2,1.1,1.1,0,1.2,0.47,0.28,3,41,9,85.6,8,0.7,19,24,59,142,33.3,633,1348
+Alassane Pléa,Gladbach,de Bundesliga,"MF,FW",1902,11,7.4,6.6,4,3.1,1.94,0.57,51,116,141,72.1,25,3.3,3,2,9,7,39.5,601,979
+Nick Pope,Newcastle Utd,eng Premier League,GK,2520,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,73.5,1,0.0,0,1,1,32,,439,872
+Finn Porath,Holstein Kiel,de Bundesliga,"DF,MF",1970,2,1.9,1.8,3,2.0,1.32,0.55,42,58,69,66.9,22,1.8,26,21,66,67,44.4,418,999
+Pedro Porro,Tottenham,eng Premier League,DF,2610,2,1.6,1.6,6,5.0,1.34,0.28,65,154,109,73.2,57,4.6,49,36,102,84,35.0,1187,2237
+Alexander Prass,Hoffenheim,de Bundesliga,DF,1566,0,0.9,0.9,1,2.8,0.69,0.06,28,63,66,72.7,18,2.8,23,9,51,53,47.6,605,1199
+Leopold Querfeld,Union Berlin,de Bundesliga,DF,1747,2,1.1,1.1,2,1.0,0.82,0.21,3,49,5,80.8,10,1.2,12,19,44,144,33.3,531,1066
+Aaron Ramsdale,Southampton,eng Premier League,GK,2700,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,63.3,0,0.1,0,2,2,10,,786,1314
+Jacob Ramsey,Aston Villa,eng Premier League,"FW,MF",1623,1,1.6,1.6,3,2.3,1.05,0.22,61,68,114,84.8,21,2.2,15,8,38,8,54.3,496,762
+Marcus Rashford,Manchester Utd,eng Premier League,"FW,MF",978,4,1.7,1.7,1,2.1,1.47,0.83,20,21,79,73.8,15,1.4,4,4,11,7,23.1,293,440
+David Raum,RB Leipzig,de Bundesliga,DF,1783,1,0.5,0.5,5,6.5,0.45,0.2,36,71,127,69.4,48,7.4,28,9,47,47,39.3,593,1389
+David Raya,Arsenal,eng Premier League,GK,3420,0,0.0,0.0,0,0.0,0.0,0.0,0,14,0,73.6,1,0.1,0,2,2,21,100.0,921,1480
+Rocco Reitz,Gladbach,de Bundesliga,MF,1830,2,1.7,1.7,1,2.1,1.13,0.34,18,91,30,77.9,16,2.2,24,53,105,59,47.2,614,1199
+Nicolai Remberg,Holstein Kiel,de Bundesliga,MF,2417,0,1.5,1.5,1,0.8,0.89,0.07,25,80,31,77.9,9,1.1,25,29,74,100,28.0,552,1316
+Elvis Rexhbeçaj,Augsburg,de Bundesliga,MF,1785,1,1.4,1.4,1,1.1,1.46,0.25,31,94,82,70.0,16,2.0,19,16,43,22,31.3,463,887
+Declan Rice,Arsenal,eng Premier League,MF,2825,4,3.5,3.5,7,6.6,1.53,0.45,90,192,94,83.4,59,5.6,25,25,78,51,48.3,1031,1948
+Chris Richards,Crystal Palace,eng Premier League,DF,1922,1,1.4,1.4,0,0.1,0.56,0.28,6,39,2,79.8,2,0.6,30,19,66,121,16.7,517,1118
+Fabian Rieder,Stuttgart,de Bundesliga,"MF,FW",867,1,1.4,1.4,3,2.0,2.08,0.73,20,38,61,70.6,12,2.4,14,10,27,7,47.4,253,492
+Lars Ritzka,St. Pauli,de Bundesliga,"DF,MF",922,1,0.4,0.4,0,0.2,0.78,0.1,8,21,34,71.5,5,0.3,29,11,60,41,0.0,161,567
+Andrew Robertson,Liverpool,eng Premier League,DF,2482,0,1.2,1.2,1,4.6,0.54,0.07,64,176,108,82.7,40,4.3,22,21,60,54,38.9,1107,2084
+Antonee Robinson,Fulham,eng Premier League,DF,3167,0,0.7,0.7,10,4.2,0.45,0.06,118,131,274,76.8,43,4.1,61,62,157,133,45.8,1343,2523
+Guido Rodríguez,West Ham,eng Premier League,MF,1149,0,0.2,0.2,1,0.2,0.63,0.08,4,33,7,84.4,4,0.2,19,13,49,35,50.0,327,709
+Mads Roerslev,Brentford,eng Premier League,DF,1101,0,0.2,0.2,2,3.0,0.41,0.16,17,51,54,78.7,14,2.1,8,4,22,35,36.8,352,645
+Morgan Rogers,Aston Villa,eng Premier League,"FW,MF",3114,8,6.6,6.6,10,7.8,1.59,0.58,114,123,188,73.2,51,5.2,22,6,49,20,41.3,794,1362
+Merlin Röhl,Freiburg,de Bundesliga,"MF,FW",965,0,0.8,0.8,1,1.7,1.12,0.28,20,22,60,76.0,9,1.1,10,6,22,2,30.0,217,403
+Cristian Romero,Tottenham,eng Premier League,DF,1416,1,1.6,1.6,0,0.6,1.02,0.51,12,71,3,89.5,7,0.8,29,21,56,57,25.0,896,1377
+Lasse Rosenboom,Holstein Kiel,de Bundesliga,DF,1734,2,1.9,1.9,2,1.1,0.62,0.26,19,34,50,65.1,14,1.2,35,19,66,71,36.8,284,780
+Max Rosenfelder,Freiburg,de Bundesliga,DF,1249,1,0.4,0.4,0,0.7,0.36,0.07,24,29,18,85.3,5,0.2,17,7,34,65,56.0,445,826
+Tom Rothe,Union Berlin,de Bundesliga,"DF,MF",1670,3,1.8,1.8,3,1.3,1.24,0.49,25,50,91,68.1,12,1.5,28,18,63,57,25.0,456,1074
+Anthony Rouault,Stuttgart,de Bundesliga,DF,1212,1,0.5,0.5,0,0.3,0.37,0.07,6,52,4,90.0,6,0.5,11,19,34,63,40.0,573,1014
+Georginio Rutter,Brighton,eng Premier League,"MF,FW",1656,5,4.6,4.6,3,2.5,2.72,0.65,42,67,79,66.8,19,1.7,15,10,49,13,38.0,361,641
+Julian Ryerson,Dortmund,de Bundesliga,DF,2259,2,0.7,0.7,3,4.5,0.72,0.2,66,92,136,85.3,36,4.8,30,22,68,26,57.1,1002,1684
+Frederik Rønnow,Union Berlin,de Bundesliga,GK,2520,0,0.1,0.1,0,0.0,0.04,0.0,0,1,0,68.6,0,0.1,0,0,0,22,100.0,564,980
+José Sá,Wolves,eng Premier League,GK,2609,0,0.0,0.0,0,0.2,0.0,0.0,0,2,0,64.1,3,0.0,2,0,2,15,100.0,630,985
+Elias Saad,St. Pauli,de Bundesliga,"FW,MF",900,3,2.8,2.8,2,0.8,2.6,0.8,29,27,76,76.2,14,1.1,13,3,23,1,29.6,301,427
+Marcel Sabitzer,Dortmund,de Bundesliga,MF,1616,1,1.8,1.8,0,1.6,1.17,0.45,24,97,70,84.8,12,1.6,19,10,39,29,40.0,577,1028
+Bukayo Saka,Arsenal,eng Premier League,"FW,MF",1729,6,6.8,6.0,10,7.6,3.44,1.15,96,70,255,75.5,58,7.8,15,3,32,8,45.6,628,979
+Mohamed Salah,Liverpool,eng Premier League,FW,3371,29,25.2,18.2,18,14.2,3.23,1.33,154,144,488,70.6,88,9.1,11,9,30,5,42.3,1149,1695
+Manolis Saliakas,St. Pauli,de Bundesliga,"MF,DF",2314,2,1.5,1.5,1,2.6,1.13,0.23,28,93,80,71.8,26,2.9,22,20,66,62,33.3,653,1560
+William Saliba,Arsenal,eng Premier League,DF,3039,2,2.3,2.3,0,0.9,0.18,0.06,16,138,6,94.3,7,1.3,37,21,83,119,63.2,1756,2824
+Robert Sánchez,Chelsea,eng Premier League,GK,2880,0,0.0,0.0,0,0.1,0.0,0.0,0,1,0,69.7,2,0.0,0,2,2,24,,881,1323
+Jadon Sancho,Chelsea,eng Premier League,FW,1764,3,2.2,2.2,4,3.7,1.22,0.41,102,90,225,82.6,38,3.1,7,2,15,8,46.4,653,975
+Philipp Sander,Gladbach,de Bundesliga,MF,1400,1,1.2,1.2,0,0.6,1.16,0.45,16,60,29,80.9,13,1.0,17,23,56,44,61.1,473,921
+Leroy Sané,Bayern Munich,de Bundesliga,FW,1637,11,10.2,10.2,5,5.5,3.68,1.59,75,64,266,82.5,36,6.1,15,7,30,3,39.0,787,1184
+Kaishu Sano,Mainz 05,de Bundesliga,MF,3043,0,0.9,0.9,0,1.2,0.59,0.06,53,159,46,80.1,19,2.0,36,65,126,56,62.7,894,1814
+Kauã Santos,Eint Frankfurt,de Bundesliga,GK,765,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,69.5,1,0.0,0,0,0,10,,191,326
+Pablo Sarabia,Wolves,eng Premier League,"MF,FW",814,3,2.9,2.9,2,1.8,1.88,0.88,15,60,62,69.2,15,1.9,8,4,20,7,40.0,325,552
+Ismaila Sarr,Crystal Palace,eng Premier League,MF,2711,8,10.7,10.7,6,8.5,1.96,0.96,75,85,183,66.0,44,6.7,10,9,31,40,27.9,607,1091
+Sávio,Manchester City,eng Premier League,"FW,MF",1766,1,5.0,5.0,8,6.9,2.8,1.07,137,67,246,80.8,46,6.1,17,6,29,9,46.0,783,1095
+Joe Scally,Gladbach,de Bundesliga,DF,2578,0,0.4,0.4,0,1.1,0.21,0.03,52,68,69,83.4,11,1.3,32,16,61,86,52.5,980,1850
+Oliver Scarles,West Ham,eng Premier League,"DF,FW",665,0,0.1,0.1,0,0.1,0.41,0.0,12,22,44,78.8,2,0.1,11,11,32,26,28.6,219,466
+Kevin Schade,Brentford,eng Premier League,FW,2293,11,8.2,8.2,2,3.7,2.16,1.06,61,38,165,59.7,23,1.8,25,5,44,34,33.7,434,883
+András Schäfer,Union Berlin,de Bundesliga,MF,1534,1,0.6,0.6,1,0.9,0.7,0.06,23,55,42,73.5,10,1.3,26,22,74,36,44.8,362,799
+Fabian Schär,Newcastle Utd,eng Premier League,DF,2934,4,3.7,3.7,0,0.4,1.23,0.34,18,118,22,83.7,5,1.0,21,45,81,138,61.5,1438,2319
+Patrik Schick,Leverkusen,de Bundesliga,FW,1684,21,12.7,11.9,0,0.6,3.63,1.71,7,21,107,78.0,11,0.9,5,4,10,17,38.5,312,578
+Keven Schlotterbeck,Augsburg,de Bundesliga,DF,1297,3,0.8,0.8,1,0.6,0.83,0.28,3,59,2,84.5,7,0.5,17,15,34,73,100.0,424,845
+Nico Schlotterbeck,Dortmund,de Bundesliga,DF,1982,0,1.3,1.3,4,2.1,0.77,0.18,37,195,14,89.2,18,2.1,24,22,60,79,63.6,1467,2297
+Romano Schmid,Werder Bremen,de Bundesliga,MF,2834,5,4.3,3.5,4,6.2,1.49,0.41,107,279,201,74.5,68,8.8,25,11,54,9,47.4,1315,1988
+Jan Schöppner,Heidenheim,de Bundesliga,MF,2681,4,3.9,3.9,3,3.4,1.38,0.44,35,107,48,74.7,25,2.1,30,43,99,95,43.8,704,1440
+Léo Scienza,Heidenheim,de Bundesliga,"FW,MF",1153,3,2.0,2.0,3,3.7,2.97,1.17,70,30,90,66.3,34,4.1,12,5,22,9,44.6,368,584
+Alex Scott,Bournemouth,eng Premier League,MF,755,0,0.7,0.7,0,0.9,1.79,0.72,15,52,33,83.6,12,1.0,14,10,37,15,23.1,247,485
+Nicolas Seiwald,RB Leipzig,de Bundesliga,"MF,DF",2084,0,0.2,0.2,0,1.7,0.22,0.0,17,140,30,82.7,20,2.7,31,31,84,76,40.0,760,1607
+Matz Sels,Nott'ham Forest,eng Premier League,GK,3420,0,0.0,0.0,0,0.4,0.0,0.0,1,2,0,52.0,2,0.3,1,0,1,26,,528,1102
+Nélson Semedo,Wolves,eng Premier League,DF,2886,0,0.9,0.9,4,2.8,0.56,0.22,67,80,119,80.8,25,1.7,36,23,85,104,45.1,901,1717
+Antoine Semenyo,Bournemouth,eng Premier League,FW,3203,11,10.0,10.0,5,5.8,3.51,1.12,140,109,282,73.4,46,4.3,35,11,66,39,51.1,979,1653
+Marcos Senesi,Bournemouth,eng Premier League,DF,1106,0,0.8,0.8,0,0.2,0.24,0.0,12,62,7,76.3,3,0.5,21,14,53,58,60.0,554,889
+Benjamin Šeško,RB Leipzig,de Bundesliga,"FW,MF",2380,13,10.0,8.4,5,2.1,2.5,1.1,47,46,141,67.6,19,1.7,3,5,12,20,52.0,444,901
+Armindo Sieb,Mainz 05,de Bundesliga,"FW,MF",762,2,2.8,2.8,2,1.1,3.43,0.83,28,18,64,69.7,8,0.6,4,1,11,7,30.6,184,333
+Tim Siersleben,Heidenheim,de Bundesliga,DF,1182,0,0.6,0.6,0,0.5,0.3,0.15,8,31,12,80.8,6,0.6,14,20,41,66,50.0,472,869
+Kiliann Sildillia,Freiburg,de Bundesliga,DF,801,2,0.5,0.5,0,0.7,0.79,0.22,11,29,34,73.2,7,0.7,10,11,28,38,66.7,253,576
+Bernardo Silva,Manchester City,eng Premier League,"MF,FW",2670,4,3.9,3.9,4,5.1,1.08,0.37,101,134,200,86.8,53,4.5,37,23,79,32,45.9,1288,2054
+Jota Silva,Nott'ham Forest,eng Premier League,"FW,MF",854,3,2.1,2.1,1,2.9,2.42,0.74,21,18,59,60.2,14,1.8,14,12,39,17,29.4,175,357
+Xavi Simons,RB Leipzig,de Bundesliga,MF,2150,10,5.1,5.1,6,6.3,2.09,0.96,85,140,185,78.6,51,6.0,21,12,40,19,33.0,869,1557
+Danel Sinani,St. Pauli,de Bundesliga,"FW,MF",1250,2,1.7,1.7,2,3.0,2.52,0.86,16,60,64,71.4,24,2.5,11,1,15,13,45.5,297,693
+Ibrahima Sissoko,Bochum,de Bundesliga,MF,2610,2,1.7,1.7,1,1.6,0.86,0.28,35,105,69,75.0,27,2.7,44,36,102,61,52.5,691,1429
+Tim Skarke,Union Berlin,de Bundesliga,"FW,MF",1164,0,2.1,2.1,2,1.2,1.55,0.7,26,25,96,70.0,16,1.2,11,5,19,17,41.7,293,487
+Ellyes Skhiri,Eint Frankfurt,de Bundesliga,MF,2231,1,1.4,1.4,2,1.4,0.52,0.08,17,105,27,88.5,22,2.0,22,31,71,45,73.3,823,1544
+Oliver Skipp,Leicester City,eng Premier League,MF,1129,0,0.4,0.4,0,0.3,0.4,0.08,16,35,19,83.5,9,0.3,4,11,32,11,58.3,347,612
+Leo Skiri Østigård,Hoffenheim,de Bundesliga,DF,927,0,0.3,0.3,0,0.1,0.49,0.0,0,51,1,83.9,3,0.3,7,9,18,111,66.7,344,747
+Robert Skov,Union Berlin,de Bundesliga,"DF,MF",852,2,1.7,0.9,2,2.4,1.69,0.53,25,36,45,65.9,19,3.5,11,8,23,9,29.4,263,564
+Steven Skrzybski,Holstein Kiel,de Bundesliga,"MF,FW",1323,6,3.5,2.7,3,2.9,2.18,0.82,17,64,71,70.0,22,3.3,6,11,30,11,59.1,313,619
+William Smallbone,Southampton,eng Premier League,MF,690,1,0.6,0.6,0,0.7,0.91,0.13,5,27,25,75.8,10,0.9,13,2,22,14,66.7,193,431
+Adam Smith,Bournemouth,eng Premier League,DF,1590,0,0.7,0.7,0,0.4,0.17,0.0,15,49,34,75.7,8,0.7,12,15,39,49,37.5,366,825
+Eric Smith,St. Pauli,de Bundesliga,"DF,MF",2827,1,1.4,1.4,1,1.5,0.76,0.29,16,118,11,80.8,28,2.8,29,37,83,104,60.0,838,1956
+Emile Smith Rowe,Fulham,eng Premier League,MF,2043,6,4.5,4.5,3,1.4,1.63,0.48,53,126,127,90.1,24,2.0,18,11,42,16,45.7,779,1223
+Dominic Solanke,Tottenham,eng Premier League,FW,2201,9,10.9,10.1,3,2.9,2.41,0.98,31,47,88,70.6,14,1.2,11,1,19,23,33.3,385,655
+Carlos Soler,West Ham,eng Premier League,"MF,FW",1409,1,1.8,1.8,1,1.4,1.6,0.51,17,56,37,85.2,18,1.9,11,8,24,21,44.4,367,794
+Tomáš Souček,West Ham,eng Premier League,MF,2567,9,6.7,6.7,1,1.0,1.93,0.6,9,74,68,73.8,14,1.3,21,20,66,85,50.0,506,1280
+Boubakary Soumaré,Leicester City,eng Premier League,MF,2171,0,0.3,0.3,0,0.4,0.29,0.0,34,105,23,87.0,11,1.0,20,27,64,34,60.0,847,1441
+Djed Spence,Tottenham,eng Premier League,DF,1792,1,0.6,0.6,2,1.8,0.5,0.15,59,105,70,85.4,11,1.4,34,21,68,74,50.0,794,1428
+Anton Stach,Hoffenheim,de Bundesliga,"MF,DF",2585,1,2.0,2.0,2,2.2,1.22,0.35,33,152,36,82.6,26,3.2,46,46,112,101,42.9,1002,1925
+Jens Stage,Werder Bremen,de Bundesliga,MF,2204,10,7.2,7.2,5,2.8,1.8,0.61,28,104,89,77.0,23,3.9,30,18,67,42,47.1,668,1271
+Josip Stanišić,Bayern Munich,de Bundesliga,DF,876,0,0.3,0.3,2,1.5,0.21,0.0,20,76,30,91.6,14,1.4,11,6,19,29,71.4,533,876
+Niklas Stark,Werder Bremen,de Bundesliga,DF,2106,0,1.1,1.1,1,0.1,0.51,0.13,7,62,3,85.6,1,0.3,21,36,69,129,100.0,882,1558
+Jack Stephens,Southampton,eng Premier League,DF,1389,1,0.6,0.6,0,0.2,0.26,0.13,14,63,2,92.0,3,0.3,20,13,47,53,0.0,631,1097
+Leonidas Stergiou,Stuttgart,de Bundesliga,DF,852,1,1.1,1.1,2,0.9,0.32,0.11,11,39,32,82.4,4,0.7,13,14,38,39,66.7,339,642
+Angelo Stiller,Stuttgart,de Bundesliga,MF,2741,1,1.8,1.8,8,7.2,0.69,0.13,39,289,69,87.4,59,8.6,27,26,75,50,66.7,1588,2781
+Kevin Stöger,Gladbach,de Bundesliga,MF,1551,3,3.9,2.3,3,5.3,1.39,0.52,40,121,95,75.8,54,4.2,21,16,53,26,47.2,699,1318
+Jakub Stolarczyk,Leicester City,eng Premier League,GK,900,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,61.7,0,0.0,1,0,2,6,,221,411
+Jørgen Strand Larsen,Wolves,eng Premier League,FW,2587,14,10.3,10.3,4,3.0,1.88,1.15,17,29,112,64.6,21,1.0,6,6,16,29,40.0,345,736
+Yukinari Sugawara,Southampton,eng Premier League,"DF,MF",1557,1,0.5,0.5,1,2.2,0.81,0.29,33,72,78,80.0,17,2.5,18,11,42,53,45.0,564,1066
+Niklas Süle,Dortmund,de Bundesliga,DF,1053,0,0.6,0.6,0,0.1,0.77,0.17,15,47,10,92.8,3,0.4,12,4,18,46,42.9,668,1038
+Kamaldeen Sulemana,Southampton,eng Premier League,"FW,MF",1402,1,1.5,1.5,1,1.0,1.86,0.51,63,27,87,79.8,10,0.8,17,6,28,9,37.9,380,587
+Crysencio Summerville,West Ham,eng Premier League,"FW,MF",786,1,1.6,1.6,1,1.7,1.6,0.46,29,18,71,76.4,17,1.7,7,0,13,7,33.3,207,372
+Mattias Svanberg,Wolfsburg,de Bundesliga,MF,1219,3,3.6,3.6,1,1.7,1.55,0.52,11,36,39,68.7,13,1.6,10,15,35,26,40.0,235,520
+Daniel Svensson,Dortmund,de Bundesliga,"DF,FW",781,1,0.8,0.8,3,1.2,0.69,0.23,11,41,51,79.3,10,1.3,11,5,20,30,20.0,303,580
+Sammie Szmodics,Ipswich Town,eng Premier League,"FW,MF",992,4,3.4,3.4,0,0.2,1.91,1.09,16,19,47,74.1,5,0.5,10,6,22,14,33.3,179,318
+Dominik Szoboszlai,Liverpool,eng Premier League,MF,2491,6,7.3,7.3,6,7.4,2.42,0.79,72,131,127,84.3,56,5.9,20,9,47,19,51.2,805,1584
+Haris Tabakovic,Hoffenheim,de Bundesliga,FW,821,3,3.3,3.3,1,1.2,3.29,1.1,4,7,45,62.9,9,0.9,1,1,4,16,33.3,165,334
+Jonathan Tah,Leverkusen,de Bundesliga,DF,2970,3,1.1,1.1,0,0.4,0.73,0.21,15,169,9,92.9,4,1.9,12,36,55,157,60.0,1551,2626
+Edmond Tapsoba,Leverkusen,de Bundesliga,DF,2507,0,1.1,1.1,0,0.2,0.75,0.07,52,164,17,86.4,4,1.3,24,24,63,89,57.9,1326,2214
+James Tarkowski,Everton,eng Premier League,DF,2922,1,1.3,1.3,1,2.9,0.46,0.12,9,75,3,81.0,16,2.4,40,41,105,213,71.4,727,1706
+Marcus Tavernier,Bournemouth,eng Premier League,"FW,MF",1939,3,5.5,5.5,5,4.0,2.65,0.79,53,128,129,73.8,43,3.6,24,5,48,11,43.1,705,1196
+Jack Taylor,Ipswich Town,eng Premier League,MF,860,1,0.7,0.7,0,0.5,1.99,0.42,11,43,23,82.9,5,0.8,10,9,29,24,36.4,254,534
+Mathys Tel,Tottenham,eng Premier League,FW,911,2,3.0,2.2,1,2.6,2.17,0.79,28,21,72,69.5,14,1.5,6,2,18,8,28.3,266,414
+Nathan Tella,Leverkusen,de Bundesliga,"MF,FW",1359,2,3.1,3.1,4,1.5,1.85,0.66,38,22,130,74.6,18,1.6,11,4,20,10,37.3,308,529
+Kenny Tete,Fulham,eng Premier League,DF,1774,0,1.4,1.4,2,0.9,1.22,0.1,34,63,54,80.8,9,0.7,38,32,88,67,45.0,611,1205
+Arthur Theate,Eint Frankfurt,de Bundesliga,DF,2704,0,2.4,2.4,0,1.0,1.2,0.3,50,171,24,82.6,13,1.7,25,39,75,170,76.9,1321,2230
+Luke Thomas,Leicester City,eng Premier League,DF,1110,0,0.4,0.4,0,0.5,0.41,0.0,5,37,16,78.4,9,0.5,25,21,52,49,50.0,371,775
+Youri Tielemans,Aston Villa,eng Premier League,MF,3026,3,3.3,2.5,7,7.0,1.19,0.36,39,235,48,82.2,60,5.7,58,23,107,47,50.8,1288,2385
+Phillip Tietz,Augsburg,de Bundesliga,FW,1686,7,6.1,5.3,2,1.2,2.72,1.01,8,29,113,62.4,22,1.4,6,5,16,26,48.4,347,677
+Jurriën Timber,Arsenal,eng Premier League,DF,2417,1,1.2,1.2,3,0.8,0.52,0.15,57,146,104,85.6,17,1.3,38,22,80,44,45.3,890,1661
+Jean-Clair Todibo,West Ham,eng Premier League,DF,1825,0,0.4,0.4,0,0.0,0.25,0.0,9,38,5,87.9,2,0.1,28,26,73,83,56.3,760,1297
+John Tolkin,Holstein Kiel,de Bundesliga,"DF,MF",737,0,0.1,0.1,2,0.7,0.37,0.0,6,17,12,67.9,11,1.1,11,8,26,54,50.0,174,479
+Tiago Tomás,Wolfsburg,de Bundesliga,"FW,MF",1884,6,5.4,5.4,1,2.6,2.01,0.96,31,50,125,69.3,20,1.5,19,9,42,19,36.3,503,782
+Sandro Tonali,Newcastle Utd,eng Premier League,MF,2630,4,4.4,4.4,2,2.2,1.2,0.41,37,128,53,83.7,28,2.8,32,34,85,33,54.1,979,1818
+Pau Torres,Aston Villa,eng Premier League,DF,2020,0,0.5,0.5,0,0.1,0.36,0.09,40,97,8,88.9,3,0.4,15,10,31,75,88.2,965,1518
+Bazoumana Touré,Hoffenheim,de Bundesliga,"FW,MF",609,0,1.4,1.4,3,1.9,2.81,0.74,24,14,56,66.8,13,1.8,10,3,15,2,54.5,183,291
+Adama Traoré,Fulham,eng Premier League,"FW,MF",1772,2,4.0,4.0,7,4.9,1.98,0.61,100,68,161,72.2,42,4.5,13,1,21,6,49.5,538,801
+Omar Traoré,Heidenheim,de Bundesliga,DF,2616,0,0.5,0.5,1,1.6,0.55,0.1,103,117,115,70.7,20,3.3,26,21,71,66,39.1,922,1712
+Kevin Trapp,Eint Frankfurt,de Bundesliga,GK,2295,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,73.2,0,0.0,0,0,0,13,,642,1001
+Philipp Treu,St. Pauli,de Bundesliga,"MF,DF",2881,0,1.2,1.2,2,2.5,0.59,0.12,58,105,117,80.0,22,2.8,42,19,80,87,33.3,825,1867
+Christopher Trimmel,Union Berlin,de Bundesliga,"DF,MF",1740,0,0.2,0.2,3,2.1,0.47,0.16,18,73,45,60.5,35,3.2,25,18,56,92,25.0,365,979
+Kieran Trippier,Newcastle Utd,eng Premier League,DF,1309,0,0.1,0.1,3,1.4,0.28,0.0,26,117,58,82.5,22,1.5,21,12,50,49,50.0,609,1388
+Leandro Trossard,Arsenal,eng Premier League,FW,2546,8,7.2,7.2,7,6.1,2.55,0.74,80,101,226,74.5,41,4.1,20,9,40,18,44.2,828,1278
+Kostas Tsimikas,Liverpool,eng Premier League,DF,837,0,0.4,0.4,1,2.1,0.43,0.22,17,76,43,84.1,16,2.3,20,11,42,20,41.7,368,741
+Axel Tuanzebe,Ipswich Town,eng Premier League,DF,1710,0,0.2,0.2,1,0.3,0.21,0.0,10,61,15,83.8,5,0.3,19,23,54,56,40.0,402,971
+Tuta,Eint Frankfurt,de Bundesliga,"DF,MF",2274,2,1.1,1.1,1,0.3,0.51,0.2,11,78,12,87.7,4,0.7,27,40,84,135,76.5,1007,1772
+Destiny Udogie,Tottenham,eng Premier League,DF,1924,0,0.3,0.3,1,1.5,0.23,0.05,54,121,94,87.2,16,1.2,47,22,97,36,40.6,758,1376
+Manuel Ugarte Ribeiro,Manchester Utd,eng Premier League,MF,1785,1,1.0,1.0,2,1.1,0.96,0.2,16,61,20,87.9,10,0.7,49,27,104,17,56.3,668,1161
+Lesley Ugochukwu,Southampton,eng Premier League,MF,1655,1,0.9,0.9,1,1.0,0.54,0.05,29,49,20,85.0,14,0.6,24,14,64,23,67.9,479,879
+Lukas Ullrich,Gladbach,de Bundesliga,DF,1903,1,0.9,0.9,2,1.8,0.38,0.09,31,39,71,76.1,8,1.9,16,23,48,74,33.3,531,1073
+Deniz Undav,Stuttgart,de Bundesliga,"FW,MF",1726,9,11.7,11.7,3,3.6,3.91,1.62,31,70,141,73.2,26,3.8,10,3,14,10,41.7,469,797
+Dayot Upamecano,Bayern Munich,de Bundesliga,DF,1759,2,1.2,1.2,0,0.5,0.67,0.31,17,137,4,93.9,7,1.2,22,34,70,45,50.0,1440,2101
+Jonas Urbig,Bayern Munich,de Bundesliga,GK,720,0,0.0,0.0,0,0.0,0.0,0.0,0,3,0,81.1,0,0.1,0,0,0,9,,201,310
+Can Uzun,Eint Frankfurt,de Bundesliga,"MF,FW",675,4,3.0,3.0,1,1.1,3.6,1.47,11,42,45,79.9,14,1.1,4,1,11,3,50.0,265,395
+Josha Vagnoman,Stuttgart,de Bundesliga,"DF,MF",1834,1,1.5,1.5,1,2.1,0.74,0.29,24,47,96,80.4,22,2.2,14,14,40,57,28.6,541,1105
+Siebe Van Der Heyden,St. Pauli,de Bundesliga,"DF,MF",872,1,1.7,1.7,0,0.0,0.31,0.21,10,28,26,79.3,2,0.2,10,17,34,43,20.0,265,602
+Virgil van Dijk,Liverpool,eng Premier League,DF,3330,3,2.2,2.2,1,0.7,0.73,0.22,22,198,6,91.6,12,1.0,20,56,94,190,60.0,1856,3301
+Jamie Vardy,Leicester City,eng Premier League,FW,2823,9,11.2,9.6,4,3.0,1.79,0.73,29,22,120,66.3,19,2.6,13,5,24,24,47.8,285,586
+Nikola Vasilj,St. Pauli,de Bundesliga,GK,2969,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,73.6,1,0.2,0,0,0,22,100.0,909,1493
+Denis Vavro,Wolfsburg,de Bundesliga,DF,2461,2,1.4,1.4,0,0.2,0.91,0.22,9,96,3,86.9,7,0.5,13,37,58,234,50.0,1036,1901
+Miloš Veljković,Werder Bremen,de Bundesliga,DF,1029,0,0.6,0.6,1,0.2,0.17,0.09,9,64,2,86.7,3,0.6,5,2,12,47,,460,738
+Joël Veltman,Brighton,eng Premier League,DF,1697,0,0.5,0.5,0,0.5,0.32,0.05,32,85,34,80.2,6,1.3,29,19,62,66,26.7,548,1133
+Micky van de Ven,Tottenham,eng Premier League,DF,1015,0,0.6,0.6,2,1.2,0.53,0.18,8,51,1,90.9,2,0.7,6,10,20,39,50.0,620,895
+Bart Verbruggen,Brighton,eng Premier League,GK,3240,0,0.0,0.0,1,0.0,0.0,0.0,0,2,0,76.9,1,0.0,0,0,0,29,100.0,955,1406
+Arthur Vermeeren,RB Leipzig,de Bundesliga,MF,1572,0,0.4,0.4,2,0.9,0.23,0.06,14,77,20,86.1,12,1.3,19,23,55,25,40.0,536,1109
+Yorbe Vertessen,Union Berlin,de Bundesliga,"MF,FW",718,1,1.3,1.3,0,1.6,3.38,0.63,18,16,42,66.2,15,1.8,3,3,9,6,37.3,194,342
+Jannik Vestergaard,Leicester City,eng Premier League,DF,1391,0,0.1,0.1,0,0.1,0.19,0.13,3,32,2,90.7,3,0.1,10,16,38,74,100.0,672,1092
+Guglielmo Vicario,Tottenham,eng Premier League,GK,2160,0,0.0,0.0,0,0.0,0.0,0.0,0,1,0,87.4,0,0.0,0,1,1,14,100.0,661,928
+Kevin Vogt,Union Berlin,de Bundesliga,DF,1367,1,0.8,0.0,0,0.0,0.0,0.0,11,70,2,88.1,2,0.3,8,9,21,75,80.0,560,1030
+Hauke Wahl,St. Pauli,de Bundesliga,DF,2970,0,0.9,0.9,0,0.5,0.33,0.12,30,142,10,86.6,9,1.6,27,31,67,170,80.0,1040,2096
+Kyle Walker,Manchester City,eng Premier League,DF,970,0,0.1,0.1,0,0.4,0.46,0.19,12,64,11,87.7,7,1.3,10,3,20,13,50.0,499,892
+Kyle Walker-Peters,Southampton,eng Premier League,DF,2918,0,0.8,0.8,2,2.8,0.62,0.19,114,139,144,88.2,24,2.3,29,19,63,90,41.3,1271,2022
+Christian Walton,Ipswich Town,eng Premier League,GK,630,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,69.4,1,0.0,0,0,0,2,,143,272
+Aaron Wan-Bissaka,West Ham,eng Premier League,DF,3154,2,1.2,1.2,5,3.5,0.46,0.14,110,149,167,81.1,33,2.8,49,66,136,125,52.5,1092,2256
+Paul Wanner,Heidenheim,de Bundesliga,"MF,FW",1771,3,3.7,2.9,2,1.3,1.22,0.25,28,64,65,73.1,20,1.8,27,4,44,20,42.4,496,935
+James Ward-Prowse,West Ham,eng Premier League,MF,1039,1,1.6,1.6,1,1.9,1.13,0.43,11,54,9,88.2,20,1.8,14,8,28,15,40.0,427,849
+Ollie Watkins,Aston Villa,eng Premier League,FW,2598,16,15.3,13.8,8,3.3,2.84,1.25,55,31,165,72.4,24,2.1,7,8,18,15,24.4,409,695
+Adam Webster,Brighton,eng Premier League,DF,887,0,0.2,0.2,0,0.5,0.51,0.1,8,63,2,87.7,3,0.3,6,20,30,41,33.3,476,824
+Julian Weigl,Gladbach,de Bundesliga,MF,2881,0,0.7,0.7,2,1.1,0.59,0.19,11,122,9,88.3,11,1.9,25,48,101,86,87.5,1061,2075
+Timon Weiner,Holstein Kiel,de Bundesliga,GK,2250,0,0.0,0.0,0,0.0,0.0,0.0,0,0,0,68.8,0,0.0,0,0,0,17,,540,1068
+Nelson Weiper,Mainz 05,de Bundesliga,"FW,MF",704,3,4.1,4.1,2,1.9,2.81,1.53,12,13,62,67.1,10,0.7,4,2,7,5,47.6,149,311
+Mitchell Weiser,Werder Bremen,de Bundesliga,"DF,MF",2868,5,5.4,5.4,9,4.7,1.35,0.47,65,125,200,73.9,42,5.4,40,22,83,61,41.7,990,1949
+Noah Weißhaupt,St. Pauli,de Bundesliga,"FW,MF",1160,1,2.1,2.1,0,1.8,1.4,0.31,42,33,94,62.3,18,1.8,4,2,8,8,34.2,306,509
+Danny Welbeck,Brighton,eng Premier League,FW,2115,10,9.6,8.8,4,1.4,2.51,0.98,21,47,95,84.9,23,1.4,16,5,31,14,35.1,448,726
+Adam Wharton,Crystal Palace,eng Premier League,MF,1318,0,0.4,0.4,2,3.0,0.89,0.34,14,107,11,75.6,26,2.2,14,20,54,27,20.0,430,872
+Ben White,Arsenal,eng Premier League,DF,1198,0,0.5,0.5,2,1.4,0.68,0.15,23,59,42,83.8,10,1.4,14,16,36,44,0.0,394,813
+Mats Wieffer,Brighton,eng Premier League,"DF,MF",1015,1,0.8,0.8,3,1.6,0.8,0.35,18,62,23,85.1,16,1.0,34,17,75,28,46.7,483,867
+Neco Williams,Nott'ham Forest,eng Premier League,DF,2594,1,2.3,2.3,3,1.6,1.28,0.24,68,89,103,75.5,18,1.5,57,31,121,137,39.1,650,1565
+Joe Willock,Newcastle Utd,eng Premier League,"MF,FW",1086,0,1.6,1.6,2,2.1,1.49,0.25,38,41,86,82.6,22,0.9,17,6,36,7,34.3,325,533
+Harry Wilson,Fulham,eng Premier League,"FW,MF",1162,6,4.2,4.2,1,1.1,3.33,1.32,22,51,96,73.3,20,1.2,14,7,27,10,37.5,342,598
+Patrick Wimmer,Wolfsburg,de Bundesliga,"MF,FW",1770,3,3.7,3.7,4,2.9,2.08,0.51,46,91,75,65.7,24,3.4,35,32,79,15,53.6,504,920
+Jonas Wind,Wolfsburg,de Bundesliga,"FW,MF",1966,9,5.7,4.0,3,4.2,1.74,0.5,17,100,94,70.6,34,4.7,6,6,16,15,30.0,450,810
+Harry Winks,Leicester City,eng Premier League,MF,1538,0,0.2,0.2,2,1.2,0.59,0.23,19,101,11,87.1,17,1.5,11,9,33,20,25.0,696,1158
+Florian Wirtz,Leverkusen,de Bundesliga,"MF,FW",2351,10,9.4,6.1,12,7.0,2.83,1.34,131,176,309,78.3,57,9.4,20,10,42,6,49.1,1217,2096
+Yoane Wissa,Brentford,eng Premier League,FW,2919,19,18.5,18.5,4,2.6,2.77,1.26,60,67,154,76.5,27,1.8,12,8,30,21,30.6,550,925
+Dani de Wit,Bochum,de Bundesliga,"MF,FW",1153,2,2.1,2.1,1,0.5,1.56,0.55,5,33,37,72.0,10,0.5,17,12,41,23,12.5,244,558
+Maximilian Wittek,Bochum,de Bundesliga,DF,2706,0,1.4,1.4,0,4.4,1.36,0.23,47,141,83,70.6,46,6.2,42,27,92,89,40.0,769,1882
+Marius Wolf,Augsburg,de Bundesliga,DF,2144,1,0.7,0.7,3,3.2,0.5,0.08,36,117,95,68.5,45,4.4,16,24,51,51,44.2,627,1427
+Nick Woltemade,Stuttgart,de Bundesliga,"FW,MF",1622,12,10.2,8.0,2,4.6,2.55,1.28,31,52,141,70.6,37,3.4,7,1,11,15,43.7,470,788
+Jeong Woo-yeong,Union Berlin,de Bundesliga,"MF,FW",1263,3,2.8,2.8,2,1.7,1.78,0.43,32,63,93,75.3,18,2.1,7,11,21,11,57.1,386,621
+Chris Wood,Nott'ham Forest,eng Premier League,FW,2959,20,13.4,11.0,3,2.6,1.98,0.97,14,42,94,64.3,22,1.5,5,5,11,29,30.8,376,770
+Nathan Wood-Gordon,Southampton,eng Premier League,DF,773,0,0.2,0.2,0,0.0,0.23,0.0,2,17,0,93.3,1,0.0,8,5,19,39,66.7,313,564
+Luke Woolfenden,Ipswich Town,eng Premier League,DF,1187,0,0.0,0.0,0,0.0,0.08,0.0,7,15,0,88.3,0,0.0,6,19,28,76,,368,694
+Granit Xhaka,Leverkusen,de Bundesliga,MF,2888,2,0.9,0.9,7,4.4,0.65,0.09,42,318,72,89.7,50,5.1,26,12,60,52,43.8,1611,3052
+Yehor Yarmoliuk,Brentford,eng Premier League,MF,1450,0,0.6,0.6,0,0.9,0.56,0.12,15,63,47,87.0,9,0.9,28,13,62,33,48.1,520,960
+Ryan Yates,Nott'ham Forest,eng Premier League,MF,1915,2,2.3,2.3,1,1.2,1.55,0.42,18,53,16,81.5,18,0.5,21,26,68,61,50.0,425,1041
+Leny Yoro,Manchester Utd,eng Premier League,DF,1165,0,0.7,0.7,0,0.1,0.39,0.08,19,52,4,92.4,2,0.2,11,18,47,43,50.0,614,894
+Ashley Young,Everton,eng Premier League,DF,1875,1,0.3,0.3,3,2.3,0.29,0.14,24,90,32,70.9,26,2.9,33,25,83,64,35.0,487,1194
+Illia Zabarnyi,Bournemouth,eng Premier League,DF,3109,0,1.3,1.3,1,0.7,0.35,0.03,27,140,4,82.1,12,0.8,36,41,93,182,66.7,1282,2062
+David Zec,Holstein Kiel,de Bundesliga,DF,1541,2,1.2,1.2,0,0.5,0.64,0.29,3,34,2,87.7,8,0.3,10,17,40,93,55.6,527,1049
+Robin Zentner,Mainz 05,de Bundesliga,GK,2880,0,0.0,0.0,0,0.3,0.03,0.0,0,2,0,62.9,3,0.2,1,0,2,31,,751,1287
+Cedric Zesiger,Augsburg,de Bundesliga,DF,1221,0,1.2,1.2,2,1.3,0.74,0.15,4,40,7,78.6,7,1.1,7,21,34,96,25.0,398,771
+Michael Zetterer,Werder Bremen,de Bundesliga,GK,3060,0,0.0,0.0,0,0.0,0.0,0.0,0,3,0,78.2,0,0.1,0,1,1,10,100.0,1000,1391
+Joshua Zirkzee,Manchester Utd,eng Premier League,"FW,MF",1402,3,4.8,4.8,1,1.5,1.8,0.71,14,44,69,71.2,12,1.1,8,6,20,8,31.4,327,587
+Budu Zivzivadze,Heidenheim,de Bundesliga,FW,958,2,1.7,1.7,3,1.5,2.07,0.85,11,20,43,69.3,12,1.4,11,3,20,7,30.0,185,332
+Martin Ødegaard,Arsenal,eng Premier League,MF,2325,3,4.8,4.0,8,5.4,1.86,0.58,92,258,154,82.5,63,6.7,11,6,25,6,42.4,1174,1694

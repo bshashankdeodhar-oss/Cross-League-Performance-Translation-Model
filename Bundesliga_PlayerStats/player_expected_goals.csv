@@ -1,0 +1,409 @@
+Rank,Player,Team,Expected Goals (xG),Actual Goals,Minutes,Matches,Country
+1,Harry Kane,Bayern München,30.6,36.0,2843,32,ENG
+2,Ikoma Lois Openda,RB Leipzig,22.2,24.0,2716,34,BEL
+3,Serhou Guirassy,VfB Stuttgart,20.8,28.0,2212,28,GUI
+4,Victor Okoh Boniface,Bayer 04 Leverkusen,15.5,14.0,1553,23,NGA
+5,Deniz Undav,VfB Stuttgart,15.1,18.0,2096,30,GER
+6,Tim Kleindienst,1. FC Heidenheim 1846,13.9,12.0,2874,33,GER
+7,Ermedin Demirovic,FC Augsburg,13.6,15.0,2879,33,BIH
+8,Niclas Füllkrug,Borussia Dortmund,12.9,12.0,2405,31,GER
+9,Marvin Ducksch,SV Werder Bremen,12.8,12.0,2710,33,GER
+10,Omar Marmoush,Eintracht Frankfurt,11.6,12.0,2310,29,EGY
+11,Maximilian Beier,TSG Hoffenheim,11.4,16.0,2431,33,GER
+12,Andrej Kramaric,TSG Hoffenheim,11.1,15.0,2206,30,CRO
+13,Leroy Sané,Bayern München,10.9,8.0,2142,27,GER
+14,Donyell Malen,Borussia Dortmund,9.5,13.0,1783,27,NED
+15,Jonas Wind,VfL Wolfsburg,9.4,11.0,2660,34,DEN
+16,Michael Gregoritsch,SC Freiburg,9.4,7.0,1684,32,AUT
+17,Florian Wirtz,Bayer 04 Leverkusen,9.0,11.0,2377,32,GER
+18,Lucas Höler,SC Freiburg,8.6,7.0,2309,33,GER
+19,Xavi Simons,RB Leipzig,8.3,8.0,2673,32,NED
+20,Jeremie Frimpong,Bayer 04 Leverkusen,8.2,9.0,2263,31,NED
+21,Phillip Tietz,FC Augsburg,8.2,8.0,2405,34,GER
+22,Roland Sallai,SC Freiburg,8.0,3.0,1850,27,HUN
+23,Jamal Musiala,Bayern München,7.9,10.0,1766,24,GER
+24,Takuma Asano,VfL Bochum,7.9,6.0,2003,29,JPN
+25,Benjamin Sesko,RB Leipzig,7.7,14.0,1528,31,SVN
+26,Vincenzo Grifo,SC Freiburg,7.7,8.0,2344,32,ITA
+27,Kevin Behrens,VfL Wolfsburg,7.6,5.0,1880,31,GER
+28,Wout Weghorst,TSG Hoffenheim,7.5,7.0,1987,28,NED
+29,Alassane Plea,Borussia Mönchengladbach,7.0,7.0,1925,27,FRA
+30,Jordan Pefok,Borussia Mönchengladbach,6.9,5.0,1450,26,USA
+31,Chris Führich,VfB Stuttgart,6.6,8.0,2594,34,GER
+32,Marco Reus,Borussia Dortmund,6.5,6.0,1612,26,GER
+33,Thomas Müller,Bayern München,6.3,5.0,1659,31,GER
+34,Kevin Stöger,VfL Bochum,6.2,7.0,2678,32,AUT
+35,Jamie Leweling,VfB Stuttgart,6.2,4.0,1519,34,GER
+36,Jonathan Burkardt,1. FSV Mainz 05,6.1,8.0,1541,21,GER
+37,Patrik Schick,Bayer 04 Leverkusen,6.0,7.0,1064,20,CZE
+38,Jonas Hofmann,Bayer 04 Leverkusen,5.9,5.0,2214,32,GER
+39,Tomas Cvancara,Borussia Mönchengladbach,5.9,4.0,892,21,CZE
+40,Alejandro Grimaldo,Bayer 04 Leverkusen,5.7,10.0,2785,33,ESP
+41,Ansgar Knauff,Eintracht Frankfurt,5.7,7.0,2117,31,GER
+42,Silas Katompa Mvumpa,VfB Stuttgart,5.7,5.0,890,27,COD
+42,Yussuf Poulsen,RB Leipzig,5.7,5.0,1209,28,DEN
+44,Lovro Majer,VfL Wolfsburg,5.4,5.0,2116,32,CRO
+45,Enzo Millot,VfB Stuttgart,5.3,5.0,2254,31,FRA
+46,Kevin Volland,1. FC Union Berlin,5.3,3.0,1346,26,GER
+47,Ludovic Ajorque,1. FSV Mainz 05,5.3,2.0,1355,26,FRA
+48,Romano Schmid,SV Werder Bremen,5.2,4.0,2614,33,AUT
+49,Ritsu Doan,SC Freiburg,5.0,7.0,2253,30,JPN
+50,Leon Goretzka,Bayern München,5.0,6.0,2242,30,GER
+51,Eric Ebimbe,Eintracht Frankfurt,5.0,5.0,1967,31,FRA
+51,Florian Kainz,FC Köln,5.0,5.0,2210,33,AUT
+53,Ihlas Bebou,TSG Hoffenheim,4.9,7.0,1628,32,TOG
+54,Jae-Sung Lee,1. FSV Mainz 05,4.9,6.0,2124,29,KOR
+54,Justin Njinmah,SV Werder Bremen,4.9,6.0,1012,24,GER
+56,Davie Selke,FC Köln,4.8,6.0,1271,19,GER
+57,Philipp Hofmann,VfL Bochum,4.8,4.0,1576,29,GER
+58,Luca Pfeiffer,SV Darmstadt,4.6,1.0,1625,24,GER
+59,Leandro Barreiro,1. FSV Mainz 05,4.5,4.0,2606,31,LUX
+60,Eric Maxim Choupo-Moting,Bayern München,4.5,2.0,703,27,CMR
+61,Julian Brandt,Borussia Dortmund,4.4,7.0,2230,32,GER
+62,Christoph Baumgartner,RB Leipzig,4.4,5.0,1149,32,AUT
+63,Jens Stage,SV Werder Bremen,4.4,3.0,2334,30,DEN
+64,Eren Dinkci,1. FC Heidenheim 1846,4.3,10.0,2672,33,TUR
+65,Jan-Niklas Beste,1. FC Heidenheim 1846,4.3,8.0,2618,31,GER
+66,Florian Neuhaus,Borussia Mönchengladbach,4.3,4.0,1226,25,GER
+67,Oscar Vilhelmsson,SV Darmstadt,4.1,4.0,1375,26,SWE
+68,Sargis Adamyan,FC Köln,4.1,1.0,797,20,ARM
+69,Marvin Mehlem,SV Darmstadt,4.0,3.0,1491,20,GER
+70,Mohamed Simakan,RB Leipzig,4.0,2.0,2139,32,FRA
+71,Robin Hack,Borussia Mönchengladbach,3.9,10.0,1345,29,GER
+72,Youssoufa Moukoko,Borussia Dortmund,3.9,5.0,614,20,GER
+73,Ruben Vargas,FC Augsburg,3.9,4.0,1978,31,SUI
+74,Nathan N'Goumou,Borussia Mönchengladbach,3.8,5.0,1381,32,FRA
+75,Grischa Prömel,TSG Hoffenheim,3.8,4.0,2146,28,GER
+76,Mitchell Weiser,SV Werder Bremen,3.8,3.0,2639,30,GER
+77,Mathys Tel,Bayern München,3.7,7.0,1031,30,FRA
+78,Rocco Reitz,Borussia Mönchengladbach,3.7,6.0,2141,34,GER
+79,Tim Skarke,SV Darmstadt,3.6,8.0,2418,30,GER
+80,Marcel Sabitzer,Borussia Dortmund,3.6,4.0,1964,25,AUT
+81,Tobias Kempe,SV Darmstadt,3.6,3.0,1351,24,GER
+82,Nathan Tella,Bayer 04 Leverkusen,3.5,5.0,812,24,NGA
+83,Brajan Gruda,1. FSV Mainz 05,3.5,4.0,1651,28,GER
+84,Karim Adeyemi,Borussia Dortmund,3.5,3.0,911,21,GER
+85,Benedict Hollerbach,1. FC Union Berlin,3.4,5.0,1283,28,GER
+86,Dani Olmo,RB Leipzig,3.4,4.0,1454,21,ESP
+87,Amine Adli,Bayer 04 Leverkusen,3.3,4.0,890,23,MAR
+87,Exequiel Palacios,Bayer 04 Leverkusen,3.3,4.0,1840,24,ARG
+89,Patrick Mainka,1. FC Heidenheim 1846,3.3,2.0,3060,34,GER
+90,Mats Hummels,Borussia Dortmund,3.2,3.0,1581,25,GER
+91,Sven Michel,FC Augsburg,3.2,2.0,574,22,GER
+92,Adam Hlozek,Bayer 04 Leverkusen,3.1,2.0,451,23,CZE
+92,Fares Chaibi,Eintracht Frankfurt,3.1,2.0,1920,28,ALG
+92,Robin Koch,Eintracht Frankfurt,3.1,2.0,2740,31,GER
+95,Faride Alidou,FC Köln,3.0,4.0,1284,26,GER
+96,Goncalo Paciencia,VfL Bochum,3.0,3.0,645,19,POR
+96,Kevin Paredes,VfL Wolfsburg,3.0,3.0,1429,28,USA
+96,Mario Götze,Eintracht Frankfurt,3.0,3.0,2075,30,GER
+99,Dion Drena Beljo,FC Augsburg,3.0,2.0,562,26,CRO
+99,Nico Schlotterbeck,Borussia Dortmund,3.0,2.0,2861,33,GER
+101,Mattias Svanberg,VfL Wolfsburg,3.0,1.0,1725,25,SWE
+101,Matus Bero,VfL Bochum,3.0,1.0,1665,24,SVK
+103,Gian-Luca Waldschmidt,FC Köln,2.9,3.0,1151,22,GER
+103,Kevin Sessa,1. FC Heidenheim 1846,2.9,3.0,1001,30,GER
+105,Kingsley Coman,Bayern München,2.8,3.0,1123,17,FRA
+106,David Datro Fofana,1. FC Union Berlin,2.8,1.0,687,12,CIV
+107,Sepp van den Berg,1. FSV Mainz 05,2.7,3.0,2838,33,NED
+107,Yorbe Vertessen,1. FC Union Berlin,2.7,3.0,593,13,BEL
+109,Tiago Tomás,VfL Wolfsburg,2.7,1.0,1029,26,POR
+110,Steffen Tigges,FC Köln,2.6,3.0,715,25,GER
+111,John Anthony Brooks,TSG Hoffenheim,2.6,2.0,1539,21,USA
+112,Bernardo,VfL Bochum,2.6,1.0,2924,33,BRA
+113,Pavel Kaderabek,TSG Hoffenheim,2.5,3.0,2419,29,CZE
+113,Serge Gnabry,Bayern München,2.5,3.0,433,10,GER
+115,Nick Woltemade,SV Werder Bremen,2.5,2.0,1182,30,GER
+116,Benjamin Henrichs,RB Leipzig,2.5,1.0,2531,33,GER
+117,Hugo Ekitike,Eintracht Frankfurt,2.4,4.0,717,14,FRA
+117,Rafael Santos Borre,SV Werder Bremen,2.4,4.0,989,19,COL
+119,Raphaël Guerreiro,Bayern München,2.4,3.0,1194,20,POR
+120,Julian Weigl,Borussia Mönchengladbach,2.4,2.0,2766,31,GER
+120,Moritz Broschinski,VfL Bochum,2.4,2.0,1242,26,GER
+120,Timo Werner,RB Leipzig,2.4,2.0,204,8,GER
+123,Maximilian Eggestein,SC Freiburg,2.4,1.0,2918,33,GER
+124,Václav Cerny,VfL Wolfsburg,2.3,4.0,923,22,CZE
+125,Marvin Pieringer,1. FC Heidenheim 1846,2.3,3.0,1520,31,GER
+126,Ellyes Skhiri,Eintracht Frankfurt,2.3,2.0,2169,27,TUN
+127,Anthony Losilla,VfL Bochum,2.3,1.0,2586,31,FRA
+127,Jan Thielmann,FC Köln,2.3,1.0,1588,22,GER
+127,Karim Onisiwo,1. FSV Mainz 05,2.3,1.0,1496,24,AUT
+127,Leonardo Bittencourt,SV Werder Bremen,2.3,1.0,1585,29,GER
+127,Lukas Daschner,VfL Bochum,2.3,1.0,525,20,GER
+127,Nadiem Amiri,1. FSV Mainz 05,2.3,1.0,1401,23,GER
+133,Robin Gosens,1. FC Union Berlin,2.2,6.0,2297,30,GER
+134,Ozan Kabak,TSG Hoffenheim,2.2,4.0,2290,28,TUR
+135,Christopher Antwi-Adjej,VfL Bochum,2.2,2.0,1216,25,GHA
+135,Emre Can,Borussia Dortmund,2.2,2.0,1956,25,GER
+137,Eric Martel,FC Köln,2.2,1.0,2464,30,GER
+137,Jamie Bynoe-Gittens,Borussia Dortmund,2.2,1.0,1059,25,ENG
+139,Keven Schlotterbeck,VfL Bochum,2.1,5.0,2184,27,GER
+140,Jonathan Tah,Bayer 04 Leverkusen,2.1,4.0,2632,31,GER
+141,Jessic Ngankam,1. FSV Mainz 05,2.1,0.0,450,22,GER
+142,Brenden Aaronson,1. FC Union Berlin,2.0,2.0,1263,30,USA
+142,Merlin Röhl,SC Freiburg,2.0,2.0,1483,24,GER
+144,Mark Uth,FC Köln,2.0,0.0,369,11,GER
+145,Nikola Dovedan,1. FC Heidenheim 1846,1.9,3.0,646,21,AUT
+146,Anton Stach,TSG Hoffenheim,1.9,2.0,2497,33,GER
+146,Yannick Gerhardt,VfL Wolfsburg,1.9,2.0,1635,25,GER
+148,Aymen Barkok,1. FSV Mainz 05,1.9,1.0,312,13,MAR
+148,Linton Maina,FC Köln,1.9,1.0,1904,31,GER
+148,Marco Richter,1. FSV Mainz 05,1.9,1.0,713,20,GER
+148,Piero Hincapié,Bayer 04 Leverkusen,1.9,1.0,1484,26,ECU
+152,Alex Kral,1. FC Union Berlin,1.9,0.0,1365,24,CZE
+152,Dejan Ljubicic,FC Köln,1.9,0.0,2055,26,AUT
+152,Ramy Bensebaini,Borussia Dortmund,1.9,0.0,1030,17,ALG
+155,Julian Ryerson,Borussia Dortmund,1.8,4.0,1772,21,NOR
+155,Robert Andrich,Bayer 04 Leverkusen,1.8,4.0,1681,28,GER
+157,Arne Engels,FC Augsburg,1.8,3.0,1398,32,BEL
+157,Granit Xhaka,Bayer 04 Leverkusen,1.8,3.0,2828,33,SUI
+157,Robert Skov,TSG Hoffenheim,1.8,3.0,1261,25,DEN
+160,Matthijs de Ligt,Bayern München,1.8,2.0,1389,22,NED
+160,Woo-Yeong Jeong,VfB Stuttgart,1.8,2.0,618,26,KOR
+162,András Schäfer,1. FC Union Berlin,1.8,1.0,1218,20,HUN
+162,Mathias Honsak,SV Darmstadt,1.8,1.0,1013,23,AUT
+162,Ridle Baku,VfL Wolfsburg,1.8,1.0,2011,33,GER
+165,Timo Hübers,FC Köln,1.8,0.0,2779,31,GER
+166,Elvis Rexhbecaj,FC Augsburg,1.7,2.0,1994,25,GER
+166,Milos Veljkovic,SV Werder Bremen,1.7,2.0,1921,23,SRB
+168,Adrian Beck,1. FC Heidenheim 1846,1.7,1.0,971,23,GER
+168,Angelo Stiller,VfB Stuttgart,1.7,1.0,2780,32,GER
+168,Dayot Upamecano,Bayern München,1.7,1.0,1763,25,FRA
+168,Felix Nmecha,Borussia Dortmund,1.7,1.0,1016,20,GER
+172,Waldemar Anton,VfB Stuttgart,1.7,0.0,2888,33,GER
+173,Franck Honorat,Borussia Mönchengladbach,1.6,3.0,2358,32,FRA
+174,Anthony Caci,1. FSV Mainz 05,1.6,2.0,2493,31,FRA
+174,Felix Uduokhai,FC Augsburg,1.6,2.0,2922,33,GER
+174,Nico Elvedi,Borussia Mönchengladbach,1.6,2.0,2485,30,SUI
+177,Dominik Kohr,1. FSV Mainz 05,1.6,1.0,2190,31,GER
+177,Tuta,Eintracht Frankfurt,1.6,1.0,2605,30,BRA
+179,Arne Maier,FC Augsburg,1.5,2.0,998,22,GER
+179,Emil Forsberg,RB Leipzig,1.5,2.0,460,14,SWE
+181,Marius Bülter,TSG Hoffenheim,1.5,1.0,1346,30,GER
+181,Philipp Mwene,1. FSV Mainz 05,1.5,1.0,2003,23,AUT
+183,Lucas Tousart,1. FC Union Berlin,1.5,0.0,1573,23,FRA
+184,Joakim Mæhle,VfL Wolfsburg,1.4,2.0,2454,30,DEN
+184,Patrick Osterhage,VfL Bochum,1.4,2.0,1863,24,GER
+184,Patrick Wimmer,VfL Wolfsburg,1.4,2.0,594,14,AUT
+187,Benedikt Gimber,1. FC Heidenheim 1846,1.4,1.0,2026,24,GER
+187,Iago,FC Augsburg,1.4,1.0,1622,23,BRA
+187,Maximilian Bauer,FC Augsburg,1.4,1.0,808,14,GER
+187,Philipp Lienhart,SC Freiburg,1.4,1.0,1265,15,AUT
+187,Silvan Widmer,1. FSV Mainz 05,1.4,1.0,1243,20,SUI
+192,Borja Iglesias,Bayer 04 Leverkusen,1.4,0.0,252,7,ESP
+192,Josip Juranovic,1. FC Union Berlin,1.4,0.0,1290,21,CRO
+192,Julian Chabot,FC Köln,1.4,0.0,2707,32,GER
+192,Matthias Ginter,SC Freiburg,1.4,0.0,1918,23,GER
+196,Ko Itakura,Borussia Mönchengladbach,1.3,3.0,1598,20,JPN
+196,Maximilian Wittek,VfL Bochum,1.3,3.0,1067,21,GER
+196,Niels Nkounkou,Eintracht Frankfurt,1.3,3.0,1301,29,FRA
+199,Hugo Larsson,Eintracht Frankfurt,1.3,2.0,1885,29,SWE
+199,Josha Vagnoman,VfB Stuttgart,1.3,2.0,1181,18,GER
+199,Maximilian Wöber,Borussia Mönchengladbach,1.3,2.0,2070,25,AUT
+202,Ivan Ordets,VfL Bochum,1.3,1.0,1879,24,UKR
+202,Jeffrey Gouweleeuw,FC Augsburg,1.3,1.0,2594,30,NED
+202,Mikkel Kaufmann,1. FC Union Berlin,1.3,1.0,479,18,DEN
+202,Randal Kolo Muani,Eintracht Frankfurt,1.3,1.0,155,2,FRA
+206,Cedric Zesiger,VfL Wolfsburg,1.3,0.0,1634,23,SUI
+206,Dawid Kownacki,SV Werder Bremen,1.3,0.0,366,22,POL
+206,Willian Pacho,Eintracht Frankfurt,1.3,0.0,2970,33,ECU
+209,Aleksandar Pavlovic,Bayern München,1.2,2.0,1228,19,GER
+209,Christoph Klarer,SV Darmstadt,1.2,2.0,2356,30,AUT
+209,Danilho Doekhi,1. FC Union Berlin,1.2,2.0,2160,24,NED
+212,Aaron Seydel,SV Darmstadt,1.2,1.0,615,16,GER
+212,Florian Grillitsch,TSG Hoffenheim,1.2,1.0,2297,30,AUT
+212,Kouadio Koné,Borussia Mönchengladbach,1.2,1.0,1565,22,FRA
+212,Nacho Ferri,Eintracht Frankfurt,1.2,1.0,68,8,ESP
+212,Robin Knoche,1. FC Union Berlin,1.2,1.0,1916,24,GER
+217,Amadou Haidara,RB Leipzig,1.1,2.0,1537,21,MLI
+217,Jan Schöppner,1. FC Heidenheim 1846,1.1,2.0,2000,26,GER
+217,Olivier Deman,SV Werder Bremen,1.1,2.0,1359,29,BEL
+220,Joshua Kimmich,Bayern München,1.1,1.0,2185,28,GER
+220,Manuel Gulde,SC Freiburg,1.1,1.0,2048,27,GER
+222,Erhan Masovic,VfL Bochum,1.1,0.0,2218,29,SRB
+222,Luca Raimund,VfB Stuttgart,1.1,0.0,28,3,GER
+222,Noussair Mazraoui,Bayern München,1.1,0.0,1197,19,MAR
+222,Xaver Schlager,RB Leipzig,1.1,0.0,2482,29,AUT
+226,Alphonso Davies,Bayern München,1.0,2.0,2067,29,CAN
+226,Damion Downs,FC Köln,1.0,2.0,173,10,GER
+226,Maximilian Arnold,VfL Wolfsburg,1.0,2.0,2503,30,GER
+229,Dan-Axel Zagadou,VfB Stuttgart,1.0,1.0,1453,19,FRA
+229,Hrvoje Smolcic,Eintracht Frankfurt,1.0,1.0,345,11,CRO
+229,Julian Malatini,SV Werder Bremen,1.0,1.0,602,11,ARG
+229,Max Finkgrafe,FC Köln,1.0,1.0,1756,24,GER
+233,Atakan Karazor,VfB Stuttgart,1.0,0.0,2630,33,GER
+233,Edmond Tapsoba,Bayer 04 Leverkusen,1.0,0.0,2084,28,BFA
+233,Konrad Laimer,Bayern München,1.0,0.0,1770,29,AUT
+233,Luca Netz,Borussia Mönchengladbach,1.0,0.0,2231,30,GER
+233,Moritz-Broni Kwarteng,VfL Bochum,1.0,0.0,275,11,GER
+233,Pep Biel,FC Augsburg,1.0,0.0,274,11,ESP
+233,Sebastian Polter,SV Darmstadt,1.0,0.0,444,9,GER
+240,Felix Passlack,VfL Bochum,0.9,2.0,966,15,GER
+240,Fredrik Jensen,FC Augsburg,0.9,2.0,1350,22,FIN
+240,Ian Maatsen,Borussia Dortmund,0.9,2.0,1269,16,NED
+240,Jadon Sancho,Borussia Dortmund,0.9,2.0,954,14,ENG
+240,Julian Justvan,SV Darmstadt,0.9,2.0,1069,18,GER
+240,Maximilian Mittelstaedt,VfB Stuttgart,0.9,2.0,2104,31,GER
+246,Fabian Nürnberger,SV Darmstadt,0.9,1.0,1519,21,GER
+246,Janik Haberer,1. FC Union Berlin,0.9,1.0,1223,21,GER
+248,Felix Agu,SV Werder Bremen,0.9,0.0,1621,24,GER
+248,Giovanni Reyna,Borussia Dortmund,0.9,0.0,271,11,USA
+248,Hiroki Ito,VfB Stuttgart,0.9,0.0,2231,26,JPN
+248,Rasmus Carstensen,FC Köln,0.9,0.0,1658,23,DEN
+248,Sebastien Haller,Borussia Dortmund,0.9,0.0,389,14,CIV
+253,Maxence Lacroix,VfL Wolfsburg,0.8,4.0,2364,28,FRA
+254,Josip Stanisic,Bayer 04 Leverkusen,0.8,3.0,1257,20,CRO
+255,David Raum,RB Leipzig,0.8,2.0,2743,31,GER
+255,Kristijan Jakic,FC Augsburg,0.8,2.0,1253,18,CRO
+257,Castello Lukeba,RB Leipzig,0.8,1.0,2185,32,FRA
+257,Lennard Maloney,1. FC Heidenheim 1846,0.8,1.0,2292,29,USA
+257,Leonardo Bonucci,1. FC Union Berlin,0.8,1.0,463,7,ITA
+257,Mads Valentin Pedersen,FC Augsburg,0.8,1.0,1783,27,DEN
+257,Milos Pantovic,1. FC Union Berlin,0.8,1.0,14,1,SRB
+257,Min-Jae Kim,Bayern München,0.8,1.0,1970,25,KOR
+257,Tom Krauss,1. FSV Mainz 05,0.8,1.0,1339,29,GER
+264,Diogo Leite,1. FC Union Berlin,0.8,0.0,2708,32,POR
+264,Eljif Elmas,RB Leipzig,0.8,0.0,256,14,MKD
+264,Marius Wolf,Borussia Dortmund,0.8,0.0,1161,22,GER
+264,Sebastiaan Bornauw,VfL Wolfsburg,0.8,0.0,1431,20,BEL
+264,Sheraldo Becker,1. FC Union Berlin,0.8,0.0,649,11,SUR
+269,Andreas Hanche-Olsen,1. FSV Mainz 05,0.7,1.0,995,15,NOR
+269,Anthony Jung,SV Werder Bremen,0.7,1.0,2583,31,GER
+269,Lukas Klostermann,RB Leipzig,0.7,1.0,1433,25,GER
+269,Matthias Bader,SV Darmstadt,0.7,1.0,1807,24,GER
+269,Nicolas Höfler,SC Freiburg,0.7,1.0,2332,28,GER
+269,Yannik Keitel,SC Freiburg,0.7,1.0,921,15,GER
+275,Aissa Laidouni,1. FC Union Berlin,0.7,0.0,1064,23,TUN
+275,Eric Dier,Bayern München,0.7,0.0,1166,15,ENG
+275,Fraser Hornby,SV Darmstadt,0.7,0.0,214,7,SCO
+275,Kevin Vogt,1. FC Union Berlin,0.7,0.0,2643,32,GER
+275,Mergim Berisha,TSG Hoffenheim,0.7,0.0,263,8,GER
+275,Niklas Dorsch,FC Augsburg,0.7,0.0,1387,21,GER
+281,Joseph Scally,Borussia Mönchengladbach,0.6,1.0,2236,31,USA
+281,Lukas Kübler,SC Freiburg,0.6,1.0,1848,26,GER
+281,Mahmoud Dahoud,VfB Stuttgart,0.6,1.0,217,13,SYR
+281,Matej Maglica,SV Darmstadt,0.6,1.0,1701,26,CRO
+281,Odilon Kossounou,Bayer 04 Leverkusen,0.6,1.0,1812,22,CIV
+286,Amin Sarr,VfL Wolfsburg,0.6,0.0,377,14,SWE
+286,Amos Pieper,SV Werder Bremen,0.6,0.0,591,7,GER
+286,Christopher Trimmel,1. FC Union Berlin,0.6,0.0,1653,26,AUT
+286,Fabian Holland,SV Darmstadt,0.6,0.0,1847,23,GER
+286,Gerrit Holtmann,SV Darmstadt,0.6,0.0,388,10,PHI
+286,Kilian Sildillia,SC Freiburg,0.6,0.0,1804,27,FRA
+286,Marvin Friedrich,Borussia Mönchengladbach,0.6,0.0,1561,24,GER
+286,Stefan Schimmer,1. FC Heidenheim 1846,0.6,0.0,141,16,GER
+294,Aurelio Buta,Eintracht Frankfurt,0.5,1.0,1744,30,POR
+294,Christian Günter,SC Freiburg,0.5,1.0,1064,15,GER
+294,Maximilian Philipp,SC Freiburg,0.5,1.0,311,17,GER
+294,Noah Weisshaupt,SC Freiburg,0.5,1.0,744,24,GER
+298,Bryan Zaragoza,Bayern München,0.5,0.0,178,7,ESP
+298,Edimilson Fernandes,1. FSV Mainz 05,0.5,0.0,1284,21,SUI
+298,Jakub Kaminski,VfL Wolfsburg,0.5,0.0,465,17,POL
+298,Jonas Föhrenbach,1. FC Heidenheim 1846,0.5,0.0,2790,33,GER
+298,Klaus Gjasula,SV Darmstadt,0.5,0.0,1366,22,ALB
+298,Nelson Weiper,1. FSV Mainz 05,0.5,0.0,121,5,GER
+298,Patric Pfeiffer,FC Augsburg,0.5,0.0,509,11,GER
+298,Philipp Förster,VfL Bochum,0.5,0.0,378,13,GER
+298,Thomas Meunier,Borussia Dortmund,0.5,0.0,588,8,BEL
+298,Umut Tohumcu,TSG Hoffenheim,0.5,0.0,1012,20,GER
+298,Willi Orban,RB Leipzig,0.5,0.0,1583,19,HUN
+309,Leonidas Stergiou,VfB Stuttgart,0.4,1.0,587,15,SUI
+309,Niklas Süle,Borussia Dortmund,0.4,1.0,1509,23,GER
+311,Braydon Manu,SV Darmstadt,0.4,0.0,171,4,GHA
+311,Christoph Zimmermann,SV Darmstadt,0.4,0.0,1216,19,GER
+311,Denis Thomalla,1. FC Heidenheim 1846,0.4,0.0,432,21,GER
+311,Emir Karic,SV Darmstadt,0.4,0.0,1781,27,AUT
+311,Kilian Fischer,VfL Wolfsburg,0.4,0.0,292,6,GER
+311,Leart Paqarada,FC Köln,0.4,0.0,1073,17,KVX
+311,Norman Theuerkauf,1. FC Heidenheim 1846,0.4,0.0,1257,25,GER
+311,Rani Khedira,1. FC Union Berlin,0.4,0.0,1350,20,GER
+311,Senne Lynen,SV Werder Bremen,0.4,0.0,1791,32,BEL
+311,Tom Bischof,TSG Hoffenheim,0.4,0.0,169,13,GER
+321,Rogério,VfL Wolfsburg,0.3,1.0,906,13,BRA
+321,Skelly Alvero,SV Werder Bremen,0.3,1.0,121,6,FRA
+323,Bartol Franjic,SV Darmstadt,0.3,0.0,1232,20,CRO
+323,Christian Gross,SV Werder Bremen,0.3,0.0,792,20,GER
+323,Clemens Riedel,SV Darmstadt,0.3,0.0,754,14,GER
+323,Danny da Costa,1. FSV Mainz 05,0.3,0.0,826,19,GER
+323,Denis Huseinbasic,FC Köln,0.3,0.0,1627,26,BIH
+323,Fabio Torsiello,SV Darmstadt,0.3,0.0,147,10,ITA
+323,Finn Becker,TSG Hoffenheim,0.3,0.0,596,22,GER
+323,Florian Dietz,FC Köln,0.3,0.0,65,5,GER
+323,Florian Pick,1. FC Heidenheim 1846,0.3,0.0,315,22,GER
+323,Frans Krätzig,Bayern München,0.3,0.0,52,4,GER
+323,Grant-Leon Ranos,Borussia Mönchengladbach,0.3,0.0,42,9,ARM
+323,Jérome Roussillon,1. FC Union Berlin,0.3,0.0,743,23,FRA
+323,Kevin Akpoguma,TSG Hoffenheim,0.3,0.0,1095,17,NGA
+323,Merveille Papela,1. FSV Mainz 05,0.3,0.0,253,11,GER
+323,Moritz Jenz,VfL Wolfsburg,0.3,0.0,1745,22,GER
+323,Omar Traoré,1. FC Heidenheim 1846,0.3,0.0,2474,31,GER
+323,Pascal Stenzel,VfB Stuttgart,0.3,0.0,1068,23,GER
+323,Samuel Bamba,Borussia Dortmund,0.3,0.0,45,2,GER
+341,Niklas Stark,SV Werder Bremen,0.2,2.0,1086,17,GER
+342,Chris Bedia,1. FC Union Berlin,0.2,1.0,139,7,CIV
+342,Kevin Kampl,RB Leipzig,0.2,1.0,1360,26,SVN
+342,Marco Friedl,SV Werder Bremen,0.2,1.0,2198,25,AUT
+342,Mert Kömür,FC Augsburg,0.2,1.0,116,4,TUR
+342,Philipp Max,Eintracht Frankfurt,0.2,1.0,1357,23,GER
+347,Bambase Conte,TSG Hoffenheim,0.2,0.0,43,7,GER
+347,Benno Schmitz,FC Köln,0.2,0.0,1154,22,GER
+347,Bouna Sarr,Bayern München,0.2,0.0,105,2,SEN
+347,David Jurasek,TSG Hoffenheim,0.2,0.0,490,13,CZE
+347,Fabian Schnellhardt,SV Darmstadt,0.2,0.0,228,10,GER
+347,Fabio Carvalho,RB Leipzig,0.2,0.0,158,9,POR
+347,Filip Stojilkovic,SV Darmstadt,0.2,0.0,148,6,SUI
+347,Irvin Cardona,FC Augsburg,0.2,0.0,51,3,FRA
+347,Jannik Müller,SV Darmstadt,0.2,0.0,1133,16,GER
+347,Jesper Lindstrøm,Eintracht Frankfurt,0.2,0.0,84,1,DEN
+347,Jordy Makengo,SC Freiburg,0.2,0.0,1022,20,FRA
+347,Justin Diehl,FC Köln,0.2,0.0,165,7,GER
+347,Lilian Egloff,VfB Stuttgart,0.2,0.0,103,5,GER
+347,Patrick Herrmann,Borussia Mönchengladbach,0.2,0.0,78,8,GER
+347,Robert Gumny,FC Augsburg,0.2,0.0,477,13,POL
+347,Sacha Boey,Bayern München,0.2,0.0,109,2,FRA
+347,Salih Özcan,Borussia Dortmund,0.2,0.0,1179,23,TUR
+347,Sasa Kalajdzic,Eintracht Frankfurt,0.2,0.0,329,5,AUT
+347,Shio Fukuda,Borussia Mönchengladbach,0.2,0.0,33,5,JPN
+347,Stefan Bell,1. FSV Mainz 05,0.2,0.0,669,10,GER
+347,Stefan Lainer,Borussia Mönchengladbach,0.2,0.0,749,15,AUT
+347,Tim Siersleben,1. FC Heidenheim 1846,0.2,0.0,909,14,GER
+369,Lovro Zvonarek,Bayern München,0.1,1.0,160,5,CRO
+369,Lukas Nmecha,VfL Wolfsburg,0.1,1.0,39,3,GER
+371,Andreas Müller,SV Darmstadt,0.1,0.0,341,11,GER
+371,Anthony Rouault,VfB Stuttgart,0.1,0.0,1008,22,FRA
+371,Anwar El-Ghazi,1. FSV Mainz 05,0.1,0.0,51,3,NED
+371,Arthur,Bayer 04 Leverkusen,0.1,0.0,184,4,BRA
+371,Aster Vranckx,VfL Wolfsburg,0.1,0.0,1143,24,BEL
+371,Attila Szalai,SC Freiburg,0.1,0.0,390,7,HUN
+371,Christoph Kramer,Borussia Mönchengladbach,0.1,0.0,240,14,GER
+371,Chukwubuike Adamu,SC Freiburg,0.1,0.0,93,15,AUT
+371,Cristian Gamboa,VfL Bochum,0.1,0.0,1187,22,CRC
+371,Danilo Soares,VfL Bochum,0.1,0.0,351,5,BRA
+371,Dominique Heintz,FC Köln,0.1,0.0,565,12,GER
+371,Donny van de Beek,Eintracht Frankfurt,0.1,0.0,357,8,NED
+371,Dzenan Pejcinovic,VfL Wolfsburg,0.1,0.0,33,4,GER
+371,Florent Muslija,SC Freiburg,0.1,0.0,97,10,KVX
+371,Frank Ronstadt,SV Darmstadt,0.1,0.0,73,4,GER
+371,Frederik Rønnow,1. FC Union Berlin,0.1,0.0,2970,33,DEN
+371,Gustavo Puerta,Bayer 04 Leverkusen,0.1,0.0,40,7,COL
+371,Jens Petter Hauge,Eintracht Frankfurt,0.1,0.0,138,10,NOR
+371,Kevin Mbabu,FC Augsburg,0.1,0.0,2048,25,SUI
+371,Marcus Müller,1. FSV Mainz 05,0.1,0.0,17,1,GER
+371,Marnon-Thomas Busch,1. FC Heidenheim 1846,0.1,0.0,592,16,GER
+371,Michael Zetterer,SV Werder Bremen,0.1,0.0,2430,27,GER
+371,Naby Keita,SV Werder Bremen,0.1,0.0,108,5,GUI
+371,Ole Pohlmann,Borussia Dortmund,0.1,0.0,52,2,GER
+371,Paxten Aaronson,Eintracht Frankfurt,0.1,0.0,95,7,USA
+371,Tim Breithaupt,FC Augsburg,0.1,0.0,625,16,GER
+371,Tim Oermann,VfL Bochum,0.1,0.0,709,16,GER
+371,Timothy Chandler,Eintracht Frankfurt,0.1,0.0,16,6,USA
+399,Aljoscha Kemlein,1. FC Union Berlin,0.0,0.0,27,2,GER
+399,Borna Sosa,VfB Stuttgart,0.0,0.0,44,2,CRO
+399,Jacob Steen Christensen,FC Köln,0.0,0.0,216,7,DEN
+399,Kenneth Schmidt,SC Freiburg,0.0,0.0,64,5,GER
+399,Mateu Morey,Borussia Dortmund,0.0,0.0,110,3,ESP
+399,Mathias Olesen,FC Köln,0.0,0.0,107,6,LUX
+399,Nathanaël Mbuku,FC Augsburg,0.0,0.0,4,1,FRA
+399,Nicolas Cozza,VfL Wolfsburg,0.0,0.0,278,6,FRA
+399,Noah Mbamba,Bayer 04 Leverkusen,0.0,0.0,14,3,BEL
+399,Robin Zentner,1. FSV Mainz 05,0.0,0.0,2700,30,GER

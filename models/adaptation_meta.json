@@ -1,0 +1,4 @@
+{
+  "type": "rule_based",
+  "note": "Insufficient training data for supervised adaptation model."
+}

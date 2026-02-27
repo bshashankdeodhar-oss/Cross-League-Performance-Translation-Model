@@ -1,0 +1,12 @@
+2026-02-28 02:18:00 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: START ===
+2026-02-28 02:18:01 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_goals_p90.png
+2026-02-28 02:18:02 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_assists_p90.png
+2026-02-28 02:18:02 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_xg_p90.png
+2026-02-28 02:18:03 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_xag_p90.png
+2026-02-28 02:18:03 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: DONE ===
+2026-02-28 02:23:02 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: START ===
+2026-02-28 02:23:03 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_goals_p90.png
+2026-02-28 02:23:03 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_assists_p90.png
+2026-02-28 02:23:04 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_xg_p90.png
+2026-02-28 02:23:05 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\shap_xag_p90.png
+2026-02-28 02:23:05 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: DONE ===

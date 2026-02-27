@@ -1,0 +1,10 @@
+2026-02-28 02:16:33 | INFO     | adaptation | === Phase 4 — Adaptation Modeling: START ===
+2026-02-28 02:16:33 | INFO     | adaptation | Cross-league players for adaptation labels: 1
+2026-02-28 02:16:33 | WARNING  | adaptation | Insufficient cross-league players for supervised adaptation training.
+Saving a rule-based fallback model instead.
+2026-02-28 02:16:33 | INFO     | adaptation | Saved rule-based stub metadata.
+2026-02-28 02:23:02 | INFO     | adaptation | === Phase 4 — Adaptation Modeling: START ===
+2026-02-28 02:23:02 | INFO     | adaptation | Cross-league players for adaptation labels: 1
+2026-02-28 02:23:02 | WARNING  | adaptation | Insufficient cross-league players for supervised adaptation training.
+Saving a rule-based fallback model instead.
+2026-02-28 02:23:02 | INFO     | adaptation | Saved rule-based stub metadata.

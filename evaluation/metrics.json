@@ -1,0 +1,66 @@
+{
+  "goals_p90": {
+    "lgbm": {
+      "mae": 0.0001,
+      "rmse": 0.0005
+    },
+    "mlp": {
+      "mae": 0.0219,
+      "rmse": 0.0297
+    },
+    "bayesian": {
+      "mae": 0.005,
+      "rmse": 0.0067
+    },
+    "backtest_mae": 0.0012,
+    "backtest_n": 2
+  },
+  "assists_p90": {
+    "lgbm": {
+      "mae": 0.0,
+      "rmse": 0.0001
+    },
+    "mlp": {
+      "mae": 0.0176,
+      "rmse": 0.0235
+    },
+    "bayesian": {
+      "mae": 0.0032,
+      "rmse": 0.0042
+    },
+    "backtest_mae": 0.0007,
+    "backtest_n": 2
+  },
+  "xg_p90": {
+    "lgbm": {
+      "mae": 0.0,
+      "rmse": 0.0
+    },
+    "mlp": {
+      "mae": 0.0105,
+      "rmse": 0.0183
+    },
+    "bayesian": {
+      "mae": 0.0041,
+      "rmse": 0.0056
+    },
+    "backtest_mae": 0.0002,
+    "backtest_n": 2
+  },
+  "xag_p90": {
+    "lgbm": {
+      "mae": 0.0,
+      "rmse": 0.0002
+    },
+    "mlp": {
+      "mae": 0.009,
+      "rmse": 0.0163
+    },
+    "bayesian": {
+      "mae": 0.0026,
+      "rmse": 0.0033
+    },
+    "backtest_mae": 0.0001,
+    "backtest_n": 2
+  }
+}

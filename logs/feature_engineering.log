@@ -1,0 +1,105 @@
+2026-02-28 02:09:52 | INFO     | feature_engineering | === Phase 2 — Feature Engineering: START ===
+2026-02-28 02:09:52 | INFO     | feature_engineering | Input shape: (699, 75)
+2026-02-28 02:09:52 | INFO     | feature_engineering |   team_strength_ratio computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   poss_adj_touches_p90 computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Position flag: pos_gk
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Position flag: pos_df
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Position flag: pos_mf
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Position flag: pos_fw
+2026-02-28 02:09:52 | INFO     | feature_engineering |   position_primary computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   age_curve_score computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   play_style_progressive computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   play_style_direct_carry computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   play_style_defensive computed.
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: shots_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: shots_on_target_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: goals_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: assists_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: xg_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: xag_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: npxg_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: prog_carries_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: prog_passes_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: prog_receptions_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: key_passes_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: xa_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: tackles_won_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: interceptions_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: clearances_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: carries_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: touches_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering |   Percentile: poss_adj_touches_p90_pct
+2026-02-28 02:09:52 | INFO     | feature_engineering | Final feature set — shape: (699, 104)
+2026-02-28 02:09:52 | INFO     | feature_engineering | Columns: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches', 'goals_p90', 'assists_p90', 'xg_p90', 'xag_p90', 'npxg_p90', 'prog_carries_p90', 'prog_passes_p90', 'prog_receptions_p90', 'key_passes_p90', 'xa_p90', 'tackles_won_p90', 'interceptions_p90', 'clearances_p90', 'carries_p90', 'touches_p90', 'goals_zscore', 'assists_zscore', 'xg_zscore', 'xag_zscore', 'npxg_zscore', 'prog_carries_zscore', 'prog_passes_zscore', 'prog_receptions_zscore', 'key_passes_zscore', 'xa_zscore', 'tackles_won_zscore', 'interceptions_zscore', 'clearances_zscore', 'carries_zscore', 'touches_zscore', 'shots_zscore', 'shots_on_target_zscore', 'pass_completion_zscore', 'league_lsc', 'lsc_adj_goals_p90', 'lsc_adj_assists_p90', 'lsc_adj_xg_p90', 'lsc_adj_xag_p90', 'lsc_adj_npxg_p90', 'lsc_adj_shots_p90', 'lsc_adj_shots_on_target_p90', 'lsc_adj_prog_carries_p90', 'lsc_adj_prog_passes_p90', 'lsc_adj_prog_receptions_p90', 'lsc_adj_key_passes_p90', 'lsc_adj_xa_p90', 'lsc_adj_carries_p90', 'lsc_adj_touches_p90', 'lsc_adj_tackles_won_p90', 'lsc_adj_interceptions_p90', 'lsc_adj_clearances_p90', 'team_strength_ratio', 'poss_adj_touches_p90', 'pos_gk', 'pos_df', 'pos_mf', 'pos_fw', 'position_primary', 'age_curve_score', 'play_style_progressive', 'play_style_direct_carry', 'play_style_defensive', 'shots_p90_pct', 'shots_on_target_p90_pct', 'goals_p90_pct', 'assists_p90_pct', 'xg_p90_pct', 'xag_p90_pct', 'npxg_p90_pct', 'prog_carries_p90_pct', 'prog_passes_p90_pct', 'prog_receptions_p90_pct', 'key_passes_p90_pct', 'xa_p90_pct', 'tackles_won_p90_pct', 'interceptions_p90_pct', 'clearances_p90_pct', 'carries_p90_pct', 'touches_p90_pct', 'poss_adj_touches_p90_pct']
+2026-02-28 02:09:52 | INFO     | feature_engineering | Saved feature dataset: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\processed\feature_dataset.csv
+2026-02-28 02:09:52 | INFO     | feature_engineering | === Phase 2 — Feature Engineering: DONE ===
+2026-02-28 02:22:40 | INFO     | feature_engineering | === Phase 2 — Feature Engineering: START ===
+2026-02-28 02:22:40 | INFO     | feature_engineering | Input shape: (699, 75)
+2026-02-28 02:22:40 | INFO     | feature_engineering |   team_strength_ratio computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   poss_adj_touches_p90 computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Position flag: pos_gk
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Position flag: pos_df
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Position flag: pos_mf
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Position flag: pos_fw
+2026-02-28 02:22:40 | INFO     | feature_engineering |   position_primary computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   age_curve_score computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   play_style_progressive computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   play_style_direct_carry computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   play_style_defensive computed.
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: shots_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: shots_on_target_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: goals_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: assists_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: xg_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: xag_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: npxg_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: prog_carries_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: prog_passes_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: prog_receptions_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: key_passes_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: xa_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: tackles_won_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: interceptions_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: clearances_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: carries_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: touches_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering |   Percentile: poss_adj_touches_p90_pct
+2026-02-28 02:22:40 | INFO     | feature_engineering | Final feature set — shape: (699, 104)
+2026-02-28 02:22:40 | INFO     | feature_engineering | Columns: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches', 'goals_p90', 'assists_p90', 'xg_p90', 'xag_p90', 'npxg_p90', 'prog_carries_p90', 'prog_passes_p90', 'prog_receptions_p90', 'key_passes_p90', 'xa_p90', 'tackles_won_p90', 'interceptions_p90', 'clearances_p90', 'carries_p90', 'touches_p90', 'goals_zscore', 'assists_zscore', 'xg_zscore', 'xag_zscore', 'npxg_zscore', 'prog_carries_zscore', 'prog_passes_zscore', 'prog_receptions_zscore', 'key_passes_zscore', 'xa_zscore', 'tackles_won_zscore', 'interceptions_zscore', 'clearances_zscore', 'carries_zscore', 'touches_zscore', 'shots_zscore', 'shots_on_target_zscore', 'pass_completion_zscore', 'league_lsc', 'lsc_adj_goals_p90', 'lsc_adj_assists_p90', 'lsc_adj_xg_p90', 'lsc_adj_xag_p90', 'lsc_adj_npxg_p90', 'lsc_adj_shots_p90', 'lsc_adj_shots_on_target_p90', 'lsc_adj_prog_carries_p90', 'lsc_adj_prog_passes_p90', 'lsc_adj_prog_receptions_p90', 'lsc_adj_key_passes_p90', 'lsc_adj_xa_p90', 'lsc_adj_carries_p90', 'lsc_adj_touches_p90', 'lsc_adj_tackles_won_p90', 'lsc_adj_interceptions_p90', 'lsc_adj_clearances_p90', 'team_strength_ratio', 'poss_adj_touches_p90', 'pos_gk', 'pos_df', 'pos_mf', 'pos_fw', 'position_primary', 'age_curve_score', 'play_style_progressive', 'play_style_direct_carry', 'play_style_defensive', 'shots_p90_pct', 'shots_on_target_p90_pct', 'goals_p90_pct', 'assists_p90_pct', 'xg_p90_pct', 'xag_p90_pct', 'npxg_p90_pct', 'prog_carries_p90_pct', 'prog_passes_p90_pct', 'prog_receptions_p90_pct', 'key_passes_p90_pct', 'xa_p90_pct', 'tackles_won_p90_pct', 'interceptions_p90_pct', 'clearances_p90_pct', 'carries_p90_pct', 'touches_p90_pct', 'poss_adj_touches_p90_pct']
+2026-02-28 02:22:40 | INFO     | feature_engineering | Saved feature dataset: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\processed\feature_dataset.csv
+2026-02-28 02:22:40 | INFO     | feature_engineering | === Phase 2 — Feature Engineering: DONE ===
+2026-02-28 02:26:07 | INFO     | feature_engineering | === Phase 2 — Feature Engineering: START ===
+2026-02-28 02:26:07 | INFO     | feature_engineering | Input shape: (699, 75)
+2026-02-28 02:26:07 | INFO     | feature_engineering |   team_strength_ratio computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   poss_adj_touches_p90 computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Position flag: pos_gk
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Position flag: pos_df
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Position flag: pos_mf
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Position flag: pos_fw
+2026-02-28 02:26:07 | INFO     | feature_engineering |   position_primary computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   age_curve_score computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   play_style_progressive computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   play_style_direct_carry computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   play_style_defensive computed.
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: shots_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: shots_on_target_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: goals_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: assists_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: xg_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: xag_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: npxg_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: prog_carries_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: prog_passes_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: prog_receptions_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: key_passes_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: xa_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: tackles_won_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: interceptions_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: clearances_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: carries_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: touches_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering |   Percentile: poss_adj_touches_p90_pct
+2026-02-28 02:26:07 | INFO     | feature_engineering | Final feature set — shape: (699, 104)
+2026-02-28 02:26:07 | INFO     | feature_engineering | Columns: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches', 'goals_p90', 'assists_p90', 'xg_p90', 'xag_p90', 'npxg_p90', 'prog_carries_p90', 'prog_passes_p90', 'prog_receptions_p90', 'key_passes_p90', 'xa_p90', 'tackles_won_p90', 'interceptions_p90', 'clearances_p90', 'carries_p90', 'touches_p90', 'goals_zscore', 'assists_zscore', 'xg_zscore', 'xag_zscore', 'npxg_zscore', 'prog_carries_zscore', 'prog_passes_zscore', 'prog_receptions_zscore', 'key_passes_zscore', 'xa_zscore', 'tackles_won_zscore', 'interceptions_zscore', 'clearances_zscore', 'carries_zscore', 'touches_zscore', 'shots_zscore', 'shots_on_target_zscore', 'pass_completion_zscore', 'league_lsc', 'lsc_adj_goals_p90', 'lsc_adj_assists_p90', 'lsc_adj_xg_p90', 'lsc_adj_xag_p90', 'lsc_adj_npxg_p90', 'lsc_adj_shots_p90', 'lsc_adj_shots_on_target_p90', 'lsc_adj_prog_carries_p90', 'lsc_adj_prog_passes_p90', 'lsc_adj_prog_receptions_p90', 'lsc_adj_key_passes_p90', 'lsc_adj_xa_p90', 'lsc_adj_carries_p90', 'lsc_adj_touches_p90', 'lsc_adj_tackles_won_p90', 'lsc_adj_interceptions_p90', 'lsc_adj_clearances_p90', 'team_strength_ratio', 'poss_adj_touches_p90', 'pos_gk', 'pos_df', 'pos_mf', 'pos_fw', 'position_primary', 'age_curve_score', 'play_style_progressive', 'play_style_direct_carry', 'play_style_defensive', 'shots_p90_pct', 'shots_on_target_p90_pct', 'goals_p90_pct', 'assists_p90_pct', 'xg_p90_pct', 'xag_p90_pct', 'npxg_p90_pct', 'prog_carries_p90_pct', 'prog_passes_p90_pct', 'prog_receptions_p90_pct', 'key_passes_p90_pct', 'xa_p90_pct', 'tackles_won_p90_pct', 'interceptions_p90_pct', 'clearances_p90_pct', 'carries_p90_pct', 'touches_p90_pct', 'poss_adj_touches_p90_pct']
+2026-02-28 02:26:07 | INFO     | feature_engineering | Saved feature dataset: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\processed\feature_dataset.csv
+2026-02-28 02:26:07 | INFO     | feature_engineering | === Phase 2 — Feature Engineering: DONE ===
