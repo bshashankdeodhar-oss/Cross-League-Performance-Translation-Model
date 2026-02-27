@@ -141,10 +141,12 @@ python src/explainability/scenario_sim.py \
 | League | LSC |
 |---|---|
 | Premier League | 1.00 (reference) |
-| La Liga | 0.95 |
-| Bundesliga | 0.92 |
-| Serie A | 0.90 |
-| Ligue 1 | 0.85 |
+| La Liga | 0.93 |
+| Bundesliga | 0.88 |
+| Serie A | 0.88 |
+| Ligue 1 | 0.82 |
+
+Coefficients are configurable in `config/config.yaml`.
 
 Coefficients are configurable in `config/config.yaml`.
 
@@ -157,6 +159,12 @@ Three models are trained per target variable (`goals_p90`, `assists_p90`, `xg_p9
 - **LightGBM** — Primary predictor
 - **MLP** — Captures nonlinear interactions
 - **Bayesian Ridge** — Uncertainty quantification (confidence intervals)
+
+### Anti-Leakage Training & Transfer Reality Check (TRC)
+Since cross-league data is highly correlated within a single season, the `train.py` pipeline employs a strict **anti-leakage mechanism**. When training to predict a target like `goals_p90`, all underlying direct proxies (e.g. `xg_p90`, `goals_p90_adjusted`) are dynamically dropped. This forces the model to learn true adaptation profiles from underlying features like age, positional play style, progressive actions, and relative team strength rather than memorizing stat ratios.
+
+Additionally, `predict.py` enforces a **Transfer Reality Check (TRC)**. This is a Bayesian baseline prior that structurally dampens raw predictions when a player steps up into a harder league (e.g. Bundesliga 0.88 → Premier League 1.00), scaling the penalty down only if the player is moving to a vastly superior team.
+
 
 ---
 
