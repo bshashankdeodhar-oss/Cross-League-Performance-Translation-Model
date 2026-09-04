@@ -36,3 +36,19 @@ You can set ``predict_disable_shape_check=true`` to discard this error, but plea
 2026-02-28 03:31:03 | ERROR    | shap_analysis |   SHAP error for xag_p90: The number of features in data (27) is not the same as it was in training data (22).
 You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
 2026-02-28 03:31:03 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: DONE ===
+2026-09-04 20:31:39 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: START ===
+2026-09-04 20:31:39 | ERROR    | shap_analysis |   SHAP error for goals_p90: The number of features in data (27) is not the same as it was in training data (24).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2026-09-04 20:31:39 | ERROR    | shap_analysis |   SHAP error for assists_p90: The number of features in data (27) is not the same as it was in training data (25).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2026-09-04 20:31:40 | ERROR    | shap_analysis |   SHAP error for xg_p90: The number of features in data (27) is not the same as it was in training data (22).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2026-09-04 20:31:40 | ERROR    | shap_analysis |   SHAP error for xag_p90: The number of features in data (27) is not the same as it was in training data (22).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+2026-09-04 20:31:40 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: DONE ===
+2026-09-04 20:32:15 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: START ===
+2026-09-04 20:32:16 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\shap_goals_p90.png
+2026-09-04 20:32:16 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\shap_assists_p90.png
+2026-09-04 20:32:17 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\shap_xg_p90.png
+2026-09-04 20:32:18 | INFO     | shap_analysis |   Saved SHAP summary: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\shap_xag_p90.png
+2026-09-04 20:32:18 | INFO     | shap_analysis | === Phase 5 — SHAP Analysis: DONE ===

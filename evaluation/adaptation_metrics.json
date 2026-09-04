@@ -1,0 +1,10 @@
+{
+  "adaptation": {
+    "roc_auc": 0.611,
+    "std": 0.019
+  },
+  "risk": {
+    "roc_auc": 0.655,
+    "std": 0.034
+  }
+}

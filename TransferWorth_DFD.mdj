@@ -1,0 +1,547 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+  "name": "Transfer Worth - Data Flow Diagram",
+  "author": "Shashank Deodhar Bantupalli (24BRS1297)",
+  "company": "VIT Chennai",
+  "copyright": "Project Title: Transfer Worth | Reg No: 24BRS1297 | Name: Shashank Deodhar Bantupalli",
+  "ownedElements": [
+    {
+      "_type": "DFDDataFlowModel",
+      "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+      "_parent": {
+        "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+      },
+      "name": "Transfer Worth Data Flow Model",
+      "ownedElements": [
+        {
+          "_type": "DFDDiagram",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "Transfer Worth DFD Level 1 Diagram",
+          "ownedViews": [
+            {
+              "_type": "FreetextView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;14;1",
+              "left": 50,
+              "top": 30,
+              "width": 650,
+              "height": 60,
+              "text": "DATA FLOW DIAGRAM (LEVEL 1): Transfer Worth\nSTUDENT NAME: Shashank Deodhar Bantupalli | REG NO: 24BRS1297 | VIT Chennai"
+            },
+            {
+              "_type": "DFDExternalEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 50,
+              "top": 200,
+              "width": 180,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 55,
+                "top": 205,
+                "width": 170,
+                "height": 50,
+                "text": "Football Analyst / Scout"
+              }
+            },
+            {
+              "_type": "DFDExternalEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 50,
+              "top": 450,
+              "width": 180,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 55,
+                "top": 455,
+                "width": 170,
+                "height": 50,
+                "text": "System Administrator"
+              }
+            },
+            {
+              "_type": "DFDExternalEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 750,
+              "top": 200,
+              "width": 180,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 755,
+                "top": 205,
+                "width": 170,
+                "height": 50,
+                "text": "External Data Source (FBRef)"
+              }
+            },
+            {
+              "_type": "DFDProcessView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 100,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 355,
+                "top": 105,
+                "width": 250,
+                "height": 50,
+                "text": "1.0 Data Ingestion & ETL Processing"
+              }
+            },
+            {
+              "_type": "DFDProcessView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 220,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 355,
+                "top": 225,
+                "width": 250,
+                "height": 50,
+                "text": "2.0 LSC Calculation Engine"
+              }
+            },
+            {
+              "_type": "DFDProcessView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 340,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 355,
+                "top": 345,
+                "width": 250,
+                "height": 50,
+                "text": "3.0 Feature Engineering & Profiling"
+              }
+            },
+            {
+              "_type": "DFDProcessView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 460,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 355,
+                "top": 465,
+                "width": 250,
+                "height": 50,
+                "text": "4.0 ML Training & Inference Engine"
+              }
+            },
+            {
+              "_type": "DFDProcessView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 580,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 355,
+                "top": 585,
+                "width": 250,
+                "height": 50,
+                "text": "5.0 Explainability & Scenario Simulation"
+              }
+            },
+            {
+              "_type": "DFDProcessView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 700,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 355,
+                "top": 705,
+                "width": 250,
+                "height": 50,
+                "text": "6.0 Presentation & API Services"
+              }
+            },
+            {
+              "_type": "DFDDataStoreView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 750,
+              "top": 100,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 755,
+                "top": 105,
+                "width": 250,
+                "height": 50,
+                "text": "D1: Raw Data Store (CSV)"
+              }
+            },
+            {
+              "_type": "DFDDataStoreView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 750,
+              "top": 340,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 755,
+                "top": 345,
+                "width": 250,
+                "height": 50,
+                "text": "D2: Processed Feature Dataset (SQLite/Postgres)"
+              }
+            },
+            {
+              "_type": "DFDDataStoreView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 750,
+              "top": 460,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 755,
+                "top": 465,
+                "width": 250,
+                "height": 50,
+                "text": "D3: Model Checkpoints (.pkl)"
+              }
+            },
+            {
+              "_type": "DFDDataStoreView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 750,
+              "top": 580,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 755,
+                "top": 585,
+                "width": 250,
+                "height": 50,
+                "text": "D4: Prediction Audit Log DB"
+              }
+            },
+            {
+              "_type": "DFDDataStoreView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 50,
+              "top": 700,
+              "width": 260,
+              "height": 60,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 55,
+                "top": 705,
+                "width": 250,
+                "height": 50,
+                "text": "D5: User Store"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "DFDExternalEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "Football Analyst / Scout"
+        },
+        {
+          "_type": "DFDExternalEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "System Administrator"
+        },
+        {
+          "_type": "DFDExternalEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "External Data Source (FBRef)"
+        },
+        {
+          "_type": "DFDProcess",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "1.0 Data Ingestion & ETL Processing"
+        },
+        {
+          "_type": "DFDProcess",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "2.0 LSC Calculation Engine"
+        },
+        {
+          "_type": "DFDProcess",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "3.0 Feature Engineering & Profiling"
+        },
+        {
+          "_type": "DFDProcess",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "4.0 ML Training & Inference Engine"
+        },
+        {
+          "_type": "DFDProcess",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "5.0 Explainability & Scenario Simulation"
+        },
+        {
+          "_type": "DFDProcess",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "6.0 Presentation & API Services"
+        },
+        {
+          "_type": "DFDDataStore",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "D1: Raw Data Store (CSV)"
+        },
+        {
+          "_type": "DFDDataStore",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "D2: Processed Feature Dataset (SQLite/Postgres)"
+        },
+        {
+          "_type": "DFDDataStore",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "D3: Model Checkpoints (.pkl)"
+        },
+        {
+          "_type": "DFDDataStore",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "D4: Prediction Audit Log DB"
+        },
+        {
+          "_type": "DFDDataStore",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "D5: User Store"
+        }
+      ]
+    }
+  ]
+}

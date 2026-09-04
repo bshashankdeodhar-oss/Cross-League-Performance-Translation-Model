@@ -622,3 +622,120 @@
 2026-02-28 03:30:41 | INFO     | normalize | Shape after normalization: (699, 57)
 2026-02-28 03:30:41 | INFO     | normalize | Saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\interim\normalized.csv
 2026-02-28 03:30:41 | INFO     | normalize | === Phase 1 — Normalize: DONE ===
+2026-09-04 20:24:52 | INFO     | normalize | === Phase 1 — Normalize: START ===
+2026-09-04 20:24:52 | INFO     | normalize | Computing per-90 metrics...
+2026-09-04 20:24:52 | INFO     | normalize |   goals → goals_p90
+2026-09-04 20:24:52 | INFO     | normalize |   assists → assists_p90
+2026-09-04 20:24:52 | INFO     | normalize |   xg → xg_p90
+2026-09-04 20:24:52 | INFO     | normalize |   xag → xag_p90
+2026-09-04 20:24:52 | INFO     | normalize |   npxg → npxg_p90
+2026-09-04 20:24:52 | INFO     | normalize |   prog_carries → prog_carries_p90
+2026-09-04 20:24:52 | INFO     | normalize |   prog_passes → prog_passes_p90
+2026-09-04 20:24:52 | INFO     | normalize |   prog_receptions → prog_receptions_p90
+2026-09-04 20:24:52 | INFO     | normalize |   key_passes → key_passes_p90
+2026-09-04 20:24:52 | INFO     | normalize |   xa → xa_p90
+2026-09-04 20:24:52 | INFO     | normalize |   tackles_won → tackles_won_p90
+2026-09-04 20:24:52 | INFO     | normalize |   interceptions → interceptions_p90
+2026-09-04 20:24:52 | INFO     | normalize |   clearances → clearances_p90
+2026-09-04 20:24:52 | INFO     | normalize |   carries → carries_p90
+2026-09-04 20:24:52 | INFO     | normalize |   touches → touches_p90
+2026-09-04 20:24:52 | INFO     | normalize | Computing league z-scores...
+2026-09-04 20:24:52 | INFO     | normalize |   goals_p90 → goals_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   assists_p90 → assists_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   xg_p90 → xg_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   xag_p90 → xag_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   npxg_p90 → npxg_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   prog_carries_p90 → prog_carries_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   prog_passes_p90 → prog_passes_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   prog_receptions_p90 → prog_receptions_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   key_passes_p90 → key_passes_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   xa_p90 → xa_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   tackles_won_p90 → tackles_won_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   interceptions_p90 → interceptions_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   clearances_p90 → clearances_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   carries_p90 → carries_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   touches_p90 → touches_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   shots_p90 → shots_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   shots_on_target_p90 → shots_on_target_zscore
+2026-09-04 20:24:52 | INFO     | normalize |   pass_completion_pct → pass_completion_zscore
+2026-09-04 20:24:52 | INFO     | normalize | Shape after normalization: (14865, 57)
+2026-09-04 20:24:52 | INFO     | normalize | Saved: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\normalized.csv
+2026-09-04 20:24:52 | INFO     | normalize | === Phase 1 — Normalize: DONE ===
+2026-09-04 20:24:57 | INFO     | normalize | === Phase 1 — Normalize: START ===
+2026-09-04 20:24:57 | INFO     | normalize | Computing per-90 metrics...
+2026-09-04 20:24:57 | INFO     | normalize |   goals → goals_p90
+2026-09-04 20:24:57 | INFO     | normalize |   assists → assists_p90
+2026-09-04 20:24:57 | INFO     | normalize |   xg → xg_p90
+2026-09-04 20:24:57 | INFO     | normalize |   xag → xag_p90
+2026-09-04 20:24:57 | INFO     | normalize |   npxg → npxg_p90
+2026-09-04 20:24:57 | INFO     | normalize |   prog_carries → prog_carries_p90
+2026-09-04 20:24:57 | INFO     | normalize |   prog_passes → prog_passes_p90
+2026-09-04 20:24:57 | INFO     | normalize |   prog_receptions → prog_receptions_p90
+2026-09-04 20:24:57 | INFO     | normalize |   key_passes → key_passes_p90
+2026-09-04 20:24:57 | INFO     | normalize |   xa → xa_p90
+2026-09-04 20:24:57 | INFO     | normalize |   tackles_won → tackles_won_p90
+2026-09-04 20:24:57 | INFO     | normalize |   interceptions → interceptions_p90
+2026-09-04 20:24:57 | INFO     | normalize |   clearances → clearances_p90
+2026-09-04 20:24:57 | INFO     | normalize |   carries → carries_p90
+2026-09-04 20:24:57 | INFO     | normalize |   touches → touches_p90
+2026-09-04 20:24:57 | INFO     | normalize | Computing league z-scores...
+2026-09-04 20:24:57 | INFO     | normalize |   goals_p90 → goals_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   assists_p90 → assists_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   xg_p90 → xg_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   xag_p90 → xag_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   npxg_p90 → npxg_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   prog_carries_p90 → prog_carries_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   prog_passes_p90 → prog_passes_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   prog_receptions_p90 → prog_receptions_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   key_passes_p90 → key_passes_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   xa_p90 → xa_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   tackles_won_p90 → tackles_won_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   interceptions_p90 → interceptions_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   clearances_p90 → clearances_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   carries_p90 → carries_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   touches_p90 → touches_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   shots_p90 → shots_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   shots_on_target_p90 → shots_on_target_zscore
+2026-09-04 20:24:57 | INFO     | normalize |   pass_completion_pct → pass_completion_zscore
+2026-09-04 20:24:57 | INFO     | normalize | Shape after normalization: (14865, 57)
+2026-09-04 20:24:57 | INFO     | normalize | Saved: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\normalized.csv
+2026-09-04 20:24:57 | INFO     | normalize | === Phase 1 — Normalize: DONE ===
+2026-09-04 20:25:03 | INFO     | normalize | === Phase 1 — Normalize: START ===
+2026-09-04 20:25:03 | INFO     | normalize | Computing per-90 metrics...
+2026-09-04 20:25:03 | INFO     | normalize |   goals → goals_p90
+2026-09-04 20:25:03 | INFO     | normalize |   assists → assists_p90
+2026-09-04 20:25:03 | INFO     | normalize |   xg → xg_p90
+2026-09-04 20:25:03 | INFO     | normalize |   xag → xag_p90
+2026-09-04 20:25:03 | INFO     | normalize |   npxg → npxg_p90
+2026-09-04 20:25:03 | INFO     | normalize |   prog_carries → prog_carries_p90
+2026-09-04 20:25:03 | INFO     | normalize |   prog_passes → prog_passes_p90
+2026-09-04 20:25:03 | INFO     | normalize |   prog_receptions → prog_receptions_p90
+2026-09-04 20:25:03 | INFO     | normalize |   key_passes → key_passes_p90
+2026-09-04 20:25:03 | INFO     | normalize |   xa → xa_p90
+2026-09-04 20:25:03 | INFO     | normalize |   tackles_won → tackles_won_p90
+2026-09-04 20:25:03 | INFO     | normalize |   interceptions → interceptions_p90
+2026-09-04 20:25:03 | INFO     | normalize |   clearances → clearances_p90
+2026-09-04 20:25:03 | INFO     | normalize |   carries → carries_p90
+2026-09-04 20:25:03 | INFO     | normalize |   touches → touches_p90
+2026-09-04 20:25:03 | INFO     | normalize | Computing league z-scores...
+2026-09-04 20:25:03 | INFO     | normalize |   goals_p90 → goals_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   assists_p90 → assists_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   xg_p90 → xg_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   xag_p90 → xag_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   npxg_p90 → npxg_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   prog_carries_p90 → prog_carries_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   prog_passes_p90 → prog_passes_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   prog_receptions_p90 → prog_receptions_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   key_passes_p90 → key_passes_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   xa_p90 → xa_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   tackles_won_p90 → tackles_won_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   interceptions_p90 → interceptions_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   clearances_p90 → clearances_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   carries_p90 → carries_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   touches_p90 → touches_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   shots_p90 → shots_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   shots_on_target_p90 → shots_on_target_zscore
+2026-09-04 20:25:03 | INFO     | normalize |   pass_completion_pct → pass_completion_zscore
+2026-09-04 20:25:03 | INFO     | normalize | Shape after normalization: (14865, 57)
+2026-09-04 20:25:04 | INFO     | normalize | Saved: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\normalized.csv
+2026-09-04 20:25:04 | INFO     | normalize | === Phase 1 — Normalize: DONE ===

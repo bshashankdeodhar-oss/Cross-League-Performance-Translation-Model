@@ -251,3 +251,49 @@
 2026-02-28 03:30:41 | INFO     | league_strength | DataFrame shape after LSC adjustment: (699, 75)
 2026-02-28 03:30:41 | INFO     | league_strength | Saved unified dataset: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\processed\unified_dataset.csv
 2026-02-28 03:30:41 | INFO     | league_strength | === Phase 1 — League Strength Coefficient: DONE ===
+2026-09-04 20:24:57 | INFO     | league_strength | === Phase 1 — League Strength Coefficient: START ===
+2026-09-04 20:24:57 | INFO     | league_strength | LSC map: {'Premier League': 1.0, 'Bundesliga': 0.88, 'La Liga': 0.93, 'Serie A': 0.88, 'Ligue 1': 0.82}
+2026-09-04 20:24:58 | INFO     | league_strength | Reference LSC (Premier League): 1.0
+2026-09-04 20:24:58 | INFO     | league_strength |   goals_p90 → lsc_adj_goals_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   assists_p90 → lsc_adj_assists_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   xg_p90 → lsc_adj_xg_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   xag_p90 → lsc_adj_xag_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   npxg_p90 → lsc_adj_npxg_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   shots_p90 → lsc_adj_shots_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   shots_on_target_p90 → lsc_adj_shots_on_target_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   prog_carries_p90 → lsc_adj_prog_carries_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   prog_passes_p90 → lsc_adj_prog_passes_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   prog_receptions_p90 → lsc_adj_prog_receptions_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   key_passes_p90 → lsc_adj_key_passes_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   xa_p90 → lsc_adj_xa_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   carries_p90 → lsc_adj_carries_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   touches_p90 → lsc_adj_touches_p90
+2026-09-04 20:24:58 | INFO     | league_strength |   tackles_won_p90 → lsc_adj_tackles_won_p90 (inverted LSC)
+2026-09-04 20:24:58 | INFO     | league_strength |   interceptions_p90 → lsc_adj_interceptions_p90 (inverted LSC)
+2026-09-04 20:24:58 | INFO     | league_strength |   clearances_p90 → lsc_adj_clearances_p90 (inverted LSC)
+2026-09-04 20:24:58 | INFO     | league_strength | DataFrame shape after LSC adjustment: (14865, 75)
+2026-09-04 20:24:58 | INFO     | league_strength | Saved unified dataset: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\processed\unified_dataset.csv
+2026-09-04 20:24:58 | INFO     | league_strength | === Phase 1 — League Strength Coefficient: DONE ===
+2026-09-04 20:25:04 | INFO     | league_strength | === Phase 1 — League Strength Coefficient: START ===
+2026-09-04 20:25:04 | INFO     | league_strength | LSC map: {'Premier League': 1.0, 'Bundesliga': 0.88, 'La Liga': 0.93, 'Serie A': 0.88, 'Ligue 1': 0.82}
+2026-09-04 20:25:04 | INFO     | league_strength | Reference LSC (Premier League): 1.0
+2026-09-04 20:25:04 | INFO     | league_strength |   goals_p90 → lsc_adj_goals_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   assists_p90 → lsc_adj_assists_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   xg_p90 → lsc_adj_xg_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   xag_p90 → lsc_adj_xag_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   npxg_p90 → lsc_adj_npxg_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   shots_p90 → lsc_adj_shots_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   shots_on_target_p90 → lsc_adj_shots_on_target_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   prog_carries_p90 → lsc_adj_prog_carries_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   prog_passes_p90 → lsc_adj_prog_passes_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   prog_receptions_p90 → lsc_adj_prog_receptions_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   key_passes_p90 → lsc_adj_key_passes_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   xa_p90 → lsc_adj_xa_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   carries_p90 → lsc_adj_carries_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   touches_p90 → lsc_adj_touches_p90
+2026-09-04 20:25:04 | INFO     | league_strength |   tackles_won_p90 → lsc_adj_tackles_won_p90 (inverted LSC)
+2026-09-04 20:25:04 | INFO     | league_strength |   interceptions_p90 → lsc_adj_interceptions_p90 (inverted LSC)
+2026-09-04 20:25:04 | INFO     | league_strength |   clearances_p90 → lsc_adj_clearances_p90 (inverted LSC)
+2026-09-04 20:25:04 | INFO     | league_strength | DataFrame shape after LSC adjustment: (14865, 75)
+2026-09-04 20:25:04 | INFO     | league_strength | Saved unified dataset: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\processed\unified_dataset.csv
+2026-09-04 20:25:04 | INFO     | league_strength | === Phase 1 — League Strength Coefficient: DONE ===

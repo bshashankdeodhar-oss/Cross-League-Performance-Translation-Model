@@ -12,7 +12,7 @@ from unittest.mock import patch, MagicMock
 from fastapi.testclient import TestClient
 
 from db.session import engine, SessionLocal, Base, get_db
-from db.models import Player
+from db.models import Player, League, Team, User, PlayerStats, PlayerStyleProfile, TransferPrediction
 from scripts.load_to_postgres import load_dataset_to_db
 from api.main import app
 
@@ -138,6 +138,24 @@ def test_list_players_search_name():
     assert "Wirtz" in players[0]["player"]
 
 
+def test_get_teams():
+    login_resp = client.post(
+        "/auth/login",
+        data={"username": "viewer", "password": "viewer123"},
+    )
+    token = login_resp.json()["access_token"]
+    headers = {"Authorization": f"Bearer {token}"}
+
+    response = client.get("/teams?league=Bundesliga", headers=headers)
+    assert response.status_code == 200
+    teams = response.json()
+    assert isinstance(teams, list)
+    if len(teams) > 0:
+        assert "team" in teams[0]
+        assert "league" in teams[0]
+        assert "team_strength_ratio" in teams[0]
+
+
 def test_predict():
     login_resp = client.post(
         "/auth/login",
@@ -157,6 +175,29 @@ def test_predict():
     assert data["player"] == "Florian Wirtz"
     assert "adaptation_score_pct" in data
     assert "top_5_factors" in data
+
+
+def test_predict_with_target_team():
+    login_resp = client.post(
+        "/auth/login",
+        data={"username": "viewer", "password": "viewer123"},
+    )
+    token = login_resp.json()["access_token"]
+    headers = {"Authorization": f"Bearer {token}"}
+
+    payload = {
+        "player": "Florian Wirtz",
+        "source_league": "Bundesliga",
+        "target_league": "Premier League",
+        "target_team": "Manchester City",
+    }
+    response = client.post("/predict", json=payload, headers=headers)
+    assert response.status_code == 200
+    data = response.json()
+    assert data["player"] == "Florian Wirtz"
+    assert data["target_team"] == "Manchester City"
+    assert "target_team_strength_ratio" in data
+    assert data["target_team_strength_ratio"] is not None
 
 
 def test_admin_retrain_forbidden_for_viewer():
@@ -189,3 +230,41 @@ def test_admin_retrain_success(mock_run):
     response = client.post("/admin/retrain", headers=headers)
     assert response.status_code == 200
     assert response.json()["status"] == "retrain complete"
+
+
+def test_relational_schema_and_prediction_audit():
+    session = SessionLocal()
+    try:
+        # 1. Verify League table
+        leagues = session.query(League).all()
+        assert len(leagues) >= 5
+        lg_names = [lg.league_name for lg in leagues]
+        assert "Premier League" in lg_names
+        assert "Bundesliga" in lg_names
+
+        # 2. Verify Team table
+        teams = session.query(Team).all()
+        assert len(teams) > 0
+        assert teams[0].team_strength_ratio > 0
+
+        # 3. Verify User table
+        users = session.query(User).all()
+        unames = [u.username for u in users]
+        assert "admin" in unames
+        assert "viewer" in unames
+
+        # 4. Verify Player, PlayerStats, and PlayerStyleProfile
+        player = session.query(Player).filter(Player.player_name == "Florian Wirtz").first()
+        assert player is not None
+        assert player.league_rel is not None
+        assert player.stats is not None
+        assert player.style_profile is not None
+
+        # 5. Verify TransferPrediction audit record logged
+        preds = session.query(TransferPrediction).all()
+        assert len(preds) > 0
+        assert preds[0].projected_goals_p90 is not None
+        assert preds[0].source_league is not None
+        assert preds[0].target_league is not None
+    finally:
+        session.close()

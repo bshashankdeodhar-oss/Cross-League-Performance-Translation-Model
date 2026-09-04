@@ -478,3 +478,203 @@ ValueError: X has 26 features, but LGBMRegressor is expecting 24 features as inp
 2026-02-28 03:31:03 | INFO     | pipeline |   evaluation/metrics.json
 2026-02-28 03:31:03 | INFO     | pipeline |   evaluation/backtest_report.csv
 2026-02-28 03:31:03 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:24:41 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:24:41 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:24:41 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:24:41 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:24:41 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:24:41 | INFO     | pipeline |   PHASE: INGEST
+2026-09-04 20:24:41 | INFO     | pipeline | ============================================================
+2026-09-04 20:24:41 | INFO     | pipeline |   ✓ Ingested 24413 rows
+2026-09-04 20:24:41 | INFO     | pipeline | 
+✅ Pipeline complete in 0.4s
+2026-09-04 20:24:41 | INFO     | pipeline | Outputs:
+2026-09-04 20:24:41 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:24:41 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:24:41 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:24:41 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:24:41 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:24:41 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:24:41 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:24:41 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:24:45 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:24:45 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:24:45 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:24:45 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:24:45 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:24:45 | INFO     | pipeline |   PHASE: STANDARDIZE
+2026-09-04 20:24:45 | INFO     | pipeline | ============================================================
+2026-09-04 20:24:46 | INFO     | pipeline |   ✓ Standardized shape: (14865, 24)
+2026-09-04 20:24:46 | INFO     | pipeline | 
+✅ Pipeline complete in 0.6s
+2026-09-04 20:24:46 | INFO     | pipeline | Outputs:
+2026-09-04 20:24:46 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:24:46 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:24:46 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:24:46 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:24:46 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:24:46 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:24:46 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:24:46 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:24:51 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:24:51 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:24:51 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:24:51 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:24:51 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:24:51 | INFO     | pipeline |   PHASE: NORMALIZE
+2026-09-04 20:24:51 | INFO     | pipeline | ============================================================
+2026-09-04 20:24:52 | INFO     | pipeline |   ✓ Normalized shape: (14865, 57)
+2026-09-04 20:24:52 | INFO     | pipeline | 
+✅ Pipeline complete in 0.9s
+2026-09-04 20:24:52 | INFO     | pipeline | Outputs:
+2026-09-04 20:24:52 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:24:52 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:24:52 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:24:52 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:24:52 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:24:52 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:24:52 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:24:52 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:24:56 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:24:56 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:24:56 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:24:56 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:24:56 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:24:56 | INFO     | pipeline |   PHASE: LSC
+2026-09-04 20:24:56 | INFO     | pipeline | ============================================================
+2026-09-04 20:24:58 | INFO     | pipeline |   ✓ LSC-adjusted shape: (14865, 75)
+2026-09-04 20:24:58 | INFO     | pipeline | 
+✅ Pipeline complete in 1.5s
+2026-09-04 20:24:58 | INFO     | pipeline | Outputs:
+2026-09-04 20:24:58 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:24:58 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:24:58 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:24:58 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:24:58 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:24:58 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:24:58 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:24:58 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:25:03 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:25:03 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:25:03 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:25:03 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:25:03 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:25:03 | INFO     | pipeline |   PHASE: FEATURES
+2026-09-04 20:25:03 | INFO     | pipeline | ============================================================
+2026-09-04 20:25:05 | INFO     | pipeline |   ✓ Feature dataset shape: (14865, 104)
+2026-09-04 20:25:05 | INFO     | pipeline | 
+✅ Pipeline complete in 2.7s
+2026-09-04 20:25:05 | INFO     | pipeline | Outputs:
+2026-09-04 20:25:05 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:25:05 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:25:05 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:25:05 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:25:05 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:25:05 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:25:05 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:25:05 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:25:58 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:25:58 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:25:58 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:25:58 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:25:58 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:25:58 | INFO     | pipeline |   PHASE: ADAPTATION
+2026-09-04 20:25:58 | INFO     | pipeline | ============================================================
+2026-09-04 20:25:59 | INFO     | pipeline |   ✓ Adaptation model complete.
+2026-09-04 20:25:59 | INFO     | pipeline | 
+✅ Pipeline complete in 1.2s
+2026-09-04 20:25:59 | INFO     | pipeline | Outputs:
+2026-09-04 20:25:59 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:25:59 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:25:59 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:25:59 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:25:59 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:25:59 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:25:59 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:25:59 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:26:13 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:26:13 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:26:13 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:26:13 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:26:13 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:26:13 | INFO     | pipeline |   PHASE: TRAIN
+2026-09-04 20:26:13 | INFO     | pipeline | ============================================================
+2026-09-04 20:27:25 | INFO     | pipeline |   ✓ Training complete. Targets trained: ['goals_p90', 'assists_p90', 'xg_p90', 'xag_p90']
+2026-09-04 20:27:25 | INFO     | pipeline | 
+✅ Pipeline complete in 72.5s
+2026-09-04 20:27:25 | INFO     | pipeline | Outputs:
+2026-09-04 20:27:25 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:27:25 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:27:25 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:27:25 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:27:25 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:27:25 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:27:25 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:27:25 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:31:25 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:31:25 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:31:25 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:31:25 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:31:25 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:31:25 | INFO     | pipeline |   PHASE: EVALUATE
+2026-09-04 20:31:25 | INFO     | pipeline | ============================================================
+2026-09-04 20:31:27 | INFO     | pipeline |   ✓ Evaluation complete.
+2026-09-04 20:31:27 | INFO     | pipeline | 
+✅ Pipeline complete in 2.8s
+2026-09-04 20:31:27 | INFO     | pipeline | Outputs:
+2026-09-04 20:31:27 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:31:27 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:31:27 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:31:27 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:31:27 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:31:27 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:31:27 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:31:27 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:31:37 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:31:37 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:31:37 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:31:37 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:31:37 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:31:37 | INFO     | pipeline |   PHASE: SHAP
+2026-09-04 20:31:37 | INFO     | pipeline | ============================================================
+2026-09-04 20:31:40 | INFO     | pipeline |   ✓ SHAP plots generated.
+2026-09-04 20:31:40 | INFO     | pipeline | 
+✅ Pipeline complete in 2.9s
+2026-09-04 20:31:40 | INFO     | pipeline | Outputs:
+2026-09-04 20:31:40 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:31:40 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:31:40 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:31:40 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:31:40 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:31:40 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:31:40 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:31:40 | INFO     | pipeline |   evaluation/shap_*.png
+2026-09-04 20:32:13 | INFO     | pipeline | ╔══════════════════════════════════════════════════════════╗
+2026-09-04 20:32:13 | INFO     | pipeline | ║   Cross-League Performance Translation Model (CLPTM)    ║
+2026-09-04 20:32:13 | INFO     | pipeline | ║   v1.0 — Production Pipeline Orchestrator               ║
+2026-09-04 20:32:13 | INFO     | pipeline | ╚══════════════════════════════════════════════════════════╝
+2026-09-04 20:32:13 | INFO     | pipeline | 
+============================================================
+2026-09-04 20:32:13 | INFO     | pipeline |   PHASE: SHAP
+2026-09-04 20:32:13 | INFO     | pipeline | ============================================================
+2026-09-04 20:32:18 | INFO     | pipeline |   ✓ SHAP plots generated.
+2026-09-04 20:32:18 | INFO     | pipeline | 
+✅ Pipeline complete in 5.0s
+2026-09-04 20:32:18 | INFO     | pipeline | Outputs:
+2026-09-04 20:32:18 | INFO     | pipeline |   data/interim/standardized.csv
+2026-09-04 20:32:18 | INFO     | pipeline |   data/interim/normalized.csv
+2026-09-04 20:32:18 | INFO     | pipeline |   data/processed/unified_dataset.csv
+2026-09-04 20:32:18 | INFO     | pipeline |   data/processed/feature_dataset.csv
+2026-09-04 20:32:18 | INFO     | pipeline |   models/*.pkl
+2026-09-04 20:32:18 | INFO     | pipeline |   evaluation/metrics.json
+2026-09-04 20:32:18 | INFO     | pipeline |   evaluation/backtest_report.csv
+2026-09-04 20:32:18 | INFO     | pipeline |   evaluation/shap_*.png

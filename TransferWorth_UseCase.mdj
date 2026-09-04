@@ -1,0 +1,589 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+  "name": "Transfer Worth - Use Case Diagram",
+  "author": "Shashank Deodhar Bantupalli (24BRS1297)",
+  "company": "VIT Chennai",
+  "copyright": "Project Title: Transfer Worth | Reg No: 24BRS1297 | Name: Shashank Deodhar Bantupalli",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+      "_parent": {
+        "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+      },
+      "name": "Transfer Worth Use Case Model",
+      "ownedElements": [
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "Transfer Worth Use Case Diagram",
+          "ownedViews": [
+            {
+              "_type": "FreetextView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;14;1",
+              "left": 50,
+              "top": 30,
+              "width": 650,
+              "height": 60,
+              "text": "USE CASE DIAGRAM: Transfer Worth\nSTUDENT NAME: Shashank Deodhar Bantupalli | REG NO: 24BRS1297 | VIT Chennai"
+            },
+            {
+              "_type": "UMLActorView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 60,
+              "top": 200,
+              "width": 120,
+              "height": 65,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 60,
+                "top": 245,
+                "width": 120,
+                "height": 15,
+                "text": "Football Analyst / Scout"
+              }
+            },
+            {
+              "_type": "UMLActorView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 60,
+              "top": 520,
+              "width": 120,
+              "height": 65,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 60,
+                "top": 565,
+                "width": 120,
+                "height": 15,
+                "text": "System Administrator"
+              }
+            },
+            {
+              "_type": "UMLActorView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 780,
+              "top": 200,
+              "width": 120,
+              "height": 65,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 780,
+                "top": 245,
+                "width": 120,
+                "height": 15,
+                "text": "External Data Provider"
+              }
+            },
+            {
+              "_type": "UMLActorView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 780,
+              "top": 520,
+              "width": 120,
+              "height": 65,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 780,
+                "top": 565,
+                "width": 120,
+                "height": 15,
+                "text": "ML Inference Engine"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 100,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 115,
+                "width": 340,
+                "height": 20,
+                "text": "UC-1: Authenticate & Manage Session"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 180,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 195,
+                "width": 340,
+                "height": 20,
+                "text": "UC-2: Ingest & Clean Multi-League Data"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 260,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 275,
+                "width": 340,
+                "height": 20,
+                "text": "UC-3: Calculate League Strength Coefficients (LSC)"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 340,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 355,
+                "width": 340,
+                "height": 20,
+                "text": "UC-4: Search & Filter Football Players"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 420,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 435,
+                "width": 340,
+                "height": 20,
+                "text": "UC-5: Generate Cross-League Performance Predictions"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 500,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 515,
+                "width": 340,
+                "height": 20,
+                "text": "UC-6: Perform What-If Scenario Simulations"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 580,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 595,
+                "width": 340,
+                "height": 20,
+                "text": "UC-7: View SHAP Feature Driver Explanations"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 660,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 675,
+                "width": 340,
+                "height": 20,
+                "text": "UC-8: Evaluate Adaptation & Transfer Risk Score"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 740,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 755,
+                "width": 340,
+                "height": 20,
+                "text": "UC-9: Export Prediction Reports"
+              }
+            },
+            {
+              "_type": "UMLUseCaseView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+              },
+              "font": "Arial;13;0",
+              "left": 320,
+              "top": 820,
+              "width": 360,
+              "height": 50,
+              "nameLabel": {
+                "_type": "UMLNameCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+                },
+                "font": "Arial;13;1",
+                "left": 330,
+                "top": 835,
+                "width": 340,
+                "height": 20,
+                "text": "UC-10: Retrain ML Models"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "Football Analyst / Scout"
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "System Administrator"
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "External Data Provider"
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "ML Inference Engine"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-1: Authenticate & Manage Session"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-2: Ingest & Clean Multi-League Data"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-3: Calculate League Strength Coefficients (LSC)"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-4: Search & Filter Football Players"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-5: Generate Cross-League Performance Predictions"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-6: Perform What-If Scenario Simulations"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-7: View SHAP Feature Driver Explanations"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-8: Evaluate Adaptation & Transfer Risk Score"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-9: Export Prediction Reports"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDMwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDMwM"
+          },
+          "name": "UC-10: Retrain ML Models"
+        }
+      ]
+    }
+  ]
+}

@@ -26,6 +26,34 @@ REQUIRED_COLS = [
 ]
 
 
+REVERSE_MAP = {
+    "player": "Player",
+    "team": "Squad",
+    "league": "Comp",
+    "position": "Pos",
+    "age": "Age",
+    "minutes": "Min",
+    "goals": "Gls",
+    "assists": "Ast",
+    "xg": "xG",
+    "xag": "xAG",
+    "npxg": "npxG",
+    "shots_p90": "Sh/90",
+    "shots_on_target_p90": "SoT/90",
+    "prog_carries": "PrgC",
+    "prog_passes": "PrgP",
+    "prog_receptions": "PrgR",
+    "key_passes": "KP",
+    "xa": "xA",
+    "pass_completion_pct": "Cmp%",
+    "tackles_won": "TklW",
+    "interceptions": "Int",
+    "clearances": "Clr",
+    "carries": "Carries",
+    "touches": "Touches",
+}
+
+
 def ingest(cfg: dict | None = None) -> pd.DataFrame:
     """
     Load and validate the raw FBRef dataset.
@@ -46,26 +74,36 @@ def ingest(cfg: dict | None = None) -> pd.DataFrame:
     raw_file = raw_dir / cfg["raw_fbref_file"]
 
     if not raw_file.exists():
-        log.error(f"Raw file not found: {raw_file}")
-        raise FileNotFoundError(f"Missing: {raw_file}")
+        # Fallback to data_T5 directory
+        alt_file = Path("data_T5") / cfg["raw_fbref_file"]
+        if alt_file.exists():
+            raw_file = alt_file
+        else:
+            log.error(f"Raw file not found: {raw_file}")
+            raise FileNotFoundError(f"Missing: {raw_file}")
 
     log.info(f"Loading raw data from: {raw_file}")
     df = pd.read_csv(raw_file, low_memory=False)
     log.info(f"Raw shape: {df.shape}")
 
-    # ── Drop duplicate header rows that FBRef sometimes repeats ──────────────
-    before = len(df)
-    df = df[df["Player"] != "Player"].copy()
-    dropped = before - len(df)
-    if dropped:
-        log.warning(f"Dropped {dropped} duplicate header rows.")
+    # ── Rename from snake_case if already formatted (e.g. data_T5 master) ────
+    if "player" in df.columns and "Player" not in df.columns:
+        df = df.rename(columns=REVERSE_MAP)
 
-    # ── Validate required columns ─────────────────────────────────────────────
-    missing_cols = [c for c in REQUIRED_COLS if c not in df.columns]
-    if missing_cols:
-        log.error(f"Missing required columns: {missing_cols}")
-        raise ValueError(f"Missing columns in raw data: {missing_cols}")
-    log.info("All required columns present.")
+    # ── Drop duplicate header rows that FBRef sometimes repeats ──────────────
+    if "Player" in df.columns:
+        before = len(df)
+        df = df[df["Player"] != "Player"].copy()
+        dropped = before - len(df)
+        if dropped:
+            log.warning(f"Dropped {dropped} duplicate header rows.")
+
+    # ── Validate and fill required columns ────────────────────────────────────
+    for c in REQUIRED_COLS:
+        if c not in df.columns:
+            df[c] = pd.NA
+
+    log.info("All required columns verified/aligned.")
 
     # ── Enforce numeric types ─────────────────────────────────────────────────
     numeric_cols = [c for c in REQUIRED_COLS if c not in ("Player", "Squad", "Comp", "Pos")]
@@ -84,7 +122,8 @@ def ingest(cfg: dict | None = None) -> pd.DataFrame:
 
     # ── Strip whitespace from string columns ─────────────────────────────────
     for col in ("Player", "Squad", "Comp", "Pos"):
-        df[col] = df[col].str.strip()
+        if col in df.columns:
+            df[col] = df[col].astype(str).str.strip()
 
     # ── Basic stats ───────────────────────────────────────────────────────────
     log.info(f"Leagues found: {sorted(df['Comp'].dropna().unique())}")

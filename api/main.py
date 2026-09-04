@@ -29,7 +29,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from src.utils import load_config, resolve_path
 from src.predict import predict_player
 
-from api.schemas import PredictRequest, PredictResponse, Token, PlayerSummary
+from api.schemas import PredictRequest, PredictResponse, Token, PlayerSummary, TeamSummary
 from api.auth import authenticate_user, create_access_token, get_current_user, require_admin
 from db.session import get_db
 from db.models import Player
@@ -59,8 +59,8 @@ def health():
 # ── Auth ──────────────────────────────────────────────────────────────────
 
 @app.post("/auth/login", response_model=Token)
-def login(form_data: OAuth2PasswordRequestForm = Depends()):
-    role = authenticate_user(form_data.username, form_data.password)
+def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
+    role = authenticate_user(form_data.username, form_data.password, db=db)
     if not role:
         raise HTTPException(status_code=401, detail="Incorrect username or password")
     token = create_access_token(form_data.username, role)
@@ -82,6 +82,60 @@ def list_leagues(
     except Exception:
         pass
     return _cfg["league_strength"]
+
+
+@app.get("/teams", response_model=list[TeamSummary])
+def list_teams(
+    league: str | None = None,
+    user: dict = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+    try:
+        from db.models import Team, League
+        q = db.query(Team, League).join(League, Team.league_id == League.league_id)
+        if league:
+            q = q.filter(League.league_name == league)
+        teams = q.all()
+        if teams:
+            return [
+                TeamSummary(
+                    team=t.Team.team_name,
+                    league=t.League.league_name,
+                    team_strength_ratio=t.Team.team_strength_ratio or 1.0,
+                )
+                for t in teams
+            ]
+    except Exception:
+        pass
+
+    # Fallback to feature_dataset.csv
+    try:
+        feat_path = resolve_path(_cfg, "processed_data", "feature_dataset.csv")
+        if feat_path.exists():
+            df = pd.read_csv(feat_path)
+            if "team" in df.columns and "league" in df.columns:
+                sub = df
+                if league:
+                    sub = df[df["league"].str.lower() == league.lower()]
+                grouped = (
+                    sub.groupby(["team", "league"])["team_strength_ratio"]
+                    .mean()
+                    .reset_index()
+                )
+                return [
+                    TeamSummary(
+                        team=r["team"],
+                        league=r["league"],
+                        team_strength_ratio=round(float(r["team_strength_ratio"]), 3)
+                        if "team_strength_ratio" in r and not pd.isna(r["team_strength_ratio"])
+                        else 1.0,
+                    )
+                    for _, r in grouped.iterrows()
+                ]
+    except Exception:
+        pass
+
+    return []
 
 
 @app.get("/players", response_model=list[PlayerSummary])
@@ -114,13 +168,51 @@ def list_players(
 # ── Prediction ────────────────────────────────────────────────────────────
 
 @app.post("/predict", response_model=PredictResponse)
-def predict(req: PredictRequest, user: dict = Depends(get_current_user)):
+def predict(
+    req: PredictRequest,
+    user: dict = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
     try:
-        result = predict_player(req.player, req.source_league, req.target_league, _cfg)
+        result = predict_player(
+            req.player,
+            req.source_league,
+            req.target_league,
+            target_team=req.target_team,
+            cfg=_cfg,
+        )
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except FileNotFoundError as e:
         raise HTTPException(status_code=503, detail=str(e))
+
+    # Audit log prediction to TransferPrediction table
+    try:
+        from db.models import League, User, TransferPrediction
+        player_obj = db.query(Player).filter(Player.player_name == req.player).first()
+        src_lg = db.query(League).filter(League.league_name == req.source_league).first()
+        tgt_lg = db.query(League).filter(League.league_name == req.target_league).first()
+        user_obj = db.query(User).filter(User.username == user.get("username")).first()
+
+        if player_obj and src_lg and tgt_lg:
+            pred_record = TransferPrediction(
+                player_id=player_obj.player_id,
+                user_id=user_obj.user_id if user_obj else None,
+                source_league_id=src_lg.league_id,
+                target_league_id=tgt_lg.league_id,
+                projected_goals_p90=result.get("projected_goals_p90"),
+                projected_assists_p90=result.get("projected_assists_p90"),
+                projected_xg_p90=result.get("projected_xg_p90"),
+                ci_low_goals=result.get("ci_low_goals"),
+                ci_high_goals=result.get("ci_high_goals"),
+                adaptation_score_pct=result.get("adaptation_score_pct"),
+                risk_score_pct=result.get("risk_score_pct"),
+            )
+            db.add(pred_record)
+            db.commit()
+    except Exception:
+        db.rollback()
+
     return result
 
 

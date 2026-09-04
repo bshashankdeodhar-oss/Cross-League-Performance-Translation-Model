@@ -1,0 +1,1579 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+  "name": "Transfer Worth",
+  "author": "Shashank Deodhar Bantupalli (24BRS1297)",
+  "company": "VIT Chennai",
+  "copyright": "Project Title: Transfer Worth | Reg No: 24BRS1297 | Name: Shashank Deodhar Bantupalli",
+  "ownedElements": [
+    {
+      "_type": "ERDDataModel",
+      "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+      "_parent": {
+        "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+      },
+      "name": "Transfer Worth Data Model",
+      "ownedElements": [
+        {
+          "_type": "ERDDiagram",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "Transfer Worth ER Diagram",
+          "ownedViews": [
+            {
+              "_type": "UMLTextView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;14;1",
+              "left": 50,
+              "top": 30,
+              "width": 600,
+              "height": 80,
+              "text": "PROJECT TITLE: Transfer Worth\nSTUDENT NAME: Shashank Deodhar Bantupalli\nREGISTRATION NO: 24BRS1297\nINSTITUTION: VIT Chennai"
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 50,
+              "top": 150,
+              "width": 220,
+              "height": 104,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 50,
+                "top": 155,
+                "width": 220,
+                "height": 13,
+                "text": "League"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 50,
+                "top": 173,
+                "width": 220,
+                "height": 81
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 150,
+              "width": 220,
+              "height": 104,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 350,
+                "top": 155,
+                "width": 220,
+                "height": 13,
+                "text": "Team"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 350,
+                "top": 173,
+                "width": 220,
+                "height": 81
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 650,
+              "top": 150,
+              "width": 220,
+              "height": 104,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 650,
+                "top": 155,
+                "width": 220,
+                "height": 13,
+                "text": "User"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 650,
+                "top": 173,
+                "width": 220,
+                "height": 81
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 200,
+              "top": 380,
+              "width": 220,
+              "height": 152,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 200,
+                "top": 385,
+                "width": 220,
+                "height": 13,
+                "text": "Player"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 200,
+                "top": 403,
+                "width": 220,
+                "height": 129
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 50,
+              "top": 680,
+              "width": 220,
+              "height": 312,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 50,
+                "top": 685,
+                "width": 220,
+                "height": 13,
+                "text": "PlayerStats"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 50,
+                "top": 703,
+                "width": 220,
+                "height": 289
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 350,
+              "top": 680,
+              "width": 220,
+              "height": 152,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 350,
+                "top": 685,
+                "width": 220,
+                "height": 13,
+                "text": "PlayerStyleProfile"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 350,
+                "top": 703,
+                "width": 220,
+                "height": 129
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 650,
+              "top": 380,
+              "width": 220,
+              "height": 248,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 650,
+                "top": 385,
+                "width": 220,
+                "height": 13,
+                "text": "TransferPrediction"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 650,
+                "top": 403,
+                "width": 220,
+                "height": 225
+              }
+            },
+            {
+              "_type": "ERDEntityView",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "model": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "font": "Arial;13;0",
+              "left": 650,
+              "top": 720,
+              "width": 220,
+              "height": 120,
+              "nameLabel": {
+                "_type": "LabelView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;1",
+                "left": 650,
+                "top": 725,
+                "width": 220,
+                "height": 13,
+                "text": "ScenarioSimulation"
+              },
+              "columnCompartment": {
+                "_type": "ERDColumnCompartmentView",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "model": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "font": "Arial;13;0",
+                "left": 650,
+                "top": 743,
+                "width": 220,
+                "height": 97
+              }
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "League",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "league_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "league_name",
+              "type": "VARCHAR(255)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "lsc_coefficient",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "country",
+              "type": "VARCHAR(100)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ],
+          "ownedElements": [
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "League_Teams",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "0..*"
+              }
+            },
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "League_Players",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "0..*"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "Team",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "team_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "team_name",
+              "type": "VARCHAR(255)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "league_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "team_strength_ratio",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ],
+          "ownedElements": [
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "Team_Players",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "0..*"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "User",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "user_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "username",
+              "type": "VARCHAR(100)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "hashed_password",
+              "type": "VARCHAR(255)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "role",
+              "type": "VARCHAR(50)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ],
+          "ownedElements": [
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "User_Predictions",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "0..*"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "Player",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "player_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "player_name",
+              "type": "VARCHAR(255)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "position",
+              "type": "VARCHAR(50)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "position_primary",
+              "type": "VARCHAR(50)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "age",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "team_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "league_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            }
+          ],
+          "ownedElements": [
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "Player_Stats",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              }
+            },
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "Player_Style",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              }
+            },
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "Player_Predictions",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "0..*"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "PlayerStats",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "stats_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "player_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "minutes",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "goals",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "assists",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "xg",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "xag",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "goals_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "assists_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "xg_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "xag_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "prog_passes_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "prog_carries_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "key_passes_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "pass_completion_pct",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "lsc_adj_goals_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "lsc_adj_xg_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "PlayerStyleProfile",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "profile_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "player_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "age_curve_score",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "play_style_progressive",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "play_style_direct_carry",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "play_style_defensive",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "poss_adj_touches_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "TransferPrediction",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "prediction_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "player_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "user_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "source_league_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "target_league_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "projected_goals_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "projected_assists_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "projected_xg_p90",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "ci_low_goals",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "ci_high_goals",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "adaptation_score_pct",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "risk_score_pct",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "created_at",
+              "type": "DATETIME",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ],
+          "ownedElements": [
+            {
+              "_type": "ERDRelationship",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "Prediction_Simulations",
+              "end1": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "1"
+              },
+              "end2": {
+                "_type": "ERDRelationshipEnd",
+                "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+                "_parent": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "reference": {
+                  "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+                },
+                "cardinality": "0..*"
+              }
+            }
+          ]
+        },
+        {
+          "_type": "ERDEntity",
+          "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+          "_parent": {
+            "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+          },
+          "name": "ScenarioSimulation",
+          "documentation": "Project Title: Transfer Worth\nAuthor: Shashank Deodhar Bantupalli\nReg No: 24BRS1297",
+          "columns": [
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "simulation_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": true,
+              "foreignKey": false,
+              "nullable": false,
+              "unique": true
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "prediction_id",
+              "type": "INTEGER",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": true,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "feature_name",
+              "type": "VARCHAR(100)",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "feature_val_simulated",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            },
+            {
+              "_type": "ERDColumn",
+              "_id": "AAAAAAFU1VNTDAwMDAwMDAwM",
+              "_parent": {
+                "": "AAAAAAFU1VNTDAwMDAwMDAwM"
+              },
+              "name": "simulated_target_val",
+              "type": "FLOAT",
+              "length": "",
+              "primaryKey": false,
+              "foreignKey": false,
+              "nullable": true,
+              "unique": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

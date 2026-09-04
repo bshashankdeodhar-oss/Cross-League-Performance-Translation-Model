@@ -9,7 +9,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:postgres@localhost:5432/clptm"
+    "sqlite:///./transferpred.db"
 )
 
 connect_args = {}

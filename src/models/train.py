@@ -169,7 +169,7 @@ def train(cfg: dict | None = None) -> dict:
 
         # Drop rows where target is NaN
         valid = df[target_feat_cols + [target]].dropna(subset=[target])
-        X = valid[target_feat_cols].values
+        X = valid[target_feat_cols].fillna(0).values
         y = valid[target].values
 
         log.info(f"  Samples after dropna: {len(X)}")

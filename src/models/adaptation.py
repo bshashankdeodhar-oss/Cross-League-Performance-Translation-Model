@@ -53,12 +53,37 @@ def _create_adaptation_labels(df: pd.DataFrame, cfg: dict, log) -> pd.DataFrame:
     """
     Create binary adaptation labels for cross-league players.
 
-    For players appearing in both leagues:
-      - Compute their percentile rank in each league for goals_p90.
-      - Label = 1 if target-league percentile >= source-league percentile * 0.8
-                  (i.e., retained ~80% of relative performance)
-      - Label = 0 otherwise (significant drop)
+    Uses empirical historical transfers from data_T5/cross_league_transfers_2018_2024.csv
+    when available (955 longitudinal transfer pairs), otherwise falls back to
+    same-season cross-league appearances.
     """
+    xfer_file = Path("data_T5/cross_league_transfers_2018_2024.csv")
+    if xfer_file.exists():
+        log.info(f"Loading empirical cross-league transfers from: {xfer_file}")
+        xfers = pd.read_csv(xfer_file)
+        
+        # Merge transfers with the engineered feature dataset on player + source league
+        merged = pd.merge(xfers, df, left_on=["player", "league_src"], right_on=["player", "league"])
+        log.info(f"Matched {len(merged)} transfer records ({merged['player'].nunique()} unique players) with feature set.")
+        
+        if not merged.empty:
+            xg_ratio = merged["xg_p90_tgt"] / (merged["xg_p90_src"] + 0.05)
+            min_ratio = merged["minutes_tgt"] / (merged["minutes_src"] + 100.0)
+            
+            # Successful adaptation: maintained >=70% xG/goals and played significant minutes
+            merged["adaptation_label"] = (
+                ((xg_ratio >= 0.70) | (merged["goals_p90_tgt"] >= 0.70 * merged["goals_p90_src"]))
+                & (min_ratio >= 0.50)
+            ).astype(int)
+            
+            # High transfer risk: severe production drop and lost playing time
+            merged["risk_label"] = ((xg_ratio < 0.45) & (min_ratio < 0.65)).astype(int)
+            
+            log.info(f"Adaptation positive rate: {merged['adaptation_label'].mean():.1%}")
+            log.info(f"Risk positive rate: {merged['risk_label'].mean():.1%}")
+            return merged
+
+    # Fallback to intra-dataset search
     leagues = cfg["leagues"]
     if len(leagues) < 2:
         log.warning("Need at least 2 leagues for adaptation labels.")
@@ -69,12 +94,10 @@ def _create_adaptation_labels(df: pd.DataFrame, cfg: dict, log) -> pd.DataFrame:
     df_a = df[df["league"] == league_a].copy()
     df_b = df[df["league"] == league_b].copy()
 
-    # Compute percentile in each league
     if "goals_p90" in df_a.columns:
         df_a.loc[:, "goals_pct"] = df_a["goals_p90"].rank(pct=True)
         df_b.loc[:, "goals_pct"] = df_b["goals_p90"].rank(pct=True)
 
-    # Find cross-league players
     cross = set(df_a["player"]) & set(df_b["player"])
     log.info(f"Cross-league players for adaptation labels: {len(cross)}")
 
@@ -87,7 +110,6 @@ def _create_adaptation_labels(df: pd.DataFrame, cfg: dict, log) -> pd.DataFrame:
         pct_a = row_a["goals_pct"].values[0] if "goals_pct" in row_a.columns else 0.5
         pct_b = row_b["goals_pct"].values[0] if "goals_pct" in row_b.columns else 0.5
 
-        # Build feature row from league_a (source)
         feat_row = row_a.iloc[0].to_dict()
         feat_row["adaptation_label"] = int(pct_b >= pct_a * 0.8)
         feat_row["risk_label"] = int(pct_b < 0.4)
@@ -124,7 +146,6 @@ def train_adaptation(cfg: dict | None = None) -> dict:
             "Insufficient cross-league players for supervised adaptation training.\n"
             "Saving a rule-based fallback model instead."
         )
-        # Save a stub so predict.py can still load something
         stub = {"type": "rule_based", "note": "Insufficient training data for supervised adaptation model."}
         models_dir = resolve_path(cfg, "models")
         with open(models_dir / "adaptation_meta.json", "w") as f:
@@ -151,7 +172,7 @@ def train_adaptation(cfg: dict | None = None) -> dict:
 
         model = Pipeline([
             ("scaler", StandardScaler()),
-            ("clf", LogisticRegression(max_iter=1000, random_state=cfg["model"]["random_state"])),
+            ("clf", LogisticRegression(class_weight="balanced", max_iter=1000, random_state=cfg["model"]["random_state"])),
         ])
 
         scores = cross_val_score(model, X, y, cv=skf, scoring="roc_auc")

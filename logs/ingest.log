@@ -206,3 +206,48 @@
 2026-02-28 03:30:41 | INFO     | ingest | Seasons/rows after cleaning: 2854
 2026-02-28 03:30:41 | INFO     | ingest | Total NaNs in numeric cols: 27
 2026-02-28 03:30:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-09-04 20:24:41 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-09-04 20:24:41 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\raw\big5_player_master_2018_2024.csv
+2026-09-04 20:24:41 | INFO     | ingest | Raw shape: (24413, 42)
+2026-09-04 20:24:41 | INFO     | ingest | All required columns verified/aligned.
+2026-09-04 20:24:41 | WARNING  | ingest | Column 'Age': 4840 values coerced to NaN during numeric conversion.
+2026-09-04 20:24:41 | INFO     | ingest | Leagues found: ['Bundesliga', 'La Liga', 'Ligue 1', 'Premier League', 'Serie A']
+2026-09-04 20:24:41 | INFO     | ingest | Seasons/rows after cleaning: 24413
+2026-09-04 20:24:41 | INFO     | ingest | Total NaNs in numeric cols: 94554
+2026-09-04 20:24:41 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-09-04 20:24:46 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-09-04 20:24:46 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\raw\big5_player_master_2018_2024.csv
+2026-09-04 20:24:46 | INFO     | ingest | Raw shape: (24413, 42)
+2026-09-04 20:24:46 | INFO     | ingest | All required columns verified/aligned.
+2026-09-04 20:24:46 | WARNING  | ingest | Column 'Age': 4840 values coerced to NaN during numeric conversion.
+2026-09-04 20:24:46 | INFO     | ingest | Leagues found: ['Bundesliga', 'La Liga', 'Ligue 1', 'Premier League', 'Serie A']
+2026-09-04 20:24:46 | INFO     | ingest | Seasons/rows after cleaning: 24413
+2026-09-04 20:24:46 | INFO     | ingest | Total NaNs in numeric cols: 94554
+2026-09-04 20:24:46 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-09-04 20:24:52 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-09-04 20:24:52 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\raw\big5_player_master_2018_2024.csv
+2026-09-04 20:24:52 | INFO     | ingest | Raw shape: (24413, 42)
+2026-09-04 20:24:52 | INFO     | ingest | All required columns verified/aligned.
+2026-09-04 20:24:52 | WARNING  | ingest | Column 'Age': 4840 values coerced to NaN during numeric conversion.
+2026-09-04 20:24:52 | INFO     | ingest | Leagues found: ['Bundesliga', 'La Liga', 'Ligue 1', 'Premier League', 'Serie A']
+2026-09-04 20:24:52 | INFO     | ingest | Seasons/rows after cleaning: 24413
+2026-09-04 20:24:52 | INFO     | ingest | Total NaNs in numeric cols: 94554
+2026-09-04 20:24:52 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-09-04 20:24:57 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-09-04 20:24:57 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\raw\big5_player_master_2018_2024.csv
+2026-09-04 20:24:57 | INFO     | ingest | Raw shape: (24413, 42)
+2026-09-04 20:24:57 | INFO     | ingest | All required columns verified/aligned.
+2026-09-04 20:24:57 | WARNING  | ingest | Column 'Age': 4840 values coerced to NaN during numeric conversion.
+2026-09-04 20:24:57 | INFO     | ingest | Leagues found: ['Bundesliga', 'La Liga', 'Ligue 1', 'Premier League', 'Serie A']
+2026-09-04 20:24:57 | INFO     | ingest | Seasons/rows after cleaning: 24413
+2026-09-04 20:24:57 | INFO     | ingest | Total NaNs in numeric cols: 94554
+2026-09-04 20:24:57 | INFO     | ingest | === Phase 1 — Ingest: DONE ===
+2026-09-04 20:25:03 | INFO     | ingest | === Phase 1 — Ingest: START ===
+2026-09-04 20:25:03 | INFO     | ingest | Loading raw data from: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\raw\big5_player_master_2018_2024.csv
+2026-09-04 20:25:03 | INFO     | ingest | Raw shape: (24413, 42)
+2026-09-04 20:25:03 | INFO     | ingest | All required columns verified/aligned.
+2026-09-04 20:25:03 | WARNING  | ingest | Column 'Age': 4840 values coerced to NaN during numeric conversion.
+2026-09-04 20:25:03 | INFO     | ingest | Leagues found: ['Bundesliga', 'La Liga', 'Ligue 1', 'Premier League', 'Serie A']
+2026-09-04 20:25:03 | INFO     | ingest | Seasons/rows after cleaning: 24413
+2026-09-04 20:25:03 | INFO     | ingest | Total NaNs in numeric cols: 94554
+2026-09-04 20:25:03 | INFO     | ingest | === Phase 1 — Ingest: DONE ===

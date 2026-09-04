@@ -143,8 +143,33 @@ def generate_shap_summary(cfg: dict | None = None):
             log.warning(f"No LightGBM model for {target} — skipping.")
             continue
 
-        valid = df[feat_cols + [target]].dropna(subset=[target])
-        X = valid[feat_cols].values
+        unsafe_keywords = []
+        if "goals" in target:
+            unsafe_keywords = ["goals", "xg"]
+        elif "assists" in target:
+            unsafe_keywords = ["assists", "xag"]
+        elif "xg" in target or "xag" in target:
+            unsafe_keywords = ["goals", "assists", "xg", "xag"]
+
+        target_feat_cols = []
+        for c in feat_cols:
+            is_safe = True
+            for kw in unsafe_keywords:
+                if kw in c.lower():
+                    is_safe = False
+            if is_safe:
+                target_feat_cols.append(c)
+
+        must_keep = ["source_lsc", "target_lsc", "team_strength_ratio", "age"]
+        for c in must_keep:
+            if c in df.columns and c not in target_feat_cols:
+                target_feat_cols.append(c)
+
+        valid = df[target_feat_cols + [target]].dropna(subset=[target])
+        # Sample for fast SHAP summary calculation
+        sample_size = min(500, len(valid))
+        sample_df = valid.sample(n=sample_size, random_state=42)
+        X = sample_df[target_feat_cols].fillna(0).values
         model = joblib.load(model_path)
 
         try:
@@ -155,7 +180,7 @@ def generate_shap_summary(cfg: dict | None = None):
             fig, ax = plt.subplots(figsize=(10, 6))
             shap.summary_plot(
                 shap_values, X,
-                feature_names=[FEATURE_LABELS.get(f, f) for f in feat_cols],
+                feature_names=[FEATURE_LABELS.get(f, f) for f in target_feat_cols],
                 show=False,
                 plot_size=None,
             )

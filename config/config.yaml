@@ -12,12 +12,15 @@ paths:
   logs: logs
 
 # --- Primary data file ---
-raw_fbref_file: players_data-2024_2025.csv   # placed in data/raw/
+raw_fbref_file: big5_player_master_2018_2024.csv   # placed in data/raw/
 
 # --- League settings ---
 leagues:
   - Premier League
   - Bundesliga
+  - La Liga
+  - Serie A
+  - Ligue 1
 
 # Minimum minutes played to include a player
 min_minutes: 600

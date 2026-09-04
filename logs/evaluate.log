@@ -238,3 +238,46 @@ Metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\metrics.json
 Metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\metrics.json
 2026-02-28 03:31:02 | INFO     | evaluate | Backtest report saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\backtest_report.csv (8 rows)
 2026-02-28 03:31:02 | INFO     | evaluate | === Phase 3 — Evaluation: DONE ===
+2026-09-04 20:31:26 | INFO     | evaluate | === Phase 3 — Evaluation: START ===
+2026-09-04 20:31:26 | INFO     | evaluate | Feature columns available: 27
+2026-09-04 20:31:26 | INFO     | evaluate | Cross-league players (backtest set): 109
+2026-09-04 20:31:26 | INFO     | evaluate | 
+--- Evaluating: goals_p90 ---
+2026-09-04 20:31:26 | INFO     | evaluate |   lgbm: MAE=0.0469, RMSE=0.0645
+2026-09-04 20:31:26 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_goals_p90_lgbm.png
+2026-09-04 20:31:26 | INFO     | evaluate |   mlp: MAE=0.0672, RMSE=0.0991
+2026-09-04 20:31:26 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_goals_p90_mlp.png
+2026-09-04 20:31:26 | INFO     | evaluate |   bayesian: MAE=0.0801, RMSE=0.1159
+2026-09-04 20:31:26 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_goals_p90_bayesian.png
+2026-09-04 20:31:26 | INFO     | evaluate |   Backtest MAE (lgbm): 0.0545 on 550 transfer players
+2026-09-04 20:31:26 | INFO     | evaluate | 
+--- Evaluating: assists_p90 ---
+2026-09-04 20:31:26 | INFO     | evaluate |   lgbm: MAE=0.0330, RMSE=0.0444
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_assists_p90_lgbm.png
+2026-09-04 20:31:27 | INFO     | evaluate |   mlp: MAE=0.0448, RMSE=0.0626
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_assists_p90_mlp.png
+2026-09-04 20:31:27 | INFO     | evaluate |   bayesian: MAE=0.0499, RMSE=0.0698
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_assists_p90_bayesian.png
+2026-09-04 20:31:27 | INFO     | evaluate |   Backtest MAE (lgbm): 0.0333 on 550 transfer players
+2026-09-04 20:31:27 | INFO     | evaluate | 
+--- Evaluating: xg_p90 ---
+2026-09-04 20:31:27 | INFO     | evaluate |   lgbm: MAE=0.0323, RMSE=0.0456
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_xg_p90_lgbm.png
+2026-09-04 20:31:27 | INFO     | evaluate |   mlp: MAE=0.0482, RMSE=0.0711
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_xg_p90_mlp.png
+2026-09-04 20:31:27 | INFO     | evaluate |   bayesian: MAE=0.0620, RMSE=0.0894
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_xg_p90_bayesian.png
+2026-09-04 20:31:27 | INFO     | evaluate |   Backtest MAE (lgbm): 0.0359 on 550 transfer players
+2026-09-04 20:31:27 | INFO     | evaluate | 
+--- Evaluating: xag_p90 ---
+2026-09-04 20:31:27 | INFO     | evaluate |   lgbm: MAE=0.0130, RMSE=0.0181
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_xag_p90_lgbm.png
+2026-09-04 20:31:27 | INFO     | evaluate |   mlp: MAE=0.0179, RMSE=0.0256
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_xag_p90_mlp.png
+2026-09-04 20:31:27 | INFO     | evaluate |   bayesian: MAE=0.0237, RMSE=0.0340
+2026-09-04 20:31:27 | INFO     | evaluate |   Saved calibration plot: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\calibration_xag_p90_bayesian.png
+2026-09-04 20:31:27 | INFO     | evaluate |   Backtest MAE (lgbm): 0.0127 on 550 transfer players
+2026-09-04 20:31:27 | INFO     | evaluate | 
+Metrics saved: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\metrics.json
+2026-09-04 20:31:27 | INFO     | evaluate | Backtest report saved: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\backtest_report.csv (2200 rows)
+2026-09-04 20:31:27 | INFO     | evaluate | === Phase 3 — Evaluation: DONE ===

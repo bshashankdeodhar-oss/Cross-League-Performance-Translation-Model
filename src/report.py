@@ -50,14 +50,22 @@ def render_report(result: dict) -> str:
             return "N/A"
         return f"{v:.1f}%"
 
+    tgt_team = result.get("target_team")
+    tgt_team_str = result.get("target_team_strength_ratio")
+
     report_lines = [
         "=" * 60,
         f"  CLPTM — Transfer Performance Projection",
         "=" * 60,
         f"",
         f"  Player        : {player}",
-        f"  Transfer      : {source}  →  {target}",
+        f"  Transfer      : {source}  →  {target}" + (f" ({tgt_team})" if tgt_team else ""),
         f"  League Diff   : LSC {src_lsc:.2f} → {tgt_lsc:.2f}",
+    ]
+    if tgt_team:
+        report_lines.append(f"  Target Team   : {tgt_team} (Relative Strength: {tgt_team_str:.2f}x)" if tgt_team_str else f"  Target Team   : {tgt_team}")
+
+    report_lines.extend([
         f"",
         "─" * 60,
         "  📊 PROJECTED STATISTICS",
@@ -77,7 +85,7 @@ def render_report(result: dict) -> str:
         "─" * 60,
         "  🔍 TOP 5 DRIVING FACTORS",
         "─" * 60,
-    ]
+    ])
 
     if factors:
         for i, factor in enumerate(factors, 1):

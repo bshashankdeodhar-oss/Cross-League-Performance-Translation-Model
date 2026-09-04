@@ -345,3 +345,58 @@ All metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\training_
 2026-02-28 03:31:01 | INFO     | train | 
 All metrics saved: C:\Shanki\VIT CHENNAI\Projs\TransferPred\evaluation\training_metrics.json
 2026-02-28 03:31:01 | INFO     | train | === Phase 3 — Training: DONE ===
+2026-09-04 20:26:14 | INFO     | train | === Phase 3 — Training: START ===
+2026-09-04 20:26:14 | INFO     | train | Feature dataset shape: (14865, 104)
+2026-09-04 20:26:14 | WARNING  | train | Missing feature columns (will skip): ['source_lsc', 'target_lsc']
+2026-09-04 20:26:14 | INFO     | train | Using 27 feature columns.
+2026-09-04 20:26:14 | INFO     | train | 
+--- Training for target: goals_p90 ---
+2026-09-04 20:26:14 | INFO     | train |   Dropped 3 leaky features for this target.
+2026-09-04 20:26:14 | INFO     | train |   Samples after dropna: 14865
+2026-09-04 20:26:14 | INFO     | train |   Features used: 24
+2026-09-04 20:26:20 | INFO     | train |   LightGBM CV MAE: 0.0710 ± 0.0012
+2026-09-04 20:26:20 | INFO     | train |   Saved: goals_p90_lgbm.pkl
+2026-09-04 20:26:28 | INFO     | train |   MLP CV MAE: 0.0739 ± 0.0014
+2026-09-04 20:26:28 | INFO     | train |   Saved: goals_p90_mlp.pkl
+2026-09-04 20:26:29 | INFO     | train |   Bayesian CV MAE: 0.0802 ± 0.0014
+2026-09-04 20:26:29 | INFO     | train |   Saved: goals_p90_bayesian.pkl
+2026-09-04 20:26:29 | INFO     | train |   Best model for goals_p90: lgbm (MAE=0.0710)
+2026-09-04 20:26:29 | INFO     | train | 
+--- Training for target: assists_p90 ---
+2026-09-04 20:26:29 | INFO     | train |   Dropped 2 leaky features for this target.
+2026-09-04 20:26:29 | INFO     | train |   Samples after dropna: 14865
+2026-09-04 20:26:29 | INFO     | train |   Features used: 25
+2026-09-04 20:26:36 | INFO     | train |   LightGBM CV MAE: 0.0485 ± 0.0008
+2026-09-04 20:26:36 | INFO     | train |   Saved: assists_p90_lgbm.pkl
+2026-09-04 20:26:43 | INFO     | train |   MLP CV MAE: 0.0522 ± 0.0013
+2026-09-04 20:26:43 | INFO     | train |   Saved: assists_p90_mlp.pkl
+2026-09-04 20:26:45 | INFO     | train |   Bayesian CV MAE: 0.0500 ± 0.0005
+2026-09-04 20:26:45 | INFO     | train |   Saved: assists_p90_bayesian.pkl
+2026-09-04 20:26:45 | INFO     | train |   Best model for assists_p90: lgbm (MAE=0.0485)
+2026-09-04 20:26:45 | INFO     | train | 
+--- Training for target: xg_p90 ---
+2026-09-04 20:26:45 | INFO     | train |   Dropped 5 leaky features for this target.
+2026-09-04 20:26:45 | INFO     | train |   Samples after dropna: 14865
+2026-09-04 20:26:45 | INFO     | train |   Features used: 22
+2026-09-04 20:26:51 | INFO     | train |   LightGBM CV MAE: 0.0492 ± 0.0005
+2026-09-04 20:26:51 | INFO     | train |   Saved: xg_p90_lgbm.pkl
+2026-09-04 20:27:02 | INFO     | train |   MLP CV MAE: 0.0530 ± 0.0008
+2026-09-04 20:27:02 | INFO     | train |   Saved: xg_p90_mlp.pkl
+2026-09-04 20:27:02 | INFO     | train |   Bayesian CV MAE: 0.0621 ± 0.0009
+2026-09-04 20:27:02 | INFO     | train |   Saved: xg_p90_bayesian.pkl
+2026-09-04 20:27:02 | INFO     | train |   Best model for xg_p90: lgbm (MAE=0.0492)
+2026-09-04 20:27:02 | INFO     | train | 
+--- Training for target: xag_p90 ---
+2026-09-04 20:27:02 | INFO     | train |   Dropped 5 leaky features for this target.
+2026-09-04 20:27:02 | INFO     | train |   Samples after dropna: 14865
+2026-09-04 20:27:02 | INFO     | train |   Features used: 22
+2026-09-04 20:27:07 | INFO     | train |   LightGBM CV MAE: 0.0193 ± 0.0006
+2026-09-04 20:27:07 | INFO     | train |   Saved: xag_p90_lgbm.pkl
+2026-09-04 20:27:25 | INFO     | train |   MLP CV MAE: 0.0221 ± 0.0009
+2026-09-04 20:27:25 | INFO     | train |   Saved: xag_p90_mlp.pkl
+2026-09-04 20:27:25 | INFO     | train |   Bayesian CV MAE: 0.0237 ± 0.0006
+2026-09-04 20:27:25 | INFO     | train |   Saved: xag_p90_bayesian.pkl
+2026-09-04 20:27:25 | INFO     | train |   Best model for xag_p90: lgbm (MAE=0.0193)
+2026-09-04 20:27:25 | INFO     | train | 
+All metrics saved: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\evaluation\training_metrics.json
+2026-09-04 20:27:25 | INFO     | train | === Phase 3 — Training: DONE ===

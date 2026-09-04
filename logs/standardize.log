@@ -208,3 +208,55 @@ Bundesliga        492
 2026-02-28 03:30:41 | INFO     | standardize | Minutes filter (>=600): 1066 → 699 rows
 2026-02-28 03:30:41 | INFO     | standardize | Saved standardized dataset: C:\Shanki\VIT CHENNAI\Projs\TransferPred\data\interim\standardized.csv — shape (699, 24)
 2026-02-28 03:30:41 | INFO     | standardize | === Phase 1 — Standardize: DONE ===
+2026-09-04 20:24:46 | INFO     | standardize | === Phase 1 — Standardize: START ===
+2026-09-04 20:24:46 | INFO     | standardize | Columns after renaming: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches']
+2026-09-04 20:24:46 | INFO     | standardize | League filter (['Premier League', 'Bundesliga', 'La Liga', 'Serie A', 'Ligue 1']): 24413 → 24413 rows
+2026-09-04 20:24:46 | INFO     | standardize | League value counts:
+league
+Serie A           5233
+La Liga           5130
+Ligue 1           4932
+Premier League    4764
+Bundesliga        4354
+2026-09-04 20:24:46 | INFO     | standardize | Minutes filter (>=600): 24413 → 14865 rows
+2026-09-04 20:24:46 | INFO     | standardize | Saved standardized dataset: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\standardized.csv — shape (14865, 24)
+2026-09-04 20:24:46 | INFO     | standardize | === Phase 1 — Standardize: DONE ===
+2026-09-04 20:24:52 | INFO     | standardize | === Phase 1 — Standardize: START ===
+2026-09-04 20:24:52 | INFO     | standardize | Columns after renaming: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches']
+2026-09-04 20:24:52 | INFO     | standardize | League filter (['Premier League', 'Bundesliga', 'La Liga', 'Serie A', 'Ligue 1']): 24413 → 24413 rows
+2026-09-04 20:24:52 | INFO     | standardize | League value counts:
+league
+Serie A           5233
+La Liga           5130
+Ligue 1           4932
+Premier League    4764
+Bundesliga        4354
+2026-09-04 20:24:52 | INFO     | standardize | Minutes filter (>=600): 24413 → 14865 rows
+2026-09-04 20:24:52 | INFO     | standardize | Saved standardized dataset: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\standardized.csv — shape (14865, 24)
+2026-09-04 20:24:52 | INFO     | standardize | === Phase 1 — Standardize: DONE ===
+2026-09-04 20:24:57 | INFO     | standardize | === Phase 1 — Standardize: START ===
+2026-09-04 20:24:57 | INFO     | standardize | Columns after renaming: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches']
+2026-09-04 20:24:57 | INFO     | standardize | League filter (['Premier League', 'Bundesliga', 'La Liga', 'Serie A', 'Ligue 1']): 24413 → 24413 rows
+2026-09-04 20:24:57 | INFO     | standardize | League value counts:
+league
+Serie A           5233
+La Liga           5130
+Ligue 1           4932
+Premier League    4764
+Bundesliga        4354
+2026-09-04 20:24:57 | INFO     | standardize | Minutes filter (>=600): 24413 → 14865 rows
+2026-09-04 20:24:57 | INFO     | standardize | Saved standardized dataset: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\standardized.csv — shape (14865, 24)
+2026-09-04 20:24:57 | INFO     | standardize | === Phase 1 — Standardize: DONE ===
+2026-09-04 20:25:03 | INFO     | standardize | === Phase 1 — Standardize: START ===
+2026-09-04 20:25:03 | INFO     | standardize | Columns after renaming: ['player', 'team', 'league', 'position', 'age', 'minutes', 'goals', 'assists', 'xg', 'xag', 'npxg', 'shots_p90', 'shots_on_target_p90', 'prog_carries', 'prog_passes', 'prog_receptions', 'key_passes', 'xa', 'pass_completion_pct', 'tackles_won', 'interceptions', 'clearances', 'carries', 'touches']
+2026-09-04 20:25:03 | INFO     | standardize | League filter (['Premier League', 'Bundesliga', 'La Liga', 'Serie A', 'Ligue 1']): 24413 → 24413 rows
+2026-09-04 20:25:03 | INFO     | standardize | League value counts:
+league
+Serie A           5233
+La Liga           5130
+Ligue 1           4932
+Premier League    4764
+Bundesliga        4354
+2026-09-04 20:25:03 | INFO     | standardize | Minutes filter (>=600): 24413 → 14865 rows
+2026-09-04 20:25:03 | INFO     | standardize | Saved standardized dataset: C:\Shanki\VIT_CHENNAI\Projs\TransferPred\data\interim\standardized.csv — shape (14865, 24)
+2026-09-04 20:25:03 | INFO     | standardize | === Phase 1 — Standardize: DONE ===

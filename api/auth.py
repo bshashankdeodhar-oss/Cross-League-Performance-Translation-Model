@@ -36,7 +36,18 @@ USERS_DB = {
 }
 
 
-def authenticate_user(username: str, password: str) -> str | None:
+def authenticate_user(username: str, password: str, db=None) -> str | None:
+    if db is not None:
+        try:
+            from db.models import User
+            user_rec = db.query(User).filter(User.username == username).first()
+            if user_rec:
+                if verify_password(password, user_rec.hashed_password):
+                    return user_rec.role
+                return None
+        except Exception:
+            pass
+
     record = USERS_DB.get(username)
     if not record:
         return None

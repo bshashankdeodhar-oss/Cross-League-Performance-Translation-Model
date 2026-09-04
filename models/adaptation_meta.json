@@ -1,4 +1,19 @@
 {
-  "type": "rule_based",
-  "note": "Insufficient training data for supervised adaptation model."
+  "features": [
+    "age_curve_score",
+    "league_lsc",
+    "lsc_adj_goals_p90",
+    "lsc_adj_assists_p90",
+    "lsc_adj_xg_p90",
+    "team_strength_ratio",
+    "play_style_progressive",
+    "play_style_direct_carry",
+    "play_style_defensive",
+    "pos_gk",
+    "pos_df",
+    "pos_mf",
+    "pos_fw",
+    "minutes"
+  ],
+  "n_training_samples": 2406
 }

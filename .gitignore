@@ -22,3 +22,10 @@ frontend/.vite/
 
 # Environment Variables
 .env
+
+# R temporary binary files
+*.rds
+data_T5/raw_rds/
+
+# Temporary files
+*.tmp*
