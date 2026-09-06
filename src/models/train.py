@@ -42,7 +42,7 @@ FEATURE_COLS = [
     "lsc_adj_npxg_p90", "lsc_adj_shots_p90", "lsc_adj_shots_on_target_p90",
     "lsc_adj_prog_carries_p90", "lsc_adj_prog_passes_p90", "lsc_adj_prog_receptions_p90",
     "lsc_adj_key_passes_p90", "lsc_adj_xa_p90", "lsc_adj_carries_p90",
-    "lsc_adj_tackles_won_p90", "lsc_adj_interceptions_p90",
+    "lsc_adj_tackles_won_p90", "lsc_adj_interceptions_p90", "lsc_adj_clearances_p90",
     # Engineered features
     "team_strength_ratio", "poss_adj_touches_p90",
     "age", "age_curve_score", "source_lsc", "target_lsc", "league_lsc",
@@ -51,7 +51,14 @@ FEATURE_COLS = [
     "pos_gk", "pos_df", "pos_mf", "pos_fw",
 ]
 
-TARGET_COLS = ["goals_p90", "assists_p90", "xg_p90", "xag_p90"]
+TARGET_COLS = [
+    # Attacking & Finishing
+    "goals_p90", "assists_p90", "xg_p90", "xag_p90",
+    # Progression & Creation
+    "prog_passes_p90", "key_passes_p90", "prog_carries_p90",
+    # Defensive Disruption
+    "tackles_won_p90", "interceptions_p90", "clearances_p90",
+]
 
 
 def _safe_features(df: pd.DataFrame, log) -> list[str]:
@@ -140,15 +147,27 @@ def train(cfg: dict | None = None) -> dict:
 
         log.info(f"\n--- Training for target: {target} ---")
 
-        # DROP LEAKAGE: We cannot train the model to predict goals by giving it adjusted goals,
-        # nor xG for that matter, as they are 1-to-1 in the same season dataset.
+        # DROP LEAKAGE: We cannot train the model to predict a metric by giving it its own adjusted version
+        # or collinear identical metrics in the same season dataset.
         unsafe_keywords = []
         if "goals" in target:
-            unsafe_keywords = ["goals", "xg"]
+            unsafe_keywords = ["goals", "xg", "npxg"]
         elif "assists" in target:
-            unsafe_keywords = ["assists", "xag"]
+            unsafe_keywords = ["assists", "xag", "xa"]
         elif "xg" in target or "xag" in target:
-            unsafe_keywords = ["goals", "assists", "xg", "xag"]
+            unsafe_keywords = ["goals", "assists", "xg", "xag", "npxg", "xa"]
+        elif "prog_passes" in target:
+            unsafe_keywords = ["prog_passes"]
+        elif "key_passes" in target:
+            unsafe_keywords = ["key_passes"]
+        elif "prog_carries" in target:
+            unsafe_keywords = ["prog_carries"]
+        elif "tackles_won" in target:
+            unsafe_keywords = ["tackles_won"]
+        elif "interceptions" in target:
+            unsafe_keywords = ["interceptions"]
+        elif "clearances" in target:
+            unsafe_keywords = ["clearances"]
             
         target_feat_cols = []
         for c in feat_cols:

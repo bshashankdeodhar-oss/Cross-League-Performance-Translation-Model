@@ -29,12 +29,19 @@ class PredictResponse(BaseModel):
     projected_assists_p90: Optional[float]
     projected_xg_p90: Optional[float]
     projected_xag_p90: Optional[float]
+    projected_prog_passes_p90: Optional[float] = None
+    projected_key_passes_p90: Optional[float] = None
+    projected_prog_carries_p90: Optional[float] = None
+    projected_tackles_won_p90: Optional[float] = None
+    projected_interceptions_p90: Optional[float] = None
+    projected_clearances_p90: Optional[float] = None
     ci_low_goals: Optional[float]
     ci_high_goals: Optional[float]
     minutes_expectation: Optional[float]
     adaptation_score_pct: float
     risk_score_pct: float
     top_5_factors: list
+    tactical_fit: Optional[dict] = None
 
 
 class TeamSummary(BaseModel):

@@ -1,61 +1,151 @@
 {
   "goals_p90": {
     "lgbm": {
-      "cv_mae": 0.071,
+      "cv_mae": 0.0709,
       "cv_std": 0.0012
     },
     "mlp": {
-      "cv_mae": 0.0739,
-      "cv_std": 0.0014
+      "cv_mae": 0.0744,
+      "cv_std": 0.0021
     },
     "bayesian": {
-      "cv_mae": 0.0802,
+      "cv_mae": 0.0801,
       "cv_std": 0.0014
     },
     "best_model": "lgbm"
   },
   "assists_p90": {
     "lgbm": {
-      "cv_mae": 0.0485,
-      "cv_std": 0.0008
+      "cv_mae": 0.0515,
+      "cv_std": 0.0009
     },
     "mlp": {
-      "cv_mae": 0.0522,
-      "cv_std": 0.0013
+      "cv_mae": 0.0548,
+      "cv_std": 0.0008
     },
     "bayesian": {
-      "cv_mae": 0.05,
-      "cv_std": 0.0005
+      "cv_mae": 0.0509,
+      "cv_std": 0.0007
     },
-    "best_model": "lgbm"
+    "best_model": "bayesian"
   },
   "xg_p90": {
     "lgbm": {
-      "cv_mae": 0.0492,
+      "cv_mae": 0.0488,
       "cv_std": 0.0005
     },
     "mlp": {
-      "cv_mae": 0.053,
-      "cv_std": 0.0008
+      "cv_mae": 0.0523,
+      "cv_std": 0.0006
     },
     "bayesian": {
-      "cv_mae": 0.0621,
+      "cv_mae": 0.0618,
       "cv_std": 0.0009
     },
     "best_model": "lgbm"
   },
   "xag_p90": {
     "lgbm": {
-      "cv_mae": 0.0193,
-      "cv_std": 0.0006
+      "cv_mae": 0.0247,
+      "cv_std": 0.0007
     },
     "mlp": {
-      "cv_mae": 0.0221,
-      "cv_std": 0.0009
+      "cv_mae": 0.0277,
+      "cv_std": 0.0007
     },
     "bayesian": {
-      "cv_mae": 0.0237,
+      "cv_mae": 0.0257,
+      "cv_std": 0.0007
+    },
+    "best_model": "lgbm"
+  },
+  "prog_passes_p90": {
+    "lgbm": {
+      "cv_mae": 0.0636,
+      "cv_std": 0.0016
+    },
+    "mlp": {
+      "cv_mae": 0.7978,
+      "cv_std": 0.0258
+    },
+    "bayesian": {
+      "cv_mae": 1.0802,
+      "cv_std": 0.0137
+    },
+    "best_model": "lgbm"
+  },
+  "key_passes_p90": {
+    "lgbm": {
+      "cv_mae": 0.1662,
+      "cv_std": 0.0035
+    },
+    "mlp": {
+      "cv_mae": 0.1726,
+      "cv_std": 0.0027
+    },
+    "bayesian": {
+      "cv_mae": 0.1983,
+      "cv_std": 0.0035
+    },
+    "best_model": "lgbm"
+  },
+  "prog_carries_p90": {
+    "lgbm": {
+      "cv_mae": 0.0267,
+      "cv_std": 0.0015
+    },
+    "mlp": {
+      "cv_mae": 0.0376,
+      "cv_std": 0.0019
+    },
+    "bayesian": {
+      "cv_mae": 0.3168,
+      "cv_std": 0.0071
+    },
+    "best_model": "lgbm"
+  },
+  "tackles_won_p90": {
+    "lgbm": {
+      "cv_mae": 0.0146,
+      "cv_std": 0.0005
+    },
+    "mlp": {
+      "cv_mae": 0.0171,
       "cv_std": 0.0006
+    },
+    "bayesian": {
+      "cv_mae": 0.0293,
+      "cv_std": 0.0007
+    },
+    "best_model": "lgbm"
+  },
+  "interceptions_p90": {
+    "lgbm": {
+      "cv_mae": 0.0147,
+      "cv_std": 0.0005
+    },
+    "mlp": {
+      "cv_mae": 0.0184,
+      "cv_std": 0.0015
+    },
+    "bayesian": {
+      "cv_mae": 0.0258,
+      "cv_std": 0.0007
+    },
+    "best_model": "lgbm"
+  },
+  "clearances_p90": {
+    "lgbm": {
+      "cv_mae": 0.3993,
+      "cv_std": 0.0053
+    },
+    "mlp": {
+      "cv_mae": 0.4139,
+      "cv_std": 0.0042
+    },
+    "bayesian": {
+      "cv_mae": 0.5764,
+      "cv_std": 0.0062
     },
     "best_model": "lgbm"
   }

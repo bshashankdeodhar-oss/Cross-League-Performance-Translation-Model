@@ -29,3 +29,14 @@ Saving a rule-based fallback model instead.
 2026-09-04 20:25:59 | INFO     | adaptation |   risk: ROC-AUC = 0.655 ± 0.034
 2026-09-04 20:25:59 | INFO     | adaptation |   Saved: risk_model.pkl
 2026-09-04 20:25:59 | INFO     | adaptation | === Phase 4 — Adaptation Modeling: DONE ===
+2026-09-05 02:08:16 | INFO     | adaptation | === Phase 4 — Adaptation Modeling: START ===
+2026-09-05 02:08:16 | INFO     | adaptation | Loading empirical cross-league transfers from: data_T5\cross_league_transfers_2018_2024.csv
+2026-09-05 02:08:16 | INFO     | adaptation | Matched 2406 transfer records (700 unique players) with feature set.
+2026-09-05 02:08:16 | INFO     | adaptation | Adaptation positive rate: 54.9%
+2026-09-05 02:08:16 | INFO     | adaptation | Risk positive rate: 14.5%
+2026-09-05 02:08:16 | INFO     | adaptation | Adaptation feature columns: ['age_curve_score', 'league_lsc', 'lsc_adj_goals_p90', 'lsc_adj_assists_p90', 'lsc_adj_xg_p90', 'team_strength_ratio', 'play_style_progressive', 'play_style_direct_carry', 'play_style_defensive', 'pos_gk', 'pos_df', 'pos_mf', 'pos_fw', 'minutes']
+2026-09-05 02:08:16 | INFO     | adaptation |   adaptation: ROC-AUC = 0.611 ± 0.019
+2026-09-05 02:08:16 | INFO     | adaptation |   Saved: adaptation_model.pkl
+2026-09-05 02:08:16 | INFO     | adaptation |   risk: ROC-AUC = 0.655 ± 0.034
+2026-09-05 02:08:16 | INFO     | adaptation |   Saved: risk_model.pkl
+2026-09-05 02:08:16 | INFO     | adaptation | === Phase 4 — Adaptation Modeling: DONE ===

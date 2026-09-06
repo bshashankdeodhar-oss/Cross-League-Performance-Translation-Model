@@ -44,6 +44,7 @@ FEATURE_LABELS = {
     "lsc_adj_carries_p90":           "Carries per 90",
     "lsc_adj_tackles_won_p90":       "Tackles won per 90",
     "lsc_adj_interceptions_p90":     "Interceptions per 90",
+    "lsc_adj_clearances_p90":        "Clearances per 90",
     "team_strength_ratio":           "Team strength (relative to league avg)",
     "poss_adj_touches_p90":          "Possession-adjusted touches per 90",
     "age_curve_score":               "Age curve score (peak = 24–28)",
@@ -58,16 +59,48 @@ FEATURE_LABELS = {
 }
 
 
-def get_top_factors(shap_values: np.ndarray, feature_names: list, top_n: int = 5) -> list[dict]:
-    """Extract top-N contributing features with direction and value."""
+def get_top_factors(
+    shap_values: np.ndarray,
+    feature_names: list,
+    top_n: int = 5,
+    feature_values: np.ndarray | None = None,
+) -> list[dict]:
+    """
+    Extract top-N contributing features with direction and value.
+    Clarifies binary categorical indicators (e.g. position dummies) when their value
+    is 0 so users understand that the contribution is from the absence of that role
+    (e.g. 'Role: Non-Defender (avoids role penalty)' rather than misinterpreting that
+    the player was categorized as a defender).
+    """
     abs_vals = np.abs(shap_values)
     top_indices = np.argsort(abs_vals)[::-1][:top_n]
 
     factors = []
+    pos_map = {
+        "pos_gk": "Goalkeeper",
+        "pos_df": "Defender",
+        "pos_mf": "Midfielder",
+        "pos_fw": "Forward",
+    }
+
     for idx in top_indices:
+        feat = feature_names[idx]
+        label = FEATURE_LABELS.get(feat, feat)
+
+        if feature_values is not None and feat in pos_map:
+            val = feature_values[idx]
+            role_name = pos_map[feat]
+            if val == 0:
+                if feat in ["pos_df", "pos_gk"]:
+                    label = f"Role: Non-{role_name} (avoids defensive role penalty)"
+                else:
+                    label = f"Role: Non-{role_name} (non-striker baseline)"
+            else:
+                label = f"Role: Plays as {role_name}"
+
         factors.append({
-            "feature": feature_names[idx],
-            "label": FEATURE_LABELS.get(feature_names[idx], feature_names[idx]),
+            "feature": feat,
+            "label": label,
             "shap_value": round(float(shap_values[idx]), 4),
             "direction": "positive" if shap_values[idx] > 0 else "negative",
         })
@@ -95,8 +128,9 @@ def explain_prediction(
 
     if SHAP_AVAILABLE:
         explainer = shap.TreeExplainer(model)
+        flat_feats = player_features.flatten()
         shap_vals = explainer.shap_values(player_features.reshape(1, -1))[0]
-        return get_top_factors(shap_vals, feat_cols, top_n=5)
+        return get_top_factors(shap_vals, feat_cols, top_n=5, feature_values=flat_feats)
     else:
         # Fallback: use feature importances directly
         log.warning("SHAP not available — using feature importances as fallback.")
