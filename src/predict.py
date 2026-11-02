@@ -453,6 +453,7 @@ def predict_player(
         "position":                 player_row.get("position", player_row.get("position_primary", "MF")),
         "position_primary":         player_row.get("position_primary", "MF"),
         "source_league":            source_league,
+        "source_team":              player_row.get("team"),
         "target_league":            target_league,
         "target_team":              target_team_canonical,
         "target_team_strength_ratio": round(target_team_strength, 3) if target_team_canonical else None,

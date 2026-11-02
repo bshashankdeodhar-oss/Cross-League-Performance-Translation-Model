@@ -85,11 +85,21 @@ def standardize(df: pd.DataFrame, cfg: dict | None = None) -> pd.DataFrame:
         df.loc[mask, "league"] = league
     log.info(f"League value counts:\n{df['league'].value_counts().to_string()}")
 
-    # ── Filter by minimum minutes ─────────────────────────────────────────────
+    # ── Filter by minimum minutes (preserving 2026/2027 test set transfers) ──
     min_min = cfg["min_minutes"]
     before = len(df)
-    df = df[df["minutes"] >= min_min].copy()
-    log.info(f"Minutes filter (>={min_min}): {before} → {len(df)} rows")
+    test_players = set()
+    test_set_path = Path("data_T5") / "transfers_2026_2027_test_set.csv"
+    if test_set_path.exists():
+        try:
+            t_df = pd.read_csv(test_set_path)
+            test_players = set(t_df["player"].dropna().astype(str).str.strip().str.lower())
+        except Exception as e:
+            log.warning(f"Could not load test set for minute exemption: {e}")
+
+    is_test_player = df["player"].astype(str).str.strip().str.lower().isin(test_players)
+    df = df[(df["minutes"] >= min_min) | (is_test_player & (df["minutes"] > 0))].copy()
+    log.info(f"Minutes filter (>={min_min} or test transfer): {before} → {len(df)} rows")
 
     # ── Parse age to numeric (FBRef sometimes shows "24-123" days format) ─────
     df["age"] = df["age"].astype(str).str.split("-").str[0]

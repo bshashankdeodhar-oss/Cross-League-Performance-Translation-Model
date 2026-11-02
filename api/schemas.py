@@ -6,7 +6,7 @@ from typing import Optional
 
 class PredictRequest(BaseModel):
     player: str = Field(..., examples=["Florian Wirtz"])
-    source_league: str = Field(..., examples=["Bundesliga"])
+    source_league: Optional[str] = Field(None, examples=["Bundesliga"])
     target_league: str = Field(..., examples=["Premier League"])
     target_team: Optional[str] = Field(None, examples=["Manchester City"])
 
@@ -20,6 +20,7 @@ class TopFactor(BaseModel):
 class PredictResponse(BaseModel):
     player: str
     source_league: str
+    source_team: Optional[str] = None
     target_league: str
     target_team: Optional[str] = None
     target_team_strength_ratio: Optional[float] = None
@@ -64,5 +65,9 @@ class PlayerSummary(BaseModel):
     player: str
     team: str
     league: str
-    position: str
-    age: float
+    position: Optional[str] = None
+    age: Optional[float] = None
+    goals_p90: Optional[float] = None
+    assists_p90: Optional[float] = None
+    xg_p90: Optional[float] = None
+    minutes: Optional[float] = None

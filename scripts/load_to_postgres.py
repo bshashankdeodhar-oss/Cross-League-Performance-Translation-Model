@@ -40,10 +40,11 @@ def load_dataset_to_db():
         raise FileNotFoundError(f"Feature dataset CSV not found at {csv_path}")
 
     print(f"Reading CSV from {csv_path}...")
-    df = pd.read_csv(csv_path)
-    print(f"Loaded {len(df)} rows from CSV.")
+    df_raw = pd.read_csv(csv_path)
+    print(f"Loaded {len(df_raw)} rows from CSV.")
 
     # Deduplicate on natural key (player, league), keeping highest minutes entry
+    df = df_raw.copy()
     if "minutes" in df.columns:
         df = df.sort_values("minutes", ascending=False)
     df = df.drop_duplicates(subset=["player", "league"], keep="first")
@@ -75,7 +76,7 @@ def load_dataset_to_db():
         # ── 2. Seed Teams ────────────────────────────────────────────────────
         team_id_map = {}
         team_groups = (
-            df.groupby(["team", "league"])["team_strength_ratio"]
+            df_raw.groupby(["team", "league"])["team_strength_ratio"]
             .mean()
             .reset_index()
         )

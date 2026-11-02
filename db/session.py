@@ -3,13 +3,17 @@ Database engine and session management.
 """
 
 import os
+from pathlib import Path
 from typing import Generator
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_DB_PATH = (PROJECT_ROOT / "transferpred.db").resolve().as_posix()
+
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "sqlite:///./transferpred.db"
+    f"sqlite:///{DEFAULT_DB_PATH}"
 )
 
 connect_args = {}
